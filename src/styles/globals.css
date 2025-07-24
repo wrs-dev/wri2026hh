@@ -1,0 +1,930 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './fonts.css';
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+:root {
+  --main-color: #0d064c;
+  --color-white: #fff;
+  --primary-color: #107ae2;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Ronnia', sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+/*
+li {
+  list-style: none;
+  color: #505050;
+}
+  */
+
+.seminar-list li {
+  list-style: disc;
+  color: #000;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #107ae2;
+  transition: all 0.5s ease-in-out;
+}
+
+.container {
+  max-width: 1700px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.about-container {
+  max-width: 1500px;
+  padding: 0 30px 40px 30px;
+  margin: 0 auto;
+}
+
+.about-container a {
+  text-decoration: underline;
+  color: #107ae2;
+  transition: all 0.5s ease-in-out;
+}
+
+.privacy-container {
+  max-width: 1700px;
+  padding: 0 30px 40px 30px;
+  margin: 0 auto;
+}
+
+.privacy-container a {
+  text-decoration: underline;
+  color: #107ae2;
+  transition: all 0.5s ease-in-out;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-right {
+  justify-content: right;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.btn {
+  border-radius: 30px;
+  /* color: var(--color-white); */
+  padding: 10px 30px;
+  /* border: 2px solid var(--color-white); */
+  font-weight: 700;
+  font-size: 18px;
+}
+
+header {
+  padding: 0px;
+}
+
+header .logo-text h2 {
+  font-size: 80px;
+  text-align: center;
+}
+
+header .logo-text h5 {
+  font-size: 48px;
+  color: var(--main-color);
+}
+
+header nav {
+  padding-top: 0px;
+}
+
+header ul li {
+  overflow: hidden;
+}
+
+header ul li a {
+  font-size: 21px;
+  position: relative;
+  padding-bottom: 3px;
+}
+
+header ul li a:hover::after {
+  left: 0;
+}
+
+header ul li a:hover {
+  color: #107ae2;
+}
+
+header ul li a::after {
+  position: absolute;
+  bottom: 0px;
+  transition: all 0.5s ease-in-out;
+  content: '';
+  background-color: #107ae2;
+  left: -100%;
+  width: 100%;
+  height: 1px;
+}
+
+/** for nav **/
+
+nav {
+  max-width: 100vw;
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+}
+
+nav ul li {
+  overflow: hidden;
+}
+
+nav ul li a {
+  font-size: 21px;
+  position: relative;
+  padding-bottom: 3px;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-flex; /* Changed to inline-flex to keep icons aligned */
+  align-items: center; /* Ensures vertical alignment is centered */
+  padding-bottom: 3px; /* Adjust based on your design */
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #107ae2;
+  transition: all 0.5s ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+.home-banner .banner-text {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+.cvt-embed {
+  min-height: 800px; /* Minimum height to start with */
+  width: 100%; /* Full width */
+}
+
+.home-banner .banner-text h1 {
+  font-size: 68px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.btn_wrapper ul li {
+  display: flex;
+  gap: 30px;
+  border-radius: 26px;
+  padding: 15px 32px;
+}
+
+.btn_wrapper ul {
+  gap: 30px 60px;
+  justify-content: center;
+}
+
+.btn_wrapper ul li p {
+  color: var(--color-white);
+  font-size: 24px;
+}
+
+.btn_wrapper {
+  padding: 40px 0 50px;
+}
+
+.btn_wrapper a {
+}
+
+.content-wrapper .row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.content-wrapper .row .text {
+  background-color: var(--color-white);
+  padding: 30px;
+  margin-top: -6px;
+  position: relative;
+}
+
+.content-wrapper .row .text::after {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  content: '';
+  height: 3px;
+  background-color: #fdb913;
+}
+
+.content-wrapper .row .text h4 {
+  font-size: 21px;
+  font-weight: 700;
+  color: #288dcc;
+  margin-bottom: 0px;
+}
+
+.content-wrapper .row .wri-image h4 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #288dcc;
+  margin-bottom: 0px;
+}
+
+.content-wrapper .row img {
+  width: 100%;
+}
+
+.content-wrapper .row .wri-image img {
+  width: 75px;
+  height: 29px;
+}
+
+.content-wrapper {
+  background-color: #dfeef8;
+  padding: 65px 0;
+}
+
+/* Card row styling */
+
+.content-wrapper .row .text {
+  padding: 30px;
+  margin-top: -6px; /* Adjust as necessary */
+  position: relative;
+  background-color: var(
+    --color-white
+  ); /* Ensure this is defined in your :root styles */
+}
+
+.content-wrapper .row .text h4 {
+  color: var(--primary-color); /* Ensure this is defined in your :root styles */
+  margin-bottom: 0px;
+}
+
+/* Additional styles to ensure padding around the text */
+.content-wrapper .row .text p {
+  margin-bottom: 36px; /* Adjust the value so the gold bar is positioned correctly */
+}
+
+.content-wrapper .row .col {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrapper .row .text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* This will push the text to the top and the gold bar to the bottom */
+  padding: 30px;
+  position: relative;
+}
+
+.content-wrapper .row .text::after {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color: #fdb913; /* Your gold color */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.register-now ul li {
+  background-color: #0d064c;
+  padding: 15px 30px;
+  text-align: center;
+  border-radius: 20px;
+  min-width: 185px;
+}
+
+.register-now .col {
+  width: 44%;
+}
+
+.register-now .col:nth-of-type(2n):after {
+  position: absolute;
+  top: 0;
+  left: -100px;
+  height: 100%;
+  content: '';
+  width: 5px;
+  background-color: #fdb913;
+}
+
+.register-now ul li h3 {
+  font-size: 79px;
+  font-weight: 100;
+  color: #fdb913;
+}
+
+.register-now ul li span {
+  color: var(--color-white);
+  font-size: 30px;
+}
+
+.register-now .row {
+  background-color: var(--primary-color);
+  padding: 40px 0;
+}
+
+.register-now .row ul {
+  gap: 45px;
+}
+
+.register-now h2 b,
+.thank-u h2 b {
+  color: var(--primary-color);
+}
+
+/* register now button */
+
+@keyframes pulse {
+  0%,
+  100% {
+    background-color: #facc15;
+  }
+
+  50% {
+    background-color: #eab308;
+  }
+}
+
+.btn-pulse {
+  animation: pulse 2s infinite;
+}
+
+/* expo-zone */
+.expo-zone img {
+  border-radius: 0 23px 23px 0;
+  height: 100%;
+  width: 100%;
+}
+
+.expo-zone {
+  padding: 150px 0 70px;
+}
+
+.expo-zone figure {
+  height: 100%;
+}
+
+.expo-zone .row {
+  gap: 30px 60px;
+}
+
+.expo-zone .row ul {
+  border: 1px solid #707070;
+  border-radius: 23px;
+  align-items: center;
+}
+
+.expo-zone .row ul li {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.expo-zone .row ul li:nth-of-type(1) {
+  padding: 0 40px;
+}
+
+.expo-zone .row span {
+  font-size: 21px;
+  color: var(--primary-color);
+  position: relative;
+}
+
+.expo-zone .row span::after {
+  position: absolute;
+  bottom: 20px;
+  width: 100px;
+  height: 6px;
+  background-color: #fdb913;
+  content: '';
+  left: 0px;
+}
+
+.thank-u {
+  padding: 100px 0;
+}
+
+.thank-u .container {
+  max-width: 1520px;
+}
+
+.hare-hotel h6 {
+  color: #505050;
+}
+
+.hare-hotel .btn {
+  padding: 10px 30px;
+  background-color: #eab308;
+  border-radius: 37px;
+}
+
+.hare-hotel ul {
+  gap: 30px;
+}
+
+.interface li:nth-of-type(2) {
+  width: 270px;
+  padding: 0px;
+}
+
+.interface .row {
+  gap: 40px 95px;
+}
+
+.interface li {
+  width: calc(100% - 270px);
+  padding-right: 30px;
+}
+
+.interface .col:nth-of-type(1) h4 {
+  font-size: 21px;
+  position: relative;
+}
+
+.interface .announcements h4 {
+  font-size: 21px;
+  color: #0d064c;
+  font-weight: bold;
+}
+
+.interface .col:nth-of-type(1) h4::after {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  content: '';
+  background-color: #fdb913;
+  height: 2px;
+  width: 100%;
+}
+
+.interface .announcements ul {
+  background-color: #fdb913;
+}
+
+.interface .announcements ul li {
+  width: 100%;
+}
+
+.interface .col:nth-of-type(2) {
+  background-color: #f0f0f0;
+}
+
+.interface .announcements ul h5 {
+  color: #0d064c;
+}
+
+.interface ul li a {
+  color: #f0323c;
+  font-size: 20px;
+}
+
+/** Sponsor Marquee Animation **/
+
+.marquee {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  gap: 2rem;
+}
+
+/** Footer **/
+
+footer {
+  background-color: #0d064c;
+}
+
+footer .row {
+  padding: 60px 0;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px 100px;
+}
+
+footer .row * {
+  color: #fff;
+}
+
+footer .col ul {
+  gap: 30px;
+}
+
+footer .col a {
+  color: #fff;
+}
+
+footer .col a:hover {
+  color: #fdb913;
+}
+
+footer .col ul li a {
+  font-size: 24px;
+}
+
+footer .col:nth-of-type(3) ul {
+  justify-content: flex-end;
+}
+
+footer h6 {
+  font-size: 18px;
+}
+
+.footer-link {
+  color: #fff;
+  /* This will be your new class for white-colored links in the footer */
+}
+
+.footer-link:hover {
+  color: #fdb913;
+  /* Adjust the color as needed for hover state */
+}
+
+/* It's better to avoid using `!important`, but if necessary, it can be used here */
+.copy-right {
+  padding: 30px 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.copy-right {
+  padding: 30px 0;
+  background-color: #000;
+}
+
+.copy-right * {
+  color: #fff;
+}
+
+.copy-right li {
+  display: flex;
+  gap: 20px 30px;
+}
+
+.copy-right li a:hover {
+  color: #fdb913;
+}
+
+/* Seminar (about) pages */
+
+.about-text.seminar-section .seminar-header {
+  @apply mt-4 mb-2 text-2xl font-semibold;
+}
+
+.about-text.seminar-section .seminar-list {
+  @apply space-y-2 list-inside;
+}
+
+.about-text.seminar-section .seminar-discount-header {
+  @apply mt-4 mb-2 text-2xl font-semibold;
+}
+
+.about-text {
+  padding: 50px 0 100px;
+}
+
+.about-text .col {
+  width: 45%;
+}
+
+.about-us .row {
+  background-color: transparent;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 140px 100px;
+}
+
+.about-us {
+  padding: 50px 0 200px;
+}
+
+.about-us {
+  padding-bottom: 200px;
+}
+
+.about-us .row .box h6 {
+  font-size: 31px;
+  font-weight: 500;
+  color: #0d064c;
+}
+.about-us + section.register-now {
+  padding-top: 200px;
+}
+.about-us .row .box span {
+  font-size: 18px;
+}
+
+.about-us .row p {
+  padding-top: 30px;
+  color: #104b93;
+  font-size: 24px;
+}
+
+@media (max-width: 1499px) {
+  .expo-zone {
+    padding: 100px 0 50px;
+  }
+
+  .about-us .row {
+    gap: 100px 70px;
+  }
+
+  header {
+    padding: 12px 0 12px;
+  }
+
+  header .logo-text h2 {
+    font-size: 60px;
+  }
+
+  header .logo-text h5 {
+    font-size: 40px;
+  }
+
+  .home-banner .banner-text h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
+
+  .interface .row {
+    gap: 40px 60px;
+  }
+
+  .hare-hotel h6 {
+    margin-bottom: 20px;
+  }
+
+  .thank-u {
+    padding: 70px 0;
+  }
+
+  .expo-zone .row span {
+    font-size: 19px;
+  }
+
+  .expo-zone .row {
+    gap: 30px 40px;
+  }
+
+  .expo-zone .row ul li:nth-of-type(1) {
+    padding: 10px 20px;
+  }
+
+  .expo-zone .row ul {
+    gap: 30px 0;
+  }
+
+  .register-now .col:nth-of-type(2n):after {
+    left: -80px;
+  }
+
+  .register-now ul li h4 {
+    font-size: 60px;
+  }
+
+  .btn_wrapper {
+    padding: 30px 0 70px;
+  }
+
+  .btn_wrapper ul {
+    gap: 30px 40px;
+  }
+
+  .content-wrapper .row .text {
+    padding: 20px 20px 30px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .content-wrapper .row {
+    gap: 30px;
+  }
+
+  .about-us .row .box h6 {
+    font-size: 35px;
+  }
+
+  .about-us .row {
+    gap: 80px 60px;
+  }
+
+  .home-banner .banner-text h1 {
+    font-size: 55px;
+  }
+
+  header .logo-text h2 {
+    font-size: 50px;
+  }
+
+  header .logo-text h5 {
+    font-size: 35px;
+  }
+
+  .interface .col h5 {
+    margin: 20px 0;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .btn_wrapper ul li h4 {
+    font-size: 20px;
+  }
+
+  .btn_wrapper ul li p {
+    font-size: 20px;
+  }
+  .about-us + section.register-now {
+    padding-top: 170px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .content-wrapper .row {
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-us + section.register-now {
+    padding-top: 150px;
+  }
+
+  .home-banner .banner-text h1 {
+    font-size: 45px;
+  }
+
+  .home-banner .banner-text {
+    bottom: 40px;
+  }
+
+  header ul li a {
+    font-size: 19px;
+  }
+
+  header .logo-text h2 {
+    font-size: 40px;
+  }
+
+  header .logo-text h5 {
+    font-size: 28px;
+  }
+
+  .interface li {
+    width: 100%;
+    padding: 0;
+  }
+
+  .hare-hotel ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .hare-hotel ul li {
+    width: 100%;
+  }
+
+  .interface li:nth-of-type(2) {
+    width: 100%;
+    padding: 30px 0 20px;
+  }
+
+  .interface li img {
+    width: 100%;
+  }
+
+  .thank-u {
+    padding: 60px 0;
+  }
+
+  .expo-zone {
+    padding: 80px 0 40px;
+  }
+
+  .register-now .col:nth-of-type(2n):after {
+    left: -60px;
+  }
+
+  .thank-u {
+    padding: 45px 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .register-now .col {
+    width: 100%;
+  }
+
+  .register-now .col:nth-of-type(2n):after {
+    display: none;
+  }
+}
+
+/* footer .col{width: ;} */
+
+/* for keeping ij-icon.svg the same size */
+
+.min-w-8 {
+  min-width: 2rem; /* 32px */
+}
+.min-h-8 {
+  min-height: 2rem; /* 32px */
+}

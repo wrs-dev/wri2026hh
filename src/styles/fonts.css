@@ -1,0 +1,42 @@
+@font-face {
+	font-family: "Ronnia";
+	src: url("/fonts/ronnia/ronnia.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Ronnia";
+	src: url("/fonts/ronnia/ronnia-bold.ttf") format("truetype");
+	font-style: bold;
+	font-weight: 700;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Ronnia";
+	src: url("/fonts/ronnia/ronnia-heavy.ttf") format("truetype");
+	font-style: heavy;
+	font-weight: 900;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url("/fonts/montserrat/montserrat-light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url("/fonts/montserrat/montserrat-light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url("/fonts/montserrat/montserrat-extrabold.ttf") format("truetype");
+	font-style: bold;
+	font-weight: 800;
+	font-display: swap;
+}
