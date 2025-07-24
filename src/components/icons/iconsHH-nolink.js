@@ -9,17 +9,14 @@ const IconLinksHH = () => {
   const icons = useMemo(
     () => [
       {
-        href: '/principles-course#icons',
         src: '/principles-icon.svg',
         title: 'Principles Course',
-        date: 'June 10, 2025',
-        hoverBorderColor: 'hover:border-wri-yellow',
-        hoverBgColor: 'hover:bg-wri-green',
+        date: 'April 22, 2026',
       },
       {
         src: '/heavy-haul-icon.svg',
         title: 'Heavy Haul Seminar',
-        date: 'June 11-12, 2025',
+        date: 'April 23-24, 2026',
       },
     ],
     [],
@@ -27,7 +24,7 @@ const IconLinksHH = () => {
 
   // Always make the Principles Course button green, Heavy Haul stays neutral
   const getRestingBackgroundColor = useMemo(() => {
-    return ['bg-wri-green', 'bg-wri-neutral']; 
+    return ['bg-wri-green', 'bg-wri-red']; 
   }, []);
 
   return (

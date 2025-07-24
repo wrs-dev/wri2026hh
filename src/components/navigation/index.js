@@ -119,18 +119,10 @@ export default function Navigation() {
                         />
                       </div>
                       <div className="flex-auto">
-                        <a
-                          href={item.href}
-                          className="block text-sm lg:text-xl text-wri-blue"
-                          target={item.isExternal ? '_blank' : undefined}
-                          rel={
-                            item.isExternal ? 'noopener noreferrer' : undefined
-                          }
-                        >
+                        <p className="block text-sm lg:text-xl text-wri-blue">
                           {item.name}
-                          <span className="absolute inset-0" />
-                        </a>
-                        <p className="text-wri-blue">{item.description}</p>
+                        </p>
+                        <p className="text-wri-blue">To be announced</p>
                       </div>
                     </div>
                   ))}
@@ -188,38 +180,38 @@ export default function Navigation() {
           </a>
 
           {/* Remaining Main Nav Links */}
-          <a
+          {/* <a
             href="/#register"
             className={`text-sm leading-6 nav-link lg:text-xl ${
               isActive('/#register') ? 'text-wri-red' : 'text-wri-blue'
             }`}
           >
             Pricing
-          </a>
-          <a
+          </a> */}
+          {/* <a
             href="/sponsors#icons"
             className={`text-sm leading-6 nav-link lg:text-xl ${
               isActive('/sponsors') ? 'text-wri-red' : 'text-wri-blue'
             }`}
           >
             Sponsors
-          </a>
-          <a
+          </a> */}
+          {/* <a
             href="/infozone#icons"
             className={`text-sm leading-6 nav-link lg:text-xl ${
               isActive('/infozone') ? 'text-wri-red' : 'text-wri-blue'
             }`}
           >
             InfoZone
-          </a>
-          <a
+          </a> */}
+          {/* <a
             href="/#hotel"
             className={`text-sm leading-6 nav-link lg:text-xl ${
               isActive('#hotel') ? 'text-wri-red' : 'text-wri-blue'
             }`}
           >
             Hotel
-          </a>
+          </a> */}
           <a
             href="/faq#icons"
             className={`text-sm leading-6 nav-link lg:text-xl ${
@@ -247,7 +239,7 @@ export default function Navigation() {
               className="w-8 h-8 pr-2"
               alt="Interface Journal"
             />
-            IJ
+            Interface Journal
           </a>
         </Popover.Group>
 
@@ -279,30 +271,30 @@ export default function Navigation() {
                   >
                     Home
                   </a>
-                  <a
+                  {/* <a
                     href="/#register"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Pricing
-                  </a>
-                  <a
+                  </a> */}
+                  {/* <a
                     href="/sponsors#sponsor"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Sponsors
-                  </a>
-                  <a
+                  </a> */}
+                  {/* <a
                     href="/infozone#infozone"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     InfoZone
-                  </a>
-                  <a
+                  </a> */}
+                  {/* <a
                     href="/#hotel"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Hotel
-                  </a>
+                  </a> */}
                   <a
                     href="/faq#icons"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
@@ -323,7 +315,7 @@ export default function Navigation() {
                     rel="noopener noreferrer"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
-                    IJ
+                    Interface Journal
                   </a>
                   {/* Photo Gallery in Mobile Menu */}
                   <a

@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import Animation from '@/components/animations/anim2025HH';
+import Animation from '@/components/animations/anim2026HH';
 
 const Header = () => {
   return (
@@ -10,14 +10,13 @@ const Header = () => {
         {/* 1) Desktop/Tablet layout (≥ sm): single row, hidden on mobile */}
         <div className="items-end justify-between hidden sm:flex">
           
-          {/* Left sponsor */}
+          {/* Left sponsor 
           <div className="flex items-end">
             <a
               href="https://nurailcoe.railtec.illinois.edu/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              {/* On tablets (≥sm <md) => w-[160px], on desktop (≥md) => w-[258px] */}
               <img
                 src="/NuRail_Presenting_Sponsor_2025.png"
                 alt="NuRail Logo"
@@ -30,21 +29,20 @@ const Header = () => {
                 "
               />
             </a>
-          </div>
+          </div>*/}
 
           {/* Center animation */}
           <div className="flex items-end justify-center flex-grow">
             <Animation />
           </div>
 
-          {/* Right sponsor */}
+          {/* Right sponsor 
           <div className="flex items-end">
             <a
               href="https://www.rtands.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              {/* On tablets (≥sm <md) => w-[140px], on desktop (≥md) => w-[217px] */}
               <img
                 src="/RTS_Presenting_Sponsor_2025.png"
                 alt="RT&S Logo"
@@ -57,7 +55,7 @@ const Header = () => {
                 "
               />
             </a>
-          </div>
+          </div>*/}
         </div>
 
         {/* 2) Mobile layout (< sm): unchanged */}

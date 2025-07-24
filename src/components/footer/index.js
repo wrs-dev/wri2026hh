@@ -12,7 +12,7 @@ const navigation = {
     { name: "Visit WRI '24 Sponsors", href: 'https://wri.wheel-rail-seminars.com/sponsors#icons', target: '_blank' },
   ],
   support: [
-    { name: 'WRI 2024 Chicago', href: 'https://wri.wheel-rail-seminars.com', target: '_blank' },
+    { name: 'WRI 2026 Dallas', href: '/' },
     { name: 'WRI 2025 HH Kansas City', href: '/', target: '_self' },
     { name: 'WRI 2025 RT Seattle', href: 'https://wri2025rt.wheel-rail-seminars.com', target: '_blank' },
     { name: 'Info Zone/Expo Zone', href: '/#zones', target: '_self' },
