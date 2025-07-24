@@ -65,7 +65,7 @@ const Header = () => {
             <Animation />
           </div>
 
-          {/* Two logos side by side, bottom-aligned */}
+          {/* Two logos side by side, bottom-aligned 
           <div className="flex items-end justify-around w-full mt-4">
             <a
               href="https://www.nurailcenter.org/"
@@ -92,7 +92,7 @@ const Header = () => {
                 className="w-[115px] h-auto"
               />
             </a>
-          </div>
+          </div>*/}
         </div>
 
       </div>
