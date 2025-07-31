@@ -12,7 +12,7 @@ const sponsorPackages = () => {
   return (
     <main className="bg-white">
       <Head>
-        <title>WRI 2025 Sponsorships</title>
+        <title>WRI 2026 Sponsorships</title>
       </Head>
       <Navigation />
       <Banner26HH />
