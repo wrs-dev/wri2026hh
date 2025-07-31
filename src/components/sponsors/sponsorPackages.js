@@ -120,7 +120,7 @@ export default function SponsorPackages() {
               <p className="mb-1 font-semibold">Includes all Bronze Level Benefits PLUS:</p>
               <ul className="ml-6 list-disc">
                 <li>
-                  One (1) Complimentary registration for the WRI 2025 Heavy Haul Seminar,
+                  One (1) Complimentary registration for the WRI 2026 Heavy Haul Seminar,
                   Principles Course and related social events
                 </li>
                 <li>6’ Display table in ExpoZone/Refreshment Area</li>
@@ -428,7 +428,7 @@ export default function SponsorPackages() {
         {/* Star Note at the Bottom */}
         <p className="mt-4 text-2xl leading-7">
           *All “Double” Sponsorship levels will give your organization the same level sponsorship
-          at the Rail Transit Conference in Seattle, WA on August 26-28, 2025
+          at the Rail Transit Conference later in 2026
         </p>
         <SponsorCtaPdf/>
       </div>
