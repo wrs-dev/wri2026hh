@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Navigation from '@/components/navigation';
-import Banner25HH from '@/components/banner/wri25HH-no-button';
+import Banner25HH from '@/components/banner/wri26HH-no-button';
 import Registration from '@/components/registration';
 import CventWidget from '@/components/CventWidget';
 import Banner2 from '@/components/banner2';
@@ -9,10 +9,10 @@ export async function getStaticProps() {
   return {
     props: {
       title:
-        'WRI 2025 HH | WRI Heavy Haul Conference - Kansas City, MO || Home',
+        'WRI 2026 HH | WRI Heavy Haul Conference - Dallas, TX || Home',
       description:
-        'Welcome to the WRI 2025 Heavy Haul Conference in Kansas City. Join us for an exciting event focusing on the unique challenges and advancements in the heavy haul (freight) sector.',
-      socialImage: '/wri2025-hh-social.png',
+        'Welcome to the WRI 20226 Heavy Haul Conference in Dallas. Join us for an exciting event focusing on the unique challenges and advancements in the heavy haul (freight) sector.',
+      socialImage: '/wri2026-hh-social.png',
     },
   };
 }
