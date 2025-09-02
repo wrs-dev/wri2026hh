@@ -1,5 +1,6 @@
 'use client'
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 export default function SubscribeForm() {
   const [email, setEmail] = useState('');
@@ -7,6 +8,22 @@ export default function SubscribeForm() {
 
   return (
     <div className="mt-10 xl:mt-0 subscribe-form">
+      <div className="mb-8">
+        <a 
+          href="https://wheel-rail-seminars.com" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="inline-block"
+        >
+          <Image
+            src="/wrs-logo-2025.png"
+            alt="Wheel Rail Seminars"
+            width={200}
+            height={60}
+            className="h-auto"
+          />
+        </a>
+      </div>
       <h3 className="text-sm font-semibold leading-6 text-white">
         Subscribe to our mailing list!
       </h3>

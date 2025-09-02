@@ -1,5 +1,5 @@
 import Navigation from '@/components/navigation';
-import Banner25HH from '@/components/banner/wri26HH-no-button';
+import Banner26HH from '@/components/banner/wri26HH';
 import IconsHH from '@/components/icons/iconsHH-nolink';
 // import AgendaButton from '@/components/buttons/agenda-download-button';
 import Intro from '@/components/intro';
@@ -11,7 +11,7 @@ import InfoZoneSection from '@/components/infozone/infoZoneSection';
 import InterfaceJournal from '@/components/interface-journal';
 import WRIAnnouncements from '@/components/announcements';
 // import SponsorsCloud from '@/components/sponsors';
-// import Hotel from '@/components/hotel';
+import Hotel from '@/components/hotel';
 
 export async function getStaticProps() {
   return {
@@ -29,7 +29,7 @@ export default function Home({ title, description, socialImage }) {
   return (
     <main className="bg-white">
       <Navigation />
-        <Banner25HH />
+        <Banner26HH />
         <h3 className="mt-12 mb-6 text-xl font-light text-center sm:text-4xl font-wri">
         Speakers will be announced in Fall of 2025!
         </h3>
@@ -63,7 +63,7 @@ export default function Home({ title, description, socialImage }) {
       </div>
       <Intro />
       {/*<CallForPapers />*/}
-      {/*<Registration />*/}
+      <Registration />
       <InfoZoneSection />
       {/*<SponsorCTA2 />*/}
       <Reviews />
@@ -75,7 +75,7 @@ export default function Home({ title, description, socialImage }) {
           </div>
         </div>
       </section>
-      {/*<Hotel />*/}
+      <Hotel />
       {/*<SponsorsCloud />*/}
     </main>
   );

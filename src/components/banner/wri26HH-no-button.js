@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import RegisterButton from '@/components/buttons/register-button';
 
-const Banner2025HH = () => {
+const Banner2026HHnobutton = () => {
   return (
     <section className="relative w-full min-h-[350px] sm:min-h-[500px]">
       {/* 1. Hero background image */}
@@ -41,4 +41,4 @@ const Banner2025HH = () => {
   );
 };
 
-export default Banner2025HH;
+export default Banner2026HHnobutton;

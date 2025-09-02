@@ -14,7 +14,7 @@ export default function Intro() {
                 {' '}
                 {/* 529 / 820 ≈ 64.51% */}
                 <Image
-                  src="/hh-venue.webp"
+                  src="/hh26-education.webp"
                   alt="Continuing Education"
                   layout="fill"
                   className="object-cover w-full bg-gray-100 rounded-t-2xl"
@@ -53,7 +53,7 @@ export default function Intro() {
                 {' '}
                 {/* 529 / 820 ≈ 64.51% */}
                 <Image
-                  src="/hh-presentations.webp"
+                  src="/hh26-presentations.webp"
                   alt="Technical Presentations"
                   layout="fill"
                   className="object-cover w-full bg-gray-100 rounded-t-2xl"
@@ -91,7 +91,7 @@ export default function Intro() {
                 {' '}
                 {/* 529 / 820 ≈ 64.51% */}
                 <Image
-                  src="/hh-networking.webp"
+                  src="/hh26-networking.webp"
                   alt="Professional Networking"
                   layout="fill"
                   className="object-cover w-full bg-gray-100 rounded-t-2xl"

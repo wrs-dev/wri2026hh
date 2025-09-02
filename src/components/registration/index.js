@@ -46,13 +46,12 @@ const useCountdown = targetDate => {
 };
 
 const RegistrationComp = () => {
-  // const { days, hours, minutes, seconds } = useCountdown('2025-06-10T00:00:00');
-  const days = 0, hours = 0, minutes = 0, seconds = 0;
+  const { days, hours, minutes, seconds } = useCountdown('2026-04-22T00:00:00');
 
   return (
     <section className="py-12 register-now">
       <h2 className="px-4 text-5xl font-normal leading-normal text-center pb-11">
-        <b>Register for WRI 2025 Heavy Haul Now!</b>
+        <b>Register for WRI 2026 Heavy Haul Now!</b>
       </h2>
       <h2 className="px-4 text-5xl font-normal leading-normal text-center pb-11">
         <b>Take advantage of Early Bird pricing!</b>

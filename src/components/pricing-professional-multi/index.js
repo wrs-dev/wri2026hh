@@ -20,7 +20,7 @@ export default function PricingProfessionalMulti() {
               Cost:
               <span className="ml-2 mr-1">$1,600 (Save $200)</span>
             </h2>
-            <p className="text-gray-500 text-md">June 10-12, 2025</p>
+            <p className="text-gray-500 text-md">April 22-24, 2026</p>
           </div>
         </div>
       </div>

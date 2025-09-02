@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Navigation from '@/components/navigation';
-import Banner25HH from '@/components/banner/wri26HH-no-button';
+import Banner26HH from '@/components/banner/wri26HH-no-button';
 import Registration from '@/components/registration';
 import CventWidget from '@/components/CventWidget';
 import Banner2 from '@/components/banner2';
@@ -21,7 +21,7 @@ export default function Register() {
   return (
     <main className="bg-white">
       <Navigation />
-      <Banner25HH />
+      <Banner26HH />
       <CventWidget className="cvt-embed" />
     </main>
   );
