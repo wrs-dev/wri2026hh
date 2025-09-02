@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 import Link from 'next/link';
 import Navigation from '@/components/navigation'
-import Banner25HH from '@/components/banner/wri25HH';
+import Banner26HH from '@/components/banner/wri26HH';
 import IconsHH from '@/components/icons/iconsHH';
 import FocusTopicHH from '@/components/speakers/focusTopicHH';
 import SpeakersHH from '@/components/speakers/speakersHH';
@@ -15,7 +15,7 @@ export async function getStaticProps() {
     props: {
       title: "WRI 2025 HH | Heavy Haul Seminar Speakers",
       description: "Meet the Heavy Haul speakers for the 30th Annual Wheel/Rail Interaction Conference (WRI)",
-      socialImage: '/wri2025-hh-social.png',
+      socialImage: '/wri2026-hh-social.png',
     }
   };
 }
@@ -24,7 +24,7 @@ const HeavyHaulSeminarPage = () => {
   return (
     <main className="bg-white">
       <Navigation />
-      <Banner25HH />
+      <Banner26HH />
       <IconsHH />
       
       <div className="section">
@@ -35,11 +35,11 @@ const HeavyHaulSeminarPage = () => {
                 <div className="w-full px-4 mb-6 lg:w-4/6 lg:pr-24">
                 <h2 className="text-5xl font-normal leading-normal text-center">
                     <span className="text-wri-red">
-                      <b>2025 Heavy Haul Seminar</b>
+                      <b>2026 Heavy Haul Seminar</b>
                     </span>
                   </h2>
                   <h3 className="text-3xl font-normal leading-normal text-center pb-11">
-                    June 11-12, 2025
+                    April 23-24, 2026
                   </h3>
                   <p className="pt-2 pb-6">
                     <span className="font-bold text-wri-red">
@@ -62,7 +62,7 @@ const HeavyHaulSeminarPage = () => {
                   </p>
 
                   <h2 className="mt-16 seminar-discount-header">
-                    WRI 2025 Discount Programs:
+                    WRI 2026 Discount Programs:
                   </h2>
                   <p className="pt-2 pb-6">
                     Wheel Rail Seminars offers various discount programs,
@@ -93,9 +93,6 @@ const HeavyHaulSeminarPage = () => {
                     <li>Luncheon served in the ExpoZone</li>
                     <li>Afternoon Coffee and Refreshment Breaks</li>
                     <li>
-                    Special “Grand Buffet” Reception on Wednesday, June 11, 2025
-                    </li>
-                    <li>
                       Exclusive Presentation Download Page access following the
                       event
                     </li>
@@ -119,7 +116,7 @@ const HeavyHaulSeminarPage = () => {
       <h2 className="text-5xl font-normal text-center pb-11">
           Meet the{' '}
           <span className="text-wri-red">
-            <b>2025 Heavy Haul Seminar</b>
+            <b>2026 Heavy Haul Seminar</b>
           </span>{' '}
           Speakers
         </h2>

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Navigation from '@/components/navigation';
-import Banner25HH from '@/components/banner/wri25HH';
+import Banner26HH from '@/components/banner/wri26HH';
 import IconsHH from '@/components/icons/iconsHH';
 import SpeakersPCPreview from '@/components/speakers/speakersPC-bio-only';
 import Registration from '@/components/registration';
@@ -11,10 +11,10 @@ import Image from 'next/image';
 export async function getStaticProps() {
   return {
     props: {
-      title: 'WRI 2025 HH | Principles Course Speakers',
+      title: 'WRI 2026 HH | Principles Course Speakers',
       description:
-        'Meet the Principles Course Speakers for the 30th Annual Wheel/Rail Interaction Conference (WRI)',
-      socialImage: '/wri2025-hh-social.png',
+        'Meet the Principles Course Speakers for the 31st Annual Wheel/Rail Interaction Conference (WRI)',
+      socialImage: '/wri2026-hh-social.png',
     },
   };
 }
@@ -25,7 +25,7 @@ const PrinciplesCoursePage = () => {
   return (
     <main className="bg-white">
       <Navigation />
-      <Banner25HH />
+      <Banner26HH />
       <IconsHH />
       <div className="section">
         <div className="mx-auto">
@@ -35,11 +35,11 @@ const PrinciplesCoursePage = () => {
                 <div className="w-full px-4 mb-6 lg:w-4/6 lg:pr-24">
                   <h2 className="text-5xl font-normal leading-normal text-center">
                     <span className="text-wri-green">
-                      <b>2025 Principles Course</b>
+                      <b>2026 Principles Course</b>
                     </span>
                   </h2>
                   <h3 className="text-3xl font-normal leading-normal text-center pb-11">
-                    June 10, 2025
+                    April 22, 2026
                   </h3>
 
                   {/* First paragraph */}
@@ -49,7 +49,7 @@ const PrinciplesCoursePage = () => {
                     </span>{' '}
                     has been revitalized and reimagined with a tighter focus on
                     the practical aspects of wheel/rail and vehicle/track
-                    interaction for 2025. The course will begin with a case
+                    interaction for 2026. The course will begin with a case
                     study — an examination of an actual wheel/rail
                     interaction-related derailment. Presenters will cover the
                     fundamental aspects of track, vehicle suspension systems,
@@ -67,7 +67,7 @@ const PrinciplesCoursePage = () => {
                   <p className="pt-2 pb-4">
                     Wheel Rail Seminars is proud to announce that the FRA-funded
                     National University Rail Center for Excellence (NURail CoE)
-                    is the Presenting Sponsor for the 2025 Principles of
+                    is the Presenting Sponsor for the 2026 Principles of
                     Wheel/Rail Interaction Course. You can find more information
                     on the NURail CoE's mission to develop solutions that will
                     lead to a safer, more efficient, sustainable, equitable, and
@@ -157,7 +157,7 @@ const PrinciplesCoursePage = () => {
       <h2 className="text-5xl font-normal text-center pb-11">
         Meet the{' '}
         <span className="text-wri-green">
-          <b>2025 Principles Course</b>
+          <b>2026 Principles Course</b>
         </span>{' '}
         Speakers
       </h2>

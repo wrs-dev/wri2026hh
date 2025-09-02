@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 import Link from 'next/link';
 import Navigation from '@/components/navigation'
-import Banner25HH from '@/components/banner/wri25HH';
+import Banner26HH from '@/components/banner/wri26HH';
 import Registration from '@/components/registration';
 import SponsorsCloud from '@/components/sponsors';
 
@@ -10,7 +10,7 @@ export default function Terms() {
   return (
     <main className="bg-white">
       <Navigation />
-      <Banner25HH />
+      <Banner26HH />
       <div className="max-w-5xl px-4 pb-40 mx-auto">
         <div className="privacy-policy" id="terms">
           {/* T&C */}

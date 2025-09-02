@@ -180,14 +180,14 @@ export default function Navigation() {
           </a>
 
           {/* Remaining Main Nav Links */}
-          {/* <a
+          <a
             href="/#register"
             className={`text-sm leading-6 nav-link lg:text-xl ${
               isActive('/#register') ? 'text-wri-red' : 'text-wri-blue'
             }`}
           >
             Pricing
-          </a> */}
+          </a>
           {/* <a
             href="/sponsors#icons"
             className={`text-sm leading-6 nav-link lg:text-xl ${
@@ -204,14 +204,14 @@ export default function Navigation() {
           >
             InfoZone
           </a> */}
-          {/* <a
+          <a
             href="/#hotel"
             className={`text-sm leading-6 nav-link lg:text-xl ${
               isActive('#hotel') ? 'text-wri-red' : 'text-wri-blue'
             }`}
           >
             Hotel
-          </a> */}
+          </a>
           <a
             href="/faq#icons"
             className={`text-sm leading-6 nav-link lg:text-xl ${

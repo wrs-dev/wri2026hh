@@ -3,14 +3,14 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Navigation from '@/components/navigation';
 import IconLinks from '@/components/icons';
-import Banner25HH from '@/components/banner/wri25HH';
+import Banner26HH from '@/components/banner/wri26HH';
 
 export async function getStaticProps() {
   return {
     props: {
       title: "WRI Wheel Rail Interaction Conference | Legal",
       description: "Legal information about the Annual Wheel/Rail Interaction Conference (WRI)",
-      socialImage: "/wri2024-social.png" 
+      socialImage: "/wri2026-hh-social.png" 
     }
   };
 }
@@ -19,7 +19,7 @@ export default function Legal() {
   return (
     <main className="bg-white">
       <Navigation />
-      <Banner25HH />
+      <Banner26HH />
       <div className="max-w-5xl pb-40 mx-auto">
         <div className="pb-40 privacy-container" id="privacy">
           <div className="privacy-policy">

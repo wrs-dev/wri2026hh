@@ -3,11 +3,11 @@ import Image from 'next/image';
 import Head from 'next/head';
 import Link from "next/link";
 import Navigation from '@/components/navigation'
-import IconsHH from "@/components/icons/iconsHH"
+import IconsHH from "@/components/icons/iconsHH-nolink"
 import Registration from '@/components/registration';
 import { Disclosure } from '@headlessui/react'
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
-import Banner25HH from '@/components/banner/wri25HH';
+import Banner26HH from '@/components/banner/wri26HH';
 
 const faqs = [
   {
@@ -71,7 +71,7 @@ const faq = () => {
   return (
     <main className="bg-white">
       <Navigation />
-      <Banner25HH />
+      <Banner26HH />
       <IconsHH />
       <div className="seminar-about-text" id="faqs">
         <div className="px-12 mx-auto">
