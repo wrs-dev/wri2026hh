@@ -21,7 +21,7 @@ const infozone = () => {
   return (
     <main className="bg-white">
       <Navigation />
-      <Banner25HH />
+      <Banner26HH />
       <IconsHH />
       <div className="seminar-about-text" id="infozone">
         <div className="px-12 mx-auto">

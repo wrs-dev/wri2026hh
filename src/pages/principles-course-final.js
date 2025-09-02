@@ -25,7 +25,7 @@ const PrinciplesCoursePage = () => {
   return (
     <main className="bg-white">
       <Navigation />
-      <Banner25HH />
+      <Banner26HH />
       <IconsHH />
       <div className="section">
         <div className="mx-auto">
