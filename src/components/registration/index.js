@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import PricingEmployeeIndividual from '@/components/pricing-employee-individual';
-import PricingEmployeeMulti from '@/components/pricing-employee-multi';
-import PricingProfessionalIndividual from '@/components/pricing-professional-individual';
-import PricingProfessionalMulti from '@/components/pricing-professional-multi';
+import PricingEmployeeIndividual from '@/components/pricing-employee-individual/index-earlybird';
+import PricingEmployeeMulti from '@/components/pricing-employee-multi/index-earlybird';
+import PricingProfessionalIndividual from '@/components/pricing-professional-individual/index-earlybird';
+import PricingProfessionalMulti from '@/components/pricing-professional-multi/index-earlybird';
 import PricingVirtualIndividual from '@/components/pricing-virtual-individual';
 import PricingVirtualMulti from '@/components/pricing-virtual-multi';
 import PricingStudentIndividual from '@/components/pricing-student-individual';
@@ -129,10 +129,10 @@ const RegistrationComp = () => {
             <RegisterButton />
           </div>
 
-          {/* Virtual and Student Columns */}
-          <div className="grid grid-cols-1 gap-4 mt-8 md:grid-cols-1 xl:grid-cols-2">
-            {/* Virtual Column */}
-            <div className="flex flex-col justify-between h-full px-4 mb-4">
+          {/* Student Column - Centered */}
+          <div className="grid grid-cols-1 gap-4 mt-8 md:grid-cols-1 xl:grid-cols-1">
+            {/* Virtual Column - Temporarily Hidden */}
+            {/* <div className="flex flex-col justify-between h-full px-4 mb-4">
               <div className="px-0 lg:px-12">
                 <h3 className="mb-8 text-4xl font-bold text-center text-white">
                   Virtual Option
@@ -150,19 +150,16 @@ const RegistrationComp = () => {
                 </div>
                 <PricingVirtualMulti />
               </div>
-            </div>
+            </div> */}
 
             {/* Student Column */}
-            <div className="flex flex-col justify-between h-full px-4 mb-4">
+            <div className="flex flex-col justify-between h-full px-4 mb-4 xl:w-1/2 xl:mx-auto">
               <div className="px-0 lg:px-12">
                 <h3 className="mb-8 text-4xl font-bold text-center text-white">
                   Student Registration
                 </h3>
                 <p className="pb-4 mb-6 text-center text-white">
-                  Student Pricing is available exclusively through the link below.
-                </p>
-                <p className="mb-10 text-center text-white">
-                  Please use the Student Registration button to sign up.
+                  Student Pricing is available exclusively through the Student Registration button below.
                 </p>
               </div>
               <div>
@@ -174,13 +171,8 @@ const RegistrationComp = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 gap-4 mt-12 mb-12 text-center md:grid-cols-1 xl:grid-cols-2">
-            <div>
-              <RegisterButton />
-            </div>
-            <div>
-              <StudentRegisterButton />
-            </div>
+          <div className="mt-12 mb-12 text-center">
+            <StudentRegisterButton />
           </div>
         </div>
       </div>
