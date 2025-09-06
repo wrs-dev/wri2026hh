@@ -13,7 +13,7 @@ const iconVariants = {
 
 const RegisterButton = () => {
   return (
-    <Link href="https://cvent.me/Q0Am45" target="_blank" rel="noopener noreferrer">
+    <Link href="https://cvent.me/zqZlv9" target="_blank" rel="noopener noreferrer">
       {/* Apply initial and whileHover to MotionBox */}
       <motion.div
         className="relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-bold transition duration-300 ease-out border-2 shadow-xl rounded-xl bg-wri-yellow hover:bg-wri-green border-wri-dark-blue hover:border-white text-wri-dark-blue hover:text-white"
