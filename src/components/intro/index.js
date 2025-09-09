@@ -79,8 +79,7 @@ export default function Intro() {
                   <p className="mt-5 font-sans leading-6 text-center text-black">
                     Hear from industry leading experts on the latest information
                     on new and existing technology and how it's used to improve
-                    wheel/rail & vehicle/track interaction on freight, light
-                    rail & metro systems.
+                    wheel/rail & vehicle/track interaction on freight systems.
                   </p>
                 </div>
               </div>

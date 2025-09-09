@@ -21,7 +21,7 @@ export default function PricingEmployeeIndividual() {
               <span className="ml-2 mr-1 text-gray-500 line-through">$450</span>
               $405 Early Bird
             </h2>
-            <p className="text-gray-500 text-md">June 10, 2025</p>
+            <p className="text-gray-500 text-md">April 22, 2026</p>
           </div>
           <div className="mb-4">
             <h2 className="font-semibold text-md text-blue-950">
@@ -34,7 +34,7 @@ export default function PricingEmployeeIndividual() {
               </span>
               $900 Early Bird
             </h2>
-            <p className="text-gray-500 text-md">June 11-12, 2025</p>
+            <p className="text-gray-500 text-md">April 23-24, 2026</p>
           </div>
         </div>
       </div>

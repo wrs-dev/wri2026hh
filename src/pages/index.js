@@ -50,15 +50,11 @@ export default function Home({ title, description, socialImage }) {
           <span className="font-extrabold font-wri text-wri-red">
             WRI 2026 Heavy Haul Conference
           </span>{' '}
-          is specifically tailored for the heavy haul (freight) sector, focusing
-          on the unique challenges and advancements in this area of the railroad
-          industry. WRI 2026 Heavy Haul Conference will be held in{' '}
+          is specifically tailored for the heavy haul (freight) sector, focusing on the challenges and advancements unique to the wheel/rail interface on heavy haul freight and shared-track passenger systems. The WRI 2026 Heavy Haul Conference will be held in{' '}
           <span className="font-extrabold font-wri">
             Dallas, TX from April 22-24, 2026
           </span>
-          , and will focus on practical applications. Attendees will be from
-          railroads including all the class 1 railroads, contractors, government
-          regulators, researchers and consultants.
+          , and will focus on practical applications. Attendees will be from class 1 railroads, shortlines, suppliers, contractors, government regulators, researchers and consultants.
         </p>
       </div>
       <Intro />

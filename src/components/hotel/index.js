@@ -71,8 +71,8 @@ export default function Hotel() {
             </p>
             <p className="text-base mb-3.5">
               If you require additional reservations assistance, you may contact
-              the hotel reservation department at 1-816-474-4400 and refer to
-              the group by name: <b>Wheel/Rail Interaction Heavy Haul '26 Kansas City.</b>
+              the hotel reservation department at 214-651-1234 and refer to
+              the group by name: <b>Wheel Rail Seminars</b>
             </p>
             <h2>Room Deposits/Guarantees:</h2>
             <p className="text-base mb-3.5">

@@ -23,7 +23,7 @@ export default function PricingEmployeeMulti() {
               </span>
               $1,170 Early Bird
             </h2>
-            <p className="text-gray-500 text-md">June 10-12, 2025</p>
+            <p className="text-gray-500 text-md">April 22-24, 2026</p>
           </div>
         </div>
       </div>

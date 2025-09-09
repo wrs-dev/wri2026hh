@@ -63,8 +63,8 @@ export default function InfoZoneSection() {
               <li>
                 <figure className="relative w-full h-0 pb-[95.31%]">
                   <Image
-                    src="/info-zone.webp"
-                    alt="info-zone"
+                    src="/infozone.webp"
+                    alt="InfoZone Photo"
                     layout="fill"
                     className="object-cover"
                     quality={100}
