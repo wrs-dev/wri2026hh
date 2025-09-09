@@ -80,7 +80,7 @@ export default function Hotel() {
                 Hotel reservations require a credit card guarantee to secure
                 your room reservation.
               </b>
-              Should you need to cancel your reservation, reservations must be
+              {' '}Should you need to cancel your reservation, reservations must be
               canceled a minimum of 48 hours prior to arrival, 5PM hotel time,
               to avoid a one-night cancellation penalty.
             </p>
