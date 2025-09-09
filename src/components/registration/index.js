@@ -130,7 +130,7 @@ const RegistrationComp = () => {
           </div>
 
           {/* Student Column - Centered */}
-          <div className="grid grid-cols-1 gap-4 mt-8 md:grid-cols-1 xl:grid-cols-1">
+          <div className="grid grid-cols-1 gap-4 mt-20 md:grid-cols-1 xl:grid-cols-1">
             {/* Virtual Column - Temporarily Hidden */}
             {/* <div className="flex flex-col justify-between h-full px-4 mb-4">
               <div className="px-0 lg:px-12">
