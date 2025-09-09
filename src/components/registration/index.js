@@ -81,7 +81,7 @@ const RegistrationComp = () => {
             <div className="flex flex-col px-4 mb-4">
               <div className="px-0 lg:px-12">
                 <h3 className="mb-8 text-4xl font-bold text-center text-white">
-                  Rail Transit Agency/Government Employee Registration
+                  Railroad/Government Employee Registration
                 </h3>
                 <p className="pb-4 mb-6 text-white">
                   Railroad/Government Employee Pricing is designed for direct, full-time employees
