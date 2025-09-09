@@ -84,14 +84,14 @@ const RegistrationComp = () => {
                   Rail Transit Agency/Government Employee Registration
                 </h3>
                 <p className="pb-4 mb-6 text-white">
-                  Rail Transit Agency/Government Employee Pricing is designed for direct, full-time employees
+                  Railroad/Government Employee Pricing is designed for direct, full-time employees
                   of qualifying railroads, transit agencies, and government
                   agencies. (You must be paid directly from a railroad, transit
                   agency, or government agency and receive a W-2 or similar). No
-                  contractors are eligible for Rail Transit Agency/Government Employee Pricing.
+                  contractors are eligible for Railroad/Government Employee Pricing.
                 </p>
                 <p className="mb-10 text-white">
-                  Rail Transit Agency/Government Employee Pricing registering for more than one event will receive
+                  Railroad/Government Employee Pricing registering for more than one event will receive
                   special Multi-Event Discounts.
                 </p>
               </div>
