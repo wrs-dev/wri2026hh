@@ -81,17 +81,17 @@ const RegistrationComp = () => {
             <div className="flex flex-col px-4 mb-4">
               <div className="px-0 lg:px-12">
                 <h3 className="mb-8 text-4xl font-bold text-center text-white">
-                  Employee Registration
+                  Rail Transit Agency/Government Employee Registration
                 </h3>
                 <p className="pb-4 mb-6 text-white">
-                  Employee Pricing is designed for direct, full-time employees
+                  Rail Transit Agency/Government Employee Pricing is designed for direct, full-time employees
                   of qualifying railroads, transit agencies, and government
                   agencies. (You must be paid directly from a railroad, transit
                   agency, or government agency and receive a W-2 or similar). No
-                  contractors are eligible for Employee Pricing.
+                  contractors are eligible for Rail Transit Agency/Government Employee Pricing.
                 </p>
                 <p className="mb-10 text-white">
-                  Employees registering for more than one event will receive
+                  Rail Transit Agency/Government Employee Pricing registering for more than one event will receive
                   special Multi-Event Discounts.
                 </p>
               </div>
@@ -171,6 +171,7 @@ const RegistrationComp = () => {
             </div>
           </div>
 
+          {/* Student Registration Button only */}
           <div className="mt-12 mb-12 text-center">
             <StudentRegisterButton />
           </div>

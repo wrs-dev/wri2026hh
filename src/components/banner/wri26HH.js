@@ -28,10 +28,10 @@ const Banner2026HH = () => {
       {/* 3. Centered text & button */}
       <div className="absolute inset-0 flex flex-col items-center justify-center">
         <h1 className="text-3xl font-bold text-white sm:text-6xl text-shadow-outline">
-          Kansas City, MO
+          Dallas, Texas
         </h1>
         <h2 className="text-3xl font-bold text-white sm:text-6xl text-shadow-outline">
-          June 10-12, 2025
+          April 22-24, 2026
         </h2>
         <div className="mt-4">
           <RegisterButton />

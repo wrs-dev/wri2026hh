@@ -31,7 +31,7 @@ export default function Home({ title, description, socialImage }) {
       <Navigation />
         <Banner26HH />
         <h3 className="mt-12 mb-6 text-xl font-light text-center sm:text-4xl font-wri">
-        Speakers will be announced in Fall of 2025!
+        Speakers will be announced soon!
         </h3>
       <IconsHH />
       <div className="flex justify-center mb-12">
@@ -65,7 +65,7 @@ export default function Home({ title, description, socialImage }) {
       {/*<CallForPapers />*/}
       <Registration />
       <InfoZoneSection />
-      {/*<SponsorCTA2 />*/}
+      <SponsorCTA2 />
       <Reviews />
       <section className="mt-24 bg-white">
         <div className="container mx-auto">
