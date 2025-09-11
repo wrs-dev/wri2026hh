@@ -61,8 +61,8 @@ export async function getStaticProps() {
   return {
     props: {
       title: "WRI Wheel Rail Interaction Conference | FAQ - Frequently Asked Questions about WRI",
-      description: "Frequently Asked Questions for the 30th Annual Wheel/Rail Interaction Conference (WRI)",
-      socialImage: "/wri2025hh-social.png" 
+      description: "Frequently Asked Questions for the 31st Annual Wheel/Rail Interaction Conference (WRI)",
+      socialImage: "/wri2026-hh-social.png" 
     }
   };
 }

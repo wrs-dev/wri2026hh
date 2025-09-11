@@ -45,8 +45,7 @@ export default function Home({ title, description, socialImage }) {
           Heavy Haul Conference
         </h2>
         <p className="mb-6 justify-left">
-          Welcome to the 31st Anniversary of the Wheel Rail Interaction
-          Conference.{' '}
+          Welcome to the 31st annual Wheel Rail Interaction Conference. The{' '}
           <span className="font-extrabold font-wri text-wri-red">
             WRI 2026 Heavy Haul Conference
           </span>{' '}

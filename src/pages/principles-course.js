@@ -98,7 +98,7 @@ const PrinciplesCoursePage = () => {
                   </div>
 
                   <h2 className="mt-16 seminar-discount-header">
-                    WRI 2025 Discount Programs:
+                    WRI 2026 Discount Programs:
                   </h2>
                   <p className="pt-2 pb-6">
                     Wheel Rail Seminars offers various discount programs,

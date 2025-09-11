@@ -14,7 +14,7 @@ const iconVariants = {
 const SponsorRegisterButtonDoubleSilver = () => {
   return (
     <Link
-      href="https://cvent.me/7LMGWl"
+      href="https://cvent.me/x9MAqg"
       target="_blank"
       rel="noopener noreferrer"
     >

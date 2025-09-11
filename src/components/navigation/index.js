@@ -139,12 +139,34 @@ export default function Navigation() {
                       </div>
                       <div className="flex-auto">
                         <a
-                          href="https://wri2025rt.wheel-rail-seminars.com/#register"
+                          href="https://wri2025rt.wheel-rail-seminars.com"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="block text-sm lg:text-xl text-wri-blue hover:text-wri-green focus:outline-none focus:ring-0"
                         >
                           Visit WRI2025 Rail Transit
+                          <span className="absolute inset-0" />
+                        </a>
+                      </div>
+                    </div>
+
+                    {/* WRI25HH Icon Link */}
+                    <div className="relative flex items-center p-4 text-sm rounded-lg group gap-x-6 hover:bg-sky-100">
+                      <div className="flex items-center justify-center flex-none rounded-lg h-11 w-11">
+                        <img
+                          src="/WRI25HH-icon.png"
+                          alt="WRI25HH Icon"
+                          className="object-cover w-full h-full rounded-lg"
+                        />
+                      </div>
+                      <div className="flex-auto">
+                        <a
+                          href="https://wri2025hh.wheel-rail-seminars.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block text-sm lg:text-xl text-wri-blue hover:text-wri-green focus:outline-none focus:ring-0"
+                        >
+                          Visit WRI2025 Heavy Haul
                           <span className="absolute inset-0" />
                         </a>
                       </div>
@@ -169,7 +191,7 @@ export default function Navigation() {
 
           {/* NEW: Photo Gallery link in main nav (after WRI Seminars) */}
           <a
-            href="https://wri2024-gallery.vercel.app/"
+            href="https://wri-gallery.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className={`text-sm leading-6 nav-link lg:text-xl text-wri-blue ${
@@ -319,7 +341,7 @@ export default function Navigation() {
                   </a>
                   {/* Photo Gallery in Mobile Menu */}
                   <a
-                    href="https://wri2024-gallery.vercel.app/"
+                    href="https://wri-gallery.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
