@@ -1,7 +1,3 @@
-import { Inter } from 'next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
-
 export default function PricingVirtualIndividual() {
   return (
     <section className="px-0 lg:px-12">
