@@ -128,6 +128,28 @@ export default function Navigation() {
                   ))}
 
                   <div className="flex flex-col">
+                    {/* WRI26RT Icon Link */}
+                    <div className="relative flex items-center p-4 text-sm rounded-lg group gap-x-6 hover:bg-sky-100">
+                      <div className="flex items-center justify-center flex-none rounded-lg h-11 w-11">
+                        <img
+                          src="/WRI26RT-rounded-icon.png"
+                          alt="WRI26RT Icon"
+                          className="object-cover w-full h-full rounded-lg"
+                        />
+                      </div>
+                      <div className="flex-auto">
+                        <a
+                          href="https://wri2026rt.wheel-rail-seiminar.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block text-sm lg:text-xl text-wri-blue hover:text-wri-green focus:outline-none focus:ring-0"
+                        >
+                          Visit WRI2026 Rail Transit
+                          <span className="absolute inset-0" />
+                        </a>
+                      </div>
+                    </div>
+
                     {/* WRI25RT Icon Link */}
                     <div className="relative flex items-center p-4 text-sm rounded-lg group gap-x-6 hover:bg-sky-100">
                       <div className="flex items-center justify-center flex-none rounded-lg h-11 w-11">
