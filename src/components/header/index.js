@@ -10,7 +10,7 @@ const Header = () => {
         {/* 1) Desktop/Tablet layout (≥ sm): single row, hidden on mobile */}
         <div className="items-end justify-between hidden sm:flex">
           
-          {/* Left sponsor 
+
           <div className="flex items-end">
             <a
               href="https://nurailcoe.railtec.illinois.edu/"
@@ -29,14 +29,14 @@ const Header = () => {
                 "
               />
             </a>
-          </div>*/}
+          </div>
 
           {/* Center animation */}
           <div className="flex items-end justify-center flex-grow">
             <Animation />
           </div>
 
-          {/* Right sponsor 
+          {/* Right sponsor */}
           <div className="flex items-end">
             <a
               href="https://www.rtands.com/"
@@ -55,7 +55,7 @@ const Header = () => {
                 "
               />
             </a>
-          </div>*/}
+          </div>
         </div>
 
         {/* 2) Mobile layout (< sm): unchanged */}
@@ -65,7 +65,7 @@ const Header = () => {
             <Animation />
           </div>
 
-          {/* Two logos side by side, bottom-aligned 
+          {/* Two logos side by side, bottom-aligned */}
           <div className="flex items-end justify-around w-full mt-4">
             <a
               href="https://www.nurailcenter.org/"
@@ -92,7 +92,7 @@ const Header = () => {
                 className="w-[115px] h-auto"
               />
             </a>
-          </div>*/}
+          </div>
         </div>
 
       </div>
