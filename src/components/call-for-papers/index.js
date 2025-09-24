@@ -36,7 +36,7 @@ export default function CallForPapers() {
             </p>
             <div className="flex items-center justify-center mt-8">
               <Link
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfM5zSSU6PkupRrACyp8EIhpahhtADraVBlKRRC4H5kC8AwoA/viewform"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdDymhq6szo8p-OSBoZwSBdyEnzaPfTO8ZugSha5VjFuDtn0w/viewform"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 text-sm font-semibold transition-colors duration-200 transform bg-white border-2 border-white shadow-sm rounded-xl text-wri-red hover:bg-wri-red hover:text-white hover:scale-105"
