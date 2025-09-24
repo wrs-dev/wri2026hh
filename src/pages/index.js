@@ -3,7 +3,7 @@ import Banner26HH from '@/components/banner/wri26HH';
 import IconsHH from '@/components/icons/iconsHH-nolink';
 // import AgendaButton from '@/components/buttons/agenda-download-button';
 import Intro from '@/components/intro';
-// import CallForPapers from '@/components/call-for-papers';
+import CallForPapers from '@/components/call-for-papers';
 import Registration from '@/components/registration';
 // import SponsorCTA2 from '@/components/sponsors/sponsor-cta-2';
 import Reviews from '@/components/reviews';
@@ -57,7 +57,7 @@ export default function Home({ title, description, socialImage }) {
         </p>
       </div>
       <Intro />
-      {/*<CallForPapers />*/}
+      <CallForPapers />
       <Registration />
       <InfoZoneSection />
       {/*<SponsorCTA2 />*/}
