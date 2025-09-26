@@ -427,10 +427,9 @@ export default function SponsorPackages() {
 
         {/* Star Note at the Bottom */}
         <p className="mt-4 text-2xl leading-7">
-          *All “Double” Sponsorship levels will give your organization the same level sponsorship
-          at the Rail Transit Conference later in 2026
+          *All “Double” Sponsorship levels will give your organization the same level sponsorship at the Rail Transit Conference being held in Boston, September 1-3, 2026.
         </p>
-        <SponsorCtaPdf/>
+        {/*<SponsorCtaPdf/>*/}
       </div>
     </div>
   );
