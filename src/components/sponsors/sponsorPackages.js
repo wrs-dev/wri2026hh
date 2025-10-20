@@ -276,7 +276,7 @@ export default function SponsorPackages() {
                 <br />
                 InfoZone Sponsorship
               </h3>
-              <p className="mt-2 text-xl font-semibold text-wri-dark-blue">$7,000.00</p>
+              <p className="mt-2 text-xl font-semibold text-wri-dark-blue">$7,000.00 Early Bird</p>
             </div>
             <div className="col-span-2">
               <p className="mb-4">
