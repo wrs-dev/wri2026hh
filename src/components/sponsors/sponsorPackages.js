@@ -216,7 +216,7 @@ export default function SponsorPackages() {
         <section className="mb-16">
           <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 lg:gap-8">
             <div>
-              <h3 className="text-2xl font-bold leading-tight text-zinc-500 sm:text-3xl">
+              <h3 className="text-2xl font-bold leading-tight text-violet-400 sm:text-3xl">
                 Heavy Haul
                 <br />
                 Platinum Sponsorship
@@ -246,7 +246,7 @@ export default function SponsorPackages() {
         <section className="mb-16">
           <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 lg:gap-8">
             <div>
-              <h3 className="text-2xl font-bold leading-tight text-zinc-500 sm:text-3xl">
+              <h3 className="text-2xl font-bold leading-tight text-violet-400 sm:text-3xl">
                 Double
                 <br />
                 Platinum Sponsorship *
@@ -271,7 +271,7 @@ export default function SponsorPackages() {
         <section className="mb-16">
           <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 lg:gap-8">
             <div>
-              <h3 className="text-2xl font-bold leading-tight text-violet-400 sm:text-3xl">
+              <h3 className="text-2xl font-bold leading-tight text-wri-blue sm:text-3xl">
                 Rail Transit
                 <br />
                 InfoZone Sponsorship
@@ -307,7 +307,7 @@ export default function SponsorPackages() {
         <section className="mb-16">
           <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 lg:gap-8">
             <div>
-              <h3 className="text-2xl font-bold leading-tight text-violet-400 sm:text-3xl">
+              <h3 className="text-2xl font-bold leading-tight text-wri-blue sm:text-3xl">
                 Double
                 <br />
                 InfoZone Sponsorship *
