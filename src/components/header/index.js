@@ -23,9 +23,10 @@ const Header = () => {
                 style={{ display: 'block' }}
                 className="
                   h-auto
-                  sm:w-[160px]
-                  md:w-[175px]
-                  lg:w-[258px]
+                  sm:w-[140px]
+                  md:w-[160px]
+                  lg:w-[180px]
+                  xl:w-[258px]
                 "
               />
             </a>
@@ -49,9 +50,10 @@ const Header = () => {
                 style={{ display: 'block' }}
                 className="
                   h-auto
-                  sm:w-[140px]
-                  md:w-[150px]
-                  lg:w-[217px]
+                  sm:w-[115px]
+                  md:w-[130px]
+                  lg:w-[150px]
+                  xl:w-[217px]
                 "
               />
             </a>
@@ -76,7 +78,7 @@ const Header = () => {
                 src="/NuRail_Presenting_Sponsor_2025.png"
                 alt="NuRail Logo"
                 style={{ display: 'block' }}
-                className="w-[140px] h-auto"
+                className="w-[120px] h-auto"
               />
             </a>
             <a
@@ -89,7 +91,7 @@ const Header = () => {
                 src="/RTS_Presenting_Sponsor_2025.png"
                 alt="RT&S Logo"
                 style={{ display: 'block' }}
-                className="w-[115px] h-auto"
+                className="w-[100px] h-auto"
               />
             </a>
           </div>

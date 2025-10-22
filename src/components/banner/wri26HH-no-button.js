@@ -13,17 +13,18 @@ const Banner2026HHnobutton = () => {
         quality={90} // Adjust if needed
       />
 
-      {/* 2. 30th Anniversary Logo - now 250x306 px and larger defaults 
+      {/* 2. BNSF Logo - 750x176 px */}
       <div className="absolute top-4 right-4 sm:top-6 sm:right-8">
         <Image
-          src="/30th-anniversary-logo-blk-250.png"
-          alt="30th Anniversary Logo"
-          width={250}
-          height={306}
-          className="w-24 h-auto sm:w-24 md:w-36 lg:w-48"
+          src="/bnsf-local-host.png"
+          alt="BNSF Logo"
+          width={750}
+          height={176}
+          className="w-24 h-auto sm:w-32 md:w-40 lg:w-48"
+          style={{ filter: 'drop-shadow(0 0 15px rgba(255,255,255,1)) drop-shadow(0 0 25px rgba(255,255,255,0.8))' }}
           priority
         />
-      </div>*/}
+      </div>
 
       {/* 3. Centered text & button */}
       <div className="absolute inset-0 flex flex-col items-center justify-center">
