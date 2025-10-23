@@ -272,7 +272,7 @@ export default function SponsorPackages() {
           <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 lg:gap-8">
             <div>
               <h3 className="text-2xl font-bold leading-tight text-wri-blue sm:text-3xl">
-                Rail Transit
+                Heavy Haul
                 <br />
                 InfoZone Sponsorship
               </h3>
