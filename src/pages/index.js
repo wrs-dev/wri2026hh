@@ -2,6 +2,7 @@ import Navigation from '@/components/navigation';
 import Banner26HH from '@/components/banner/wri26HH';
 import IconsHH from '@/components/icons/iconsHH-nolink';
 // import AgendaButton from '@/components/buttons/agenda-download-button';
+import SponsorCTAButton from '@/components/buttons/sponsor-cta-button';
 import Intro from '@/components/intro';
 import CallForPapers from '@/components/call-for-papers';
 import Registration from '@/components/registration';
@@ -35,7 +36,7 @@ export default function Home({ title, description, socialImage }) {
         </h3>
       <IconsHH />
       <div className="flex justify-center mb-12">
-        {/*<AgendaButton />*/}
+        <SponsorCTAButton />
       </div>
       <div className="pb-40 about-container font-wri" id="about">
         <h1 className="mt-2 mb-2 text-2xl font-extrabold text-center sm:text-5xl font-wri">
