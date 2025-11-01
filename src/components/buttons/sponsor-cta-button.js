@@ -8,7 +8,7 @@ const SponsorCTAButton = () => {
     <Link href="/sponsor-packages" target="_blank" rel="noopener noreferrer">
       {/* Apply initial and whileHover to MotionBox */}
       <motion.div
-        className="relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-bold text-white transition duration-300 ease-out border-2 border-white shadow-xl rounded-xl bg-wri-blue hover:bg-wri-green hover:text-white"
+        className="relative inline-flex items-center justify-center p-5 px-6 py-4 overflow-hidden font-bold text-lg text-white transition duration-300 ease-out border-2 border-white shadow-xl rounded-xl bg-wri-blue hover:bg-wri-green hover:text-white"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         initial="rest" // Initial state (non-hovered)
