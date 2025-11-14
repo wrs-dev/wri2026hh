@@ -9,21 +9,21 @@ export default function WRIAnnouncements() {
       </div>
       <div className="p-8">
         <h1 className="mb-1 text-2xl font-bold text-wri-dark-blue">
-          Gordon Bachinsky receives Lifetime Achievement Award
+          Gordon Bachinsky receives CARS Lifetime Achievement Award
         </h1>
         <Image
           src="/gbachinsky-lifetime-achievement.webp"
-          alt="Gordon Bachinsky receives Lifetime Achievement Award"
+          alt="Gordon Bachinsky receives CARS Lifetime Achievement Award"
           width={776}
           height={582}
           className="mb-4"
           style={{ width: "100%", height: "auto", maxWidth: "776px" }}
         />
         <p>
-          Congratulations to Wheel Rail Seminars Founder, <strong>Gordon Bachinsky</strong>, on receiving the <strong>Lifetime Achievement Award</strong> from the <strong>Canadian Association of Railway Suppliers at National Railway Day on November 4, 2025, in Montreal!</strong>
+          Congratulations to <Link href="https://wheel-rail-seminars.com" target="_blank" rel="noopener noreferrer" className="text-wri-blue hover:underline">Wheel Rail Seminars</Link> Founder, <strong>Gordon Bachinsky</strong>, on receiving the <strong>Lifetime Achievement Award</strong> from the <strong>Canadian Association of Railway Suppliers (CARS)</strong> during <strong>National Railway Day on November 4, 2025</strong>, in Montreal!
         </p>
         <p className="mt-4">
-          This well-deserved honor recognizes Gordon's <strong>50+ years of dedication, innovation, and leadership</strong> in the rail industry. We're proud to see his lifelong commitment to advancing rail through <strong>education and collaboration</strong> celebrated on this national stage.
+          This well-deserved honor recognizes Gordon's <strong>50+ years of dedication, innovation, and leadership</strong> in the railway industry. We're proud to see his lifelong commitment to advancing rail through <strong>education and collaboration</strong> celebrated on the international stage.
         </p>
         <p className="mt-4">
           Join us in congratulating Gordon on this incredible achievement!
