@@ -240,14 +240,14 @@ export default function Navigation() {
           >
             Sponsors
           </a> */}
-          {/* <a
+          <a
             href="/infozone#icons"
             className={`text-sm leading-6 nav-link lg:text-xl ${
               isActive('/infozone') ? 'text-wri-red' : 'text-wri-blue'
             }`}
           >
             InfoZone
-          </a> */}
+          </a>
           <a
             href="/#hotel"
             className={`text-sm leading-6 nav-link lg:text-xl ${
@@ -283,7 +283,7 @@ export default function Navigation() {
               className="w-8 h-8 pr-2"
               alt="Interface Journal"
             />
-            Interface Journal
+            IJ
           </a>
         </Popover.Group>
 
@@ -327,12 +327,12 @@ export default function Navigation() {
                   >
                     Sponsors
                   </a> */}
-                  {/* <a
-                    href="/infozone#infozone"
+                  <a
+                    href="/infozone#icons"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     InfoZone
-                  </a> */}
+                  </a>
                   {/* <a
                     href="/#hotel"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
