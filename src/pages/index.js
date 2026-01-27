@@ -32,7 +32,7 @@ export default function Home({ title, description, socialImage }) {
       <Navigation />
         <Banner26HH />
         <h3 className="mt-12 mb-6 text-xl font-light text-center sm:text-4xl font-wri">
-        Principles Course speakers now available!
+        Principles Course speakers now available! Click below.
         </h3>
       <IconsHH />
       <div className="flex justify-center mb-12">
