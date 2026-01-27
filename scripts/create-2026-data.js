@@ -1,11 +1,13 @@
 const fs = require('fs');
 const path = require('path');
 
-// 2026 Principles Course speaker list (confirmed speakers only)
+// 2026 Principles Course speaker list (confirmed speakers + TBD placeholders)
 const PC_2026_SPEAKERS = [
   'David Casaceli',
   'J. Riley Edwards',
+  'TBD Session 3',
   'Kevin Oldknow',
+  'TBD Session 5',
   'Richard Stock',
   'Matthew Dick'
 ];
@@ -37,11 +39,25 @@ const PC_SESSION_INFO = {
     title: 'Assistant Professor',
     company: 'University of Illinois Urbana-Champaign'
   },
+  'TBD Session 3': {
+    sessions: ['SESSION 3'],
+    topics: ['Vehicle Types, Suspensions and Components'],
+    title: '',
+    company: 'TBD',
+    imageSrc: '/placeholder-male.jpg'
+  },
   'Kevin Oldknow': {
     sessions: ['SESSION 4'],
     topics: ['Wheel-Rail Contact: an Introduction'],
     title: 'Associate Professor',
     company: 'Simon Fraser University'
+  },
+  'TBD Session 5': {
+    sessions: ['SESSION 5'],
+    topics: ['Vehicle-Track Interaction & Dynamics'],
+    title: '',
+    company: 'TBD',
+    imageSrc: '/placeholder-male.jpg'
   },
   'Richard Stock': {
     sessions: ['SESSION 6'],

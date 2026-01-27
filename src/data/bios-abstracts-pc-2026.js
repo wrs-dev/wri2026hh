@@ -1,5 +1,5 @@
 // Auto-generated for WRI 2026
-// Generated on: 2026-01-27T20:44:08.770Z
+// Generated on: 2026-01-27T21:06:50.013Z
 
 export const biosAbstractsPC2026 = [
   {
@@ -28,6 +28,18 @@ export const biosAbstractsPC2026 = [
     ]
   },
   {
+    "name": "TBD Session 3",
+    "company": "TBD",
+    "title": "",
+    "imageSrc": "/placeholder-male.jpg",
+    "bio1": "",
+    "bio2": "",
+    "topic": "Vehicle Types, Suspensions and Components",
+    "sessions": [
+      "SESSION 3"
+    ]
+  },
+  {
     "name": "Kevin Oldknow",
     "company": "Simon Fraser University",
     "title": "Associate Professor",
@@ -37,6 +49,18 @@ export const biosAbstractsPC2026 = [
     "topic": "Wheel-Rail Contact: an Introduction",
     "sessions": [
       "SESSION 4"
+    ]
+  },
+  {
+    "name": "TBD Session 5",
+    "company": "TBD",
+    "title": "",
+    "imageSrc": "/placeholder-male.jpg",
+    "bio1": "",
+    "bio2": "",
+    "topic": "Vehicle-Track Interaction & Dynamics",
+    "sessions": [
+      "SESSION 5"
     ]
   },
   {

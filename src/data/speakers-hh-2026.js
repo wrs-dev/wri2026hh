@@ -1,5 +1,5 @@
 // Auto-generated for WRI 2026
-// Generated on: 2026-01-27T20:44:08.768Z
+// Generated on: 2026-01-27T21:06:50.011Z
 
 export const speakersHH2026 = [
   {
