@@ -6,15 +6,16 @@ import { useMemo } from 'react';
 const IconLinksHH = () => {
   const router = useRouter();
 
-  // Principles Course: active with link
+  // Principles Course: active with link (except on main PC page)
   // Heavy Haul: inactive (no link, always grayed out until speakers added)
-  const principlesCourseActive = !router.pathname.includes('principles-course');
+  const onPrinciplesCourseMain = router.pathname === '/principles-course';
+  const principlesCourseActive = !onPrinciplesCourseMain;
 
-  // PC is green when active, gray when on PC pages
+  // PC is green, with hover effect when clickable
   // HH is always gray (inactive until speakers added)
-  const pcBgColor = router.pathname.includes('principles-course')
-    ? 'bg-wri-green'
-    : 'bg-wri-green hover:border-wri-yellow';
+  const pcBgColor = principlesCourseActive
+    ? 'bg-wri-green hover:border-wri-yellow'
+    : 'bg-wri-green';
   const hhBgColor = 'bg-wri-neutral'; // Always inactive
 
   return (
