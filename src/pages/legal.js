@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 import Link from 'next/link';
 import Navigation from '@/components/navigation';
-import IconLinks from '@/components/icons';
+import IconsHH from '@/components/icons/iconsHH';
 import Banner26HH from '@/components/banner/wri26HH';
 
 export async function getStaticProps() {

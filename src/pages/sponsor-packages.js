@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Banner26HH from '@/components/banner/wri26HH-no-button';
 import Navigation from '@/components/navigation';
-import IconLinks from '@/components/icons';
+import IconsHH from '@/components/icons/iconsHH';
 import SponsorCta from '@/components/sponsors/sponsor-cta';
 import SponsorsPackages from '@/components/sponsors/sponsorPackages';
 
