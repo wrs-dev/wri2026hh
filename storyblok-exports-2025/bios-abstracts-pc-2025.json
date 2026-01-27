@@ -1,0 +1,121 @@
+[
+  {
+    "slug": "david-casaceli",
+    "name": "David Casaceli",
+    "content": {
+      "_uid": "f257b41d-2011-4628-9bfb-1985951fa56a",
+      "bio1": "David Casaceli is a railroad accident investigator with the NTSB. David has 19 years of industry experience working with the NTSB, the Federal Railroad Administration, and Union Pacific Railroad. He is a licensed professional engineer in the State of Texas.",
+      "bio2": "The NTSB is an independent federal agency charged by Congress with investigating every civil aviation accident in the United States and significant events in the other modes of transportation — railroad, transit, highway, marine, pipeline, and commercial space. NTSB determines the probable causes of the accidents and events it investigates, and issues safety recommendations aimed at preventing future occurrences. NTSB also conducts transportation safety research studies and offers information and other assistance to family members and survivors for each accident or event it investigates.",
+      "name": "David Casaceli",
+      "title": "Railroad Accident Investigator",
+      "topic": "Introduction to the Freight Railway System and a Case Study on a Specific Derailment",
+      "company": "National Transportation Safety Board",
+      "imageSrc": "david-casaceli.jpg",
+      "abstract1": "",
+      "abstract2": "",
+      "component": "bios-abstracts-pc"
+    }
+  },
+  {
+    "slug": "j-riley-edwards",
+    "name": "J. Riley Edwards",
+    "content": {
+      "_uid": "8e087b92-f1d6-485b-ac36-13492dfd0d43",
+      "bio1": "J. Riley Edwards, Ph.D., P.E., is an Assistant Professor in the Rail Transportation and Engineering Center (RailTEC) at the University of Illinois Urbana-Champaign. He obtained his Bachelor’s degree in Civil Engineering from Vanderbilt University, and his MS and PhD in Civil Engineering from the University of Illinois Urbana-Champaign. His research interests are railway infrastructure track system and component design and performance and failure modes associated with infrastructure components.",
+      "bio2": "Dr. Edwards has published over 100 conference proceedings and over 70 journal articles related to the design, analysis, performance, and failure modes of railway infrastructure and its components.  Riley also serves as the Deputy Associate Director for the National University Rail Center of Excellence, a US DOT transportation center funded by the Federal Railroad Administration.",
+      "name": "J. Riley Edwards",
+      "title": "Assistant Professor",
+      "topic": "Track Structures and Components",
+      "company": "University of Illinois Urbana-Champaign",
+      "imageSrc": "j-riley-edwards.jpg",
+      "abstract1": "",
+      "abstract2": "",
+      "component": "bios-abstracts-pc"
+    }
+  },
+  {
+    "slug": "elton-toma",
+    "name": "Elton Toma",
+    "content": {
+      "_uid": "c04d271a-7cf8-4791-85a0-165db3f0c749",
+      "bio1": "Dr. Elton Toma is a principal engineer at the National Research Council Canada (NRC), where he leads a team of researchers conducting rail and road vehicle testing and simulation. He has led or been active in NRC modelling and testing studies related to freight and passenger rail operations concerning in-train forces, marshalling of freight cars, derailment causes, curving behavior, and vibration and noise. He is currently leading a research team investigating the performance of freight car air brake systems in cold climates, and is leading research on the risks of hazardous goods transport.",
+      "bio2": "He has a Ph.D. in Mechanical Engineering from Queen’s University at Kingston (Ontario, Canada), and is a registered Professional Engineer in the province of Ontario. He was a member of the 2016 Transportation Research Board (TRB) committee on the review of DOT testing of Electronically Controlled Pneumatic (ECP) brakes, and is currently on the TRB Committee on the Impact of Trains Longer Than 7,500 Feet.",
+      "name": "Elton Toma",
+      "title": "Principal Engineer",
+      "topic": "Vehicle Types, Suspensions and Components",
+      "company": "National Research Council, Canada",
+      "imageSrc": "elton-toma.jpg",
+      "abstract1": "Dr. Toma will provide an overview of the multiple types of freight and passenger cars in use, discuss the history of how today’s designs came to exist, review the fundamental reasoning behind the designs and how those design details affect the wheel/rail interface loading conditions.",
+      "abstract2": "",
+      "component": "bios-abstracts-pc"
+    }
+  },
+  {
+    "slug": "kevin-oldknow",
+    "name": "Kevin Oldknow",
+    "content": {
+      "_uid": "9e696bc2-6a20-4e9a-81a3-e8c0989914d0",
+      "bio1": "Dr. Kevin Oldknow is an Associate Professor at Simon Fraser University, and was the inaugural Director of SFU’s School of Sustainable Energy Engineering. Oldknow has researched and published in the areas of dynamics and controls, wheel-rail and vehicle-track interaction, tribology and friction control, and engineering education.",
+      "bio2": "Oldknow also has more than 20 years of industrial experience, primarily in railway systems. This has included an array of domestic and international projects on passenger and freight rail systems, including vehicle-track studies and simulation work, and the deployment and verification of technologies for asset life extension and improved system performance.",
+      "name": "Kevin Oldknow",
+      "title": "Associate Professor",
+      "topic": "Wheel/Rail Contact: an Introduction",
+      "company": "Simon Fraser University",
+      "imageSrc": "kevin-oldknow.jpg",
+      "abstract1": "In this session, the Principles Course will be introduced and a series of example cases will be briefly presented to help set the stage for the topics that will be covered throughout the day, and how they connect to real-world, practical examples of issues and opportunities in wheel-rail systems.",
+      "abstract2": "",
+      "component": "bios-abstracts-pc"
+    }
+  },
+  {
+    "slug": "alexandre-woelfle",
+    "name": "Alexandre Woelfle",
+    "content": {
+      "_uid": "dd161a80-eb0a-4d6c-8186-f2f41e65c775",
+      "bio1": "Alexandre Woelfle is a project engineer with NRC and a member of the vehicle simulations group. He has 17 years of experience in the railway industry, 15 of which involved vehicle-track interactions. During those years, he has been involved in three dozen projects involving wheel-rail interactions for both transit and heavy haul freight systems. Among his projects, he has designed profiles for the Toronto Transit Commission, GO Transit, Ottawa Light Rail Transit, MetroLink Saint-Louis, Port Authority Trans Hudson (PATH), New York City Transit, Amtrak, CSX, Delhi Metro, India Railway, and SAR (Saudi Arabia).",
+      "bio2": "Alex has also investigated rail profile design optimization and validation using dynamic vehicle modelling with iterative, stochastic conditions inputs. Among current projects, he is investigating the potential effect of non-damaging wheel slides on the wheel’s resilience to shelling in a regional transit system and working with two transit systems to review their wheel-rail performance.",
+      "name": "Alexandre Woelfle",
+      "title": "Engineer, Transportation Engineering Centre",
+      "topic": "Vehicle-Track Interaction and Dynamics",
+      "company": "National Research Council, Canada",
+      "imageSrc": "alexandre-woelfle.jpg",
+      "abstract1": "The Vehicle-Track Interaction and Dynamics presentation will describe how a free wheelset steers and hunts as a result of conicity, the influence of the truck on these two behaviours, and what wheel/rail forces are acting in the contact patch during curving.",
+      "abstract2": "We’ll move into wheel and rail profile design and how the profiles influence steering, damage and wear, and how to manage the wheel/rail interaction when your profile shapes are always changing as a result of wear and plastic flow. We’ll finish up with a couple of examples of how poorly controlled wheel/rail interaction can lead to derailment.",
+      "component": "bios-abstracts-pc"
+    }
+  },
+  {
+    "slug": "richard-stock",
+    "name": "Richard Stock",
+    "content": {
+      "_uid": "6dad3370-8ea7-4fb8-b809-52f82b62e6d7",
+      "bio1": "Richard Stock is Global Head of Rail Solutions for Plasser American and Plasser & Theurer where he has strategic responsibility for the topics of rail maintenance, rail welding, and rail measurements. Prior to his work at Plasser & Theurer, Richard was Milling Technology Manager for LINSINGER and LINMAG as LINMAG. Between 2013 and 2017 he worked for L.B. Foster Rail Technologies as Rail Technology Manager, a position in which he was responsible for various R&D processes and projects, managing university collaborations and technical customer interaction. He also led the Application Engineering group to support and analyze field trials.",
+      "bio2": "Prior to that, Richard worked for 12 years at voestalpine in Austria in the R&D department where he was responsible for rail grade selection, wear and RCF-related issues, as well as managing university collaborations. During this time, he was also temporarily seconded to KELSAN Technologies (now L.B. Foster Rail Technologies) in Vancouver to further research collaboration between Kelsan/LB Foster and voestalpine Schienen. Richard holds a masters and PhD in material sciences from the University of Leoben, Austria. He is a member of AREMA Committee 4, Committee 2, and the APTA ‐ Track and Noise/Vibration Technical Forum. Richard is also part of the leadership team of the ICRI (International Collaborative Research Initiative).",
+      "name": "Richard Stock",
+      "title": "Global Head of Rail Solutions",
+      "topic": "Wheel/Rail Damage Mechanisms",
+      "company": "Plasser American and Plasser & Theurer",
+      "imageSrc": "richard-stock.jpg",
+      "abstract1": "This presentation gives an overview of typical rail and wheel steel metallurgies and microstructures. It will be explained why and how these properties influence material characteristics and general behaviour of these steels.",
+      "abstract2": "Based on these explanations, the typical damage forms of rail and wheel steels will be analyzed to highlight why damage is forming on the rail/wheel surface and what measures can be taken to mitigate the effects of rail/wheel damage.",
+      "component": "bios-abstracts-pc"
+    }
+  },
+  {
+    "slug": "rafael-k-maldonado",
+    "name": "Rafael K. Maldonado",
+    "content": {
+      "_uid": "426dee87-e2b9-473a-8c23-ab082b462349",
+      "bio1": "Rafael (Ralph) Maldonado is Deputy Division Manager at ENSCO Rail. He has more than a decade of experience in driving key railroad technology, data analytics, and asset management solutions.  He has played a pivotal role at ENSCO in bridging the gap between data- driven insights and real-world problem solving. His expertise spans research, product development, and leadership, having held key positions such as Research Project Manager, Data Management Product Manager, and Senior Director of Digital Products and Track Inspection Services. As ENSCO’s Deputy Division Manager, he leads efforts to advance autonomous track monitoring, predictive analytics, machine vision solutions, and digital asset management platforms. Ralph specializes in leveraging technology and data to improve infrastructure reliability, operational efficiency, and safety. His work focuses on integrating automated track condition monitoring, vehicle/track interaction analytics, and development of software solutions that enable railroads to make informed, proactive decisions. He has helped railroads shift from reactive to predictive maintenance, optimizing track health and reducing risks.",
+      "bio2": "Rafael holds an MS in Mechanical Engineering from the University of Texas – Pan American.",
+      "name": "Rafael K. Maldonado",
+      "title": "Deputy Division Manager",
+      "topic": "Vehicle/Track Measurement Technologies",
+      "company": "ENSCO",
+      "imageSrc": "ralph-maldonado.jpg",
+      "abstract1": "This presentation will provide an overview of automated inspection system types and underlying technologies used to monitor various aspects of vehicles, track, and vehicle-track interaction. A range of vehicle-mounted and track-mounted systems are provided as working examples. Coverage of fundamental measurement technologies includes location determination, imaging and machine vision, laser profiling, LIDAR, and ultrasonic flaw detection.",
+      "abstract2": "",
+      "component": "bios-abstracts-pc"
+    }
+  }
+]

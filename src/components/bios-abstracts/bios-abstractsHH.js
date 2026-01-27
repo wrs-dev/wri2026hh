@@ -1,12 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import StoryblokClient from 'storyblok-js-client';
-
-// Initialize Storyblok client
-const Storyblok = new StoryblokClient({
-  accessToken: process.env.NEXT_PUBLIC_STORYBLOK_PREVIEW_TOKEN,
-  region: 'us',
-});
+import { biosAbstractsHH2026 } from '@/data/bios-abstracts-hh-2026';
 
 const generateSlug = fullName => {
   if (typeof fullName !== 'string' || fullName.trim().length === 0) {
@@ -117,36 +111,36 @@ const BiosAbstractsHH = () => {
   const [groupedTopics, setGroupedTopics] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // Fetch topics from Storyblok and group them
+  // Load static data and group them
   useEffect(() => {
-    const fetchTopics = async () => {
+    const loadTopics = () => {
       try {
-        const version = process.env.NEXT_PUBLIC_CONTENT_VERSION || "published"; // Fallback to 'published' if not set
-        const response = await Storyblok.get("cdn/stories", {
-          starts_with: "wri-conferences/bios-abstract-hh",
-          version: version,
-        });
-
-        // Process fetched topics to group by shared topics
+        // Process static data to group by shared topics
         let topicsByTitle = {};
-        response.data.stories.forEach(story => {
+        biosAbstractsHH2026.forEach(item => {
           let speakerData = {
-            name: story.content.name,
-            company: story.content.company,
-            imageSrc: story.content.imageSrc,
-            title: story.content.title,
-            bio1: story.content.bio1,
-            bio2: story.content.bio2,
+            name: item.name,
+            company: item.company,
+            imageSrc: item.imageSrc,
+            title: item.title,
+            bio1: item.bio1,
+            bio2: item.bio2,
           };
 
           // Group speakers by topic
-          if (topicsByTitle[story.content.topic]) {
-            topicsByTitle[story.content.topic].speakers.push(speakerData);
+          if (topicsByTitle[item.topic]) {
+            topicsByTitle[item.topic].speakers.push(speakerData);
+            if (item.abstract1) {
+              topicsByTitle[item.topic].content1 = item.abstract1;
+            }
+            if (item.abstract2) {
+              topicsByTitle[item.topic].content2 = item.abstract2;
+            }
           } else {
-            topicsByTitle[story.content.topic] = {
-              topic: story.content.topic,
-              content1: story.content.abstract1,
-              content2: story.content.abstract2,
+            topicsByTitle[item.topic] = {
+              topic: item.topic,
+              content1: item.abstract1 || '',
+              content2: item.abstract2 || '',
               speakers: [speakerData],
             };
           }
@@ -155,12 +149,12 @@ const BiosAbstractsHH = () => {
         setGroupedTopics(Object.values(topicsByTitle));
         setLoading(false);
       } catch (error) {
-        console.error('Error fetching topics:', error);
+        console.error('Error loading topics:', error);
         setLoading(false);
       }
     };
 
-    fetchTopics();
+    loadTopics();
   }, []);
 
   // Scroll to the element after it has been loaded because it's not in place in time for the browser to scroll down on first page load
@@ -189,7 +183,7 @@ const BiosAbstractsHH = () => {
         <span className="text-wri-red">
           <b>Heavy Haul Seminar</b>
         </span>{' '}
-        2025 Speaker Bios/Abstracts
+        2026 Speaker Bios/Abstracts
       </h2>
       {groupedTopics.length > 0 ? (
         groupedTopics.map((topicGroup, index) => (

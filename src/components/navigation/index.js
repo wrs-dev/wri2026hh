@@ -74,12 +74,10 @@ export default function Navigation() {
             <Popover.Button
               className={`flex items-center text-sm leading-6 nav-link lg:text-xl ${
                 isActive([
-                  '/rail-transit-seminar',
-                  '/rail-transit-seminar-bios-abstracts',
                   '/principles-course',
-                  'principles-course-bios-abstracts',
+                  '/principles-course-bios-abstracts',
                   '/heavy-haul-seminar',
-                  'heavy-haul-seminar-bios-abstracts',
+                  '/heavy-haul-seminar-bios-abstracts',
                 ])
                   ? 'text-wri-red'
                   : 'text-wri-blue'

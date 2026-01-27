@@ -1,11 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import StoryblokClient from 'storyblok-js-client';
-
-// Initialize Storyblok client
-const Storyblok = new StoryblokClient({
-  accessToken: process.env.NEXT_PUBLIC_STORYBLOK_PREVIEW_TOKEN,
-  region: 'us',
-});
+import { biosAbstractsPC2026 } from '@/data/bios-abstracts-pc-2026';
 
 const generateSlug = (fullName) => {
   if (typeof fullName !== 'string' || fullName.trim().length === 0) {
@@ -76,34 +70,26 @@ const BiosAbstractsPC = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const fetchTopics = async () => {
+    const loadTopics = () => {
       try {
-        const version = process.env.NEXT_PUBLIC_CONTENT_VERSION || 'published';
-        const response = await Storyblok.get('cdn/stories', {
-          starts_with: 'wri-conferences/bios-abstract-pc',
-          version: version,
-        });
-
-        // Process fetched topics to group by shared topics
+        // Process static data to group by shared topics
         let topicsByTitle = {};
-        response.data.stories.forEach((story) => {
+        biosAbstractsPC2026.forEach((item) => {
           let speakerData = {
-            name: story.content.name,
-            company: story.content.company,
-            imageSrc: story.content.imageSrc,
-            title: story.content.title,
-            bio1: story.content.bio1,
-            bio2: story.content.bio2,
+            name: item.name,
+            company: item.company,
+            imageSrc: item.imageSrc,
+            title: item.title,
+            bio1: item.bio1,
+            bio2: item.bio2,
           };
 
-          // Group speakers by topic (we keep this logic if you still want them grouped)
-          if (topicsByTitle[story.content.topic]) {
-            topicsByTitle[story.content.topic].speakers.push(speakerData);
+          // Group speakers by topic
+          if (topicsByTitle[item.topic]) {
+            topicsByTitle[item.topic].speakers.push(speakerData);
           } else {
-            topicsByTitle[story.content.topic] = {
-              // We’re not using the topic or abstracts in the UI anymore,
-              // but keeping them as grouping keys.
-              topic: story.content.topic,
+            topicsByTitle[item.topic] = {
+              topic: item.topic,
               speakers: [speakerData],
             };
           }
@@ -112,12 +98,12 @@ const BiosAbstractsPC = () => {
         setGroupedTopics(Object.values(topicsByTitle));
         setLoading(false);
       } catch (error) {
-        console.error('Error fetching topics:', error);
+        console.error('Error loading topics:', error);
         setLoading(false);
       }
     };
 
-    fetchTopics();
+    loadTopics();
   }, []);
 
   // Scroll logic remains unchanged
@@ -146,7 +132,7 @@ const BiosAbstractsPC = () => {
         <span className="text-wri-green">
           <b>Principles Course</b>
         </span>{' '}
-        2025 Speaker Bios
+        2026 Speaker Bios
       </h2>
       {groupedTopics.length > 0 ? (
         groupedTopics.map((topicGroup, index) => (

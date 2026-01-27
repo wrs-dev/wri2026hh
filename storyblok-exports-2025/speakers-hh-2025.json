@@ -1,0 +1,262 @@
+[
+  {
+    "slug": "robert-stevens",
+    "name": "Robert Stevens",
+    "content": {
+      "_uid": "8e624f4b-ac5d-4279-9769-6c4f752d619a",
+      "name": "Robert Stevens",
+      "topic": "Statistical Analysis of Locomotive Wheel Flange Lubrication",
+      "company": "First Analytics",
+      "imageSrc": "robert-stevens.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-kennedy-stevens-stat-analysis-flange-lube.pdf"
+    }
+  },
+  {
+    "slug": "wayne-kennedy",
+    "name": "Wayne Kennedy",
+    "content": {
+      "_uid": "52a95d38-3743-481e-a88c-d4143ac7adae",
+      "name": "Wayne Kennedy",
+      "topic": "Statistical Analysis of Locomotive Wheel Flange Lubrication",
+      "company": "Kennedy Consulting",
+      "imageSrc": "wayne-kennedy.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-kennedy-stevens-stat-analysis-flange-lube.pdf"
+    }
+  },
+  {
+    "slug": "ali-farhangfar",
+    "name": "Ali Farhangfar",
+    "content": {
+      "_uid": "9f94a562-f418-4cd5-90b9-1b670240b32e",
+      "name": "Ali Farhangfar",
+      "topic": "Risk Management in Train Marshalling Through Real Data Analysis",
+      "company": "CPKC",
+      "imageSrc": "ali-farhangfar.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-ali-farhangfar-intro.pdf"
+    }
+  },
+  {
+    "slug": "c-tyler-dick",
+    "name": "C. Tyler Dick",
+    "content": {
+      "_uid": "86308fbb-15ea-496a-bd39-6ee6a2eedc10",
+      "name": "C. Tyler Dick",
+      "topic": "Future of Heavy Haul Railways at the Nexus of Train Control, Energy and Automation",
+      "company": "University of Texas at Austin",
+      "imageSrc": "tyler-dick.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-tyler-dick-future-heavy-haul.pdf"
+    }
+  },
+  {
+    "slug": "doug-bailey",
+    "name": "Doug Bailey",
+    "content": {
+      "_uid": "8e15dabe-6c5e-466a-acb9-1dfdb1f3a27d",
+      "name": "Doug Bailey",
+      "topic": "Train Marshalling Model to Improve Operational Reliability of Manifest Trains at Canadian National Railways",
+      "company": "Canadian National",
+      "imageSrc": "doug-bailey.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-bailey-do-train-marchalling-model.pdf"
+    }
+  },
+  {
+    "slug": "ngoan-do",
+    "name": "Ngoan Do",
+    "content": {
+      "_uid": "fb2a5e3c-1748-4f33-be19-bc74874daf33",
+      "name": "Ngoan Do",
+      "topic": "Train Marshalling Model to Improve Operational Reliability of Manifest Trains at Canadian National Railways",
+      "company": "Canadian National",
+      "imageSrc": "ngoan-do.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-bailey-do-train-marchalling-model.pdf"
+    }
+  },
+  {
+    "slug": "rafael-k-maldonado",
+    "name": "Rafael K. Maldonado",
+    "content": {
+      "_uid": "99a9a3d2-cd12-4db8-a29c-76ec1c56c608",
+      "name": "Rafael K. Maldonado",
+      "topic": "Data-Driven Track Management Program: Integrating Autonomous and Advanced Inspection Technologies",
+      "company": "ENSCO",
+      "imageSrc": "ralph-maldonado.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-kerr-maldonado-data-driven-track-mgmnt-program.pdf"
+    }
+  },
+  {
+    "slug": "tyler-j-kerr",
+    "name": "Tyler J. Kerr",
+    "content": {
+      "_uid": "1df981f5-73ef-46ce-afee-ba1182d0452f",
+      "name": "Tyler J. Kerr",
+      "topic": "Data-Driven Track Management Program: Integrating Autonomous and Advanced Inspection Technologies",
+      "company": "CPKC",
+      "imageSrc": "tyler-kerr.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-kerr-maldonado-data-driven-track-mgmnt-program.pdf"
+    }
+  },
+  {
+    "slug": "kristopher-j-koski",
+    "name": "Kristopher J. Koski",
+    "content": {
+      "_uid": "b9033812-0e84-4abf-a7bf-56fc99babb3c",
+      "name": "Kristopher J. Koski",
+      "topic": "Utilizing Machined Rail Inserts to Facilitate Maintenance in CWR",
+      "company": "ONE | Rail Group",
+      "imageSrc": "kristopher-koski.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-koski-lorren-machined-rail-inserts.pdf"
+    }
+  },
+  {
+    "slug": "christopher-lorren",
+    "name": "Christopher Lorren",
+    "content": {
+      "_uid": "8edfbce6-2a4e-40c1-9f0b-0ded293a61dc",
+      "name": "Christopher Lorren",
+      "topic": "Utilizing Machined Rail Inserts to Facilitate Maintenance in CWR",
+      "company": "Norfolk Southern",
+      "imageSrc": "christopher-lorren.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-koski-lorren-machined-rail-inserts.pdf"
+    }
+  },
+  {
+    "slug": "antonio-merheb",
+    "name": "Antonio Merheb",
+    "content": {
+      "_uid": "42b7e2a5-c875-45db-a0e0-ca19c1635653",
+      "name": "Antonio Merheb",
+      "topic": "Extending Rail Life in Heavy Haul Railroads: The Role of Elastic Components in Track Performance",
+      "company": "International Heavy Haul Association (IHHA)",
+      "imageSrc": "antonio-merhab.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-antonio-merhab-extending-rail-life.pdf"
+    }
+  },
+  {
+    "slug": "ulrich-spangenberg",
+    "name": "Ulrich Spangenberg",
+    "content": {
+      "_uid": "47593a03-eafb-4e3e-8f22-fd88cd941643",
+      "name": "Ulrich Spangenberg",
+      "topic": "Mitigating Derailment Risk at Switch Points & Guard Rails",
+      "company": "MxV Rail",
+      "imageSrc": "ulrich-spangenberg.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-dombrow-pasta-spangenbert-mitigating-derailment-risks.pdf"
+    }
+  },
+  {
+    "slug": "zach-dombrow",
+    "name": "Zach Dombrow",
+    "content": {
+      "_uid": "6999a368-694e-47ee-b6a3-8c0d918f5fac",
+      "name": "Zach Dombrow",
+      "topic": "Mitigating Derailment Risk at Switch Points & Guard Rails",
+      "company": "BNSF Railway",
+      "imageSrc": "zach-dombrow.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-dombrow-pasta-spangenbert-mitigating-derailment-risks.pdf"
+    }
+  },
+  {
+    "slug": "corey-pasta",
+    "name": "Corey Pasta",
+    "content": {
+      "_uid": "aea04a28-e292-4e99-9c8a-613bc5317311",
+      "name": "Corey Pasta",
+      "topic": "Mitigating Derailment Risk at Switch Points & Guard Rails",
+      "company": "MxV Rail",
+      "imageSrc": "corey-pasta.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-dombrow-pasta-spangenbert-mitigating-derailment-risks.pdf"
+    }
+  },
+  {
+    "slug": "michael-roney",
+    "name": "Michael Roney",
+    "content": {
+      "_uid": "f1d48114-bf1c-4c1c-b6a9-12f4709a7931",
+      "name": "Michael Roney",
+      "topic": "Wheel/Rail Interaction: 30 Years of Tears and Cheer",
+      "company": "Iron Moustache Consulting",
+      "imageSrc": "michael-roney.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-roney-30-years-of-tears-and-cheer.pdf"
+    }
+  },
+  {
+    "slug": "marco-santoro",
+    "name": "Marco Santoro",
+    "content": {
+      "_uid": "d077d0c9-d67c-49a4-845e-d72f471f1fa1",
+      "name": "Marco Santoro",
+      "topic": "Examining the effect of Total Friction Management on Rail Wear on CPKC’s Thompson Subdivision",
+      "company": "LB Foster",
+      "imageSrc": "marco-santoro.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-harrington-santoro-effect-of-friction-mgmnt.pdf"
+    }
+  },
+  {
+    "slug": "greg-harrington",
+    "name": "Greg Harrington",
+    "content": {
+      "_uid": "c6d6f437-a0b9-41ff-bb94-2419129bd4cf",
+      "name": "Greg Harrington",
+      "topic": "Examining the effect of Total Friction Management on Rail Wear on CPKC’s Thompson Subdivision",
+      "company": "CPKC",
+      "imageSrc": "greg-harrington.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-harrington-santoro-effect-of-friction-mgmnt.pdf"
+    }
+  },
+  {
+    "slug": "solange-de-blois",
+    "name": "Solange de Blois",
+    "content": {
+      "_uid": "705c9651-8b21-4332-a645-62904831f561",
+      "name": "Solange de Blois",
+      "topic": "Enhancing Railway Safety through Technology-Driven Train Inspections",
+      "company": "CPKC",
+      "imageSrc": "solange-de-blois.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-solange-de-blois-enhancing-railway-safety.pdf"
+    }
+  },
+  {
+    "slug": "stephen-wilk",
+    "name": "Stephen Wilk",
+    "content": {
+      "_uid": "4cb399e0-8759-4ff6-a55d-84737a878673",
+      "name": "Stephen Wilk",
+      "topic": "L/V ratios: what do they mean?",
+      "company": "MxV Rail",
+      "imageSrc": "stephen-wilk.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-wang-wilk-lv-ratios.pdf"
+    }
+  },
+  {
+    "slug": "yi-wang",
+    "name": "Yi Wang",
+    "content": {
+      "_uid": "3dbc9d19-1b25-42d9-aa85-f1ae16bb870c",
+      "name": "Yi Wang",
+      "topic": "L/V ratios: what do they mean?",
+      "company": "MxV Rail",
+      "imageSrc": "yi-wang.jpg",
+      "component": "speaker-cards-hh",
+      "pdfFileName": "WRI2025-HH-wang-wilk-lv-ratios.pdf"
+    }
+  }
+]

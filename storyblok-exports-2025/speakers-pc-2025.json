@@ -1,0 +1,93 @@
+[
+  {
+    "slug": "david-casaceli",
+    "name": "David Casaceli",
+    "content": {
+      "_uid": "6c9f610d-eff0-48cd-9205-3e8eef2973b6",
+      "name": "David Casaceli",
+      "topic": "Introduction to the Freight Railway System and a Case Study on a Specific Derailment",
+      "company": "National Transportation Safety Board",
+      "imageSrc": "david-casaceli.jpg",
+      "component": "speaker-cards-pc",
+      "pdfFileName": "WRI2025-PC-david-casaceli-two-presentations.zip"
+    }
+  },
+  {
+    "slug": "j-riley-edwards",
+    "name": "J. Riley Edwards",
+    "content": {
+      "_uid": "35e59468-b2ca-495b-8899-30a5a30892f2",
+      "name": "J. Riley Edwards",
+      "topic": "Track Structures and Components",
+      "company": "University of Illinois Urbana-Champaign",
+      "imageSrc": "j-riley-edwards.jpg",
+      "component": "speaker-cards-pc",
+      "pdfFileName": "WRI2025-PC-riley-edwards-track-structures-and-components.pdf"
+    }
+  },
+  {
+    "slug": "elton-toma",
+    "name": "Elton Toma",
+    "content": {
+      "_uid": "b062315e-231a-4124-9c36-4e263de91d8e",
+      "name": "Elton Toma",
+      "topic": "Vehicle Types, Suspensions and Components",
+      "company": "National Research Council, Canada",
+      "imageSrc": "elton-toma.jpg",
+      "component": "speaker-cards-pc",
+      "pdfFileName": "WRI2025-PC-elton-tomo-vehicle-types-suspensions-and-components.pdf"
+    }
+  },
+  {
+    "slug": "kevin-oldknow",
+    "name": "Kevin Oldknow",
+    "content": {
+      "_uid": "45765352-7612-408b-8654-1f9203564211",
+      "name": "Kevin Oldknow",
+      "topic": "Wheel/Rail Contact: an Introduction",
+      "company": "Simon Fraser University",
+      "imageSrc": "kevin-oldknow.jpg",
+      "component": "speaker-cards-pc",
+      "pdfFileName": "WRI2025-PC-oldknow-stock.pdf"
+    }
+  },
+  {
+    "slug": "alexandre-woelfle",
+    "name": "Alexandre Woelfle",
+    "content": {
+      "_uid": "1630e1c7-fc46-4c58-8324-1d3984d1883b",
+      "name": "Alexandre Woelfle",
+      "topic": "Vehicle-Track Interaction and Dynamics",
+      "company": "National Research Council of Canada",
+      "imageSrc": "alexandre-woelfle.jpg",
+      "component": "speaker-cards-pc",
+      "pdfFileName": "WRI2025-PC-woelfle-vehicle-track-interaction-and-dynamics.pdf"
+    }
+  },
+  {
+    "slug": "richard-stock",
+    "name": "Richard Stock",
+    "content": {
+      "_uid": "0b421a23-c262-479c-887b-820ba64bedd4",
+      "name": "Richard Stock",
+      "topic": "Wheel/Rail Damage Mechanisms",
+      "company": "Plasser & Theurer",
+      "imageSrc": "richard-stock.jpg",
+      "component": "speaker-cards-pc",
+      "pdfFileName": "WRI2025-PC-richard_stock_rail_damage.pdf"
+    }
+  },
+  {
+    "slug": "matthew-dick",
+    "name": "Matthew Dick",
+    "content": {
+      "_uid": "afab6ad0-7c05-4c45-aba6-0573793e65d9",
+      "name": "Rafael K. Maldonado",
+      "topic": "Vehicle-Track Measurement Technologies",
+      "company": "ENSCO",
+      "imageSrc": "ralph-maldonado.jpg",
+      "component": "speaker-cards-pc",
+      "pdfFileName": "WRI2025-PC-rafael-maldonado-vehicle-track-measurement-tech.pdf"
+    }
+  }
+]

@@ -1,13 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { ChevronDoubleRightIcon } from '@heroicons/react/16/solid';
-import StoryblokClient from 'storyblok-js-client';
-
-// Initialize Storyblok client
-const Storyblok = new StoryblokClient({
-  accessToken: process.env.NEXT_PUBLIC_STORYBLOK_PREVIEW_TOKEN,
-  region: "us",
-});
+import { speakersHH2026 } from '@/data/speakers-hh-2026';
 
 const SpeakerCard = ({ name, company, imageSrc, topic, bioLink }) => {
   // Ensure imageUrl in Storyblok matches the name of the photo (firstname-lastname.jpg)
@@ -77,21 +71,7 @@ const SpeakersHH = () => {
   const [speakers, setSpeakers] = useState([]);
 
   useEffect(() => {
-    const fetchSpeakerCards = async () => {
-      try {
-        const version = process.env.NEXT_PUBLIC_CONTENT_VERSION || 'published'; // Fallback to 'published' if the variable is not set
-        const response = await Storyblok.get('cdn/stories', {
-          starts_with: 'wri-conferences/speaker-cards-hh/',
-          version: version,
-        });
-
-        setSpeakers(response.data.stories.map(story => story.content));
-      } catch (error) {
-        console.error('Error fetching speaker cards:', error);
-      }
-    };
-
-    fetchSpeakerCards();
+    setSpeakers(speakersHH2026);
   }, []);
 
   return (
