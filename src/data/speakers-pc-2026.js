@@ -1,5 +1,5 @@
 // Auto-generated for WRI 2026
-// Generated on: 2026-01-27T21:06:50.013Z
+// Generated on: 2026-01-27T21:08:28.079Z
 
 export const speakersPC2026 = [
   {
@@ -21,8 +21,8 @@ export const speakersPC2026 = [
     "role": ""
   },
   {
-    "name": "TBD Session 3",
-    "company": "TBD",
+    "name": "To be announced",
+    "company": "",
     "title": "",
     "imageSrc": "/placeholder-male.jpg",
     "topic": "Vehicle Types, Suspensions and Components",
@@ -39,8 +39,8 @@ export const speakersPC2026 = [
     "role": ""
   },
   {
-    "name": "TBD Session 5",
-    "company": "TBD",
+    "name": "To be announced",
+    "company": "",
     "title": "",
     "imageSrc": "/placeholder-male.jpg",
     "topic": "Vehicle-Track Interaction & Dynamics",

@@ -1,13 +1,13 @@
 const fs = require('fs');
 const path = require('path');
 
-// 2026 Principles Course speaker list (confirmed speakers + TBD placeholders)
+// 2026 Principles Course speaker list (confirmed speakers + TBA placeholders)
 const PC_2026_SPEAKERS = [
   'David Casaceli',
   'J. Riley Edwards',
-  'TBD Session 3',
+  'TBA_Session_3',
   'Kevin Oldknow',
-  'TBD Session 5',
+  'TBA_Session_5',
   'Richard Stock',
   'Matthew Dick'
 ];
@@ -39,11 +39,12 @@ const PC_SESSION_INFO = {
     title: 'Assistant Professor',
     company: 'University of Illinois Urbana-Champaign'
   },
-  'TBD Session 3': {
+  'TBA_Session_3': {
+    name: 'To be announced',
     sessions: ['SESSION 3'],
     topics: ['Vehicle Types, Suspensions and Components'],
     title: '',
-    company: 'TBD',
+    company: '',
     imageSrc: '/placeholder-male.jpg'
   },
   'Kevin Oldknow': {
@@ -52,11 +53,12 @@ const PC_SESSION_INFO = {
     title: 'Associate Professor',
     company: 'Simon Fraser University'
   },
-  'TBD Session 5': {
+  'TBA_Session_5': {
+    name: 'To be announced',
     sessions: ['SESSION 5'],
     topics: ['Vehicle-Track Interaction & Dynamics'],
     title: '',
-    company: 'TBD',
+    company: '',
     imageSrc: '/placeholder-male.jpg'
   },
   'Richard Stock': {
@@ -169,14 +171,17 @@ function processPrinciplesCourse() {
     const sessionInfo = PC_SESSION_INFO[speakerName] || {};
     const updatedBio = UPDATED_BIOS[speakerName] || {};
 
-    if (speakerItem || sessionInfo.company) {
+    if (speakerItem || sessionInfo.name || sessionInfo.company) {
       // Determine image path - prefer sessionInfo override, then 2025 data, then placeholder
       const imagePath = sessionInfo.imageSrc ||
         (speakerItem ? normalizeImagePath(speakerItem.content.imageSrc) : '/placeholder-male.jpg');
 
+      // Use display name from sessionInfo if available (for TBA entries)
+      const displayName = sessionInfo.name || speakerName;
+
       // Create speaker entry - use sessionInfo to override stale 2025 data
       speakers.push({
-        name: speakerName,
+        name: displayName,
         company: sessionInfo.company || speakerItem?.content?.company || '',
         title: sessionInfo.title || speakerItem?.content?.title || '',
         imageSrc: imagePath,
@@ -187,7 +192,7 @@ function processPrinciplesCourse() {
 
       // Create bio entry (combine all sessions for speakers with multiple sessions)
       bios.push({
-        name: speakerName,
+        name: displayName,
         company: sessionInfo.company || bioItem?.content?.company || '',
         title: sessionInfo.title || bioItem?.content?.title || '',
         imageSrc: imagePath,
