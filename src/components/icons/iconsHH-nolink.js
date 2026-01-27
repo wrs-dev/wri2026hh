@@ -30,8 +30,8 @@ const IconLinksHH = () => {
             </li>
           </Link>
 
-          {/* Heavy Haul - Inactive (no link, grayed out) */}
-          <li className="border-2 border-white shadow-lg bg-wri-neutral">
+          {/* Heavy Haul - Inactive (no link, red but not clickable) */}
+          <li className="border-2 border-white shadow-lg bg-wri-red">
             <figure>
               <Image
                 src="/heavy-haul-icon.svg"
