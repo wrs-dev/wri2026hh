@@ -53,7 +53,8 @@ const PC_SESSION_INFO = {
     sessions: ['SESSION 7'],
     topics: ['Vehicle-Track Measurement Technologies'],
     title: 'Head of Rail Strategy & Development',
-    company: 'Engineering Systems, Inc. (ESi)'
+    company: 'Engineering Systems, Inc. (ESi)',
+    imageSrc: '/matthew-dick.jpg'
   }
 };
 
@@ -80,16 +81,16 @@ export const ${varName} = ${JSON.stringify(data, null, 2)};
 }
 
 function normalizeImagePath(imageSrc) {
-  if (!imageSrc) return '/speakers/male-placeholder.jpg';
+  if (!imageSrc) return '/placeholder-male.jpg';
   // If already a path starting with /, return as-is
   if (imageSrc.startsWith('/')) return imageSrc;
   // If it's a full URL, extract filename
   if (imageSrc.startsWith('http')) {
     const filename = imageSrc.split('/').pop();
-    return `/speakers/${filename}`;
+    return `/${filename}`;
   }
-  // Otherwise, assume it's just a filename
-  return `/speakers/${imageSrc}`;
+  // Otherwise, assume it's just a filename - images are in /public/ directly
+  return `/${imageSrc}`;
 }
 
 function findSpeakerByName(data, searchName) {
@@ -153,12 +154,16 @@ function processPrinciplesCourse() {
     const updatedBio = UPDATED_BIOS[speakerName] || {};
 
     if (speakerItem || sessionInfo.company) {
+      // Determine image path - prefer sessionInfo override, then 2025 data, then placeholder
+      const imagePath = sessionInfo.imageSrc ||
+        (speakerItem ? normalizeImagePath(speakerItem.content.imageSrc) : '/placeholder-male.jpg');
+
       // Create speaker entry - use sessionInfo to override stale 2025 data
       speakers.push({
         name: speakerName,
         company: sessionInfo.company || speakerItem?.content?.company || '',
         title: sessionInfo.title || speakerItem?.content?.title || '',
-        imageSrc: speakerItem ? normalizeImagePath(speakerItem.content.imageSrc) : '/speakers/male-placeholder.jpg',
+        imageSrc: imagePath,
         topic: sessionInfo.topics ? sessionInfo.topics[0] : (speakerItem?.content?.topic || ''),
         session: sessionInfo.sessions ? sessionInfo.sessions[0] : '',
         role: sessionInfo.role || ''
@@ -169,7 +174,7 @@ function processPrinciplesCourse() {
         name: speakerName,
         company: sessionInfo.company || bioItem?.content?.company || '',
         title: sessionInfo.title || bioItem?.content?.title || '',
-        imageSrc: speakerItem ? normalizeImagePath(speakerItem.content.imageSrc) : '/speakers/male-placeholder.jpg',
+        imageSrc: imagePath,
         bio1: updatedBio.bio1 || bioItem?.content?.bio1 || '',
         bio2: updatedBio.bio2 || bioItem?.content?.bio2 || '',
         topic: sessionInfo.topics ? sessionInfo.topics.join(' / ') : (bioItem?.content?.topic || ''),
@@ -184,7 +189,7 @@ function processPrinciplesCourse() {
           name: speakerName,
           company: sessionInfo.company,
           title: sessionInfo.title || '',
-          imageSrc: '/speakers/male-placeholder.jpg',
+          imageSrc: '/placeholder-male.jpg',
           topic: sessionInfo.topics ? sessionInfo.topics[0] : '',
           session: sessionInfo.sessions ? sessionInfo.sessions[0] : '',
           role: sessionInfo.role || ''
@@ -194,7 +199,7 @@ function processPrinciplesCourse() {
           name: speakerName,
           company: sessionInfo.company,
           title: sessionInfo.title || '',
-          imageSrc: '/speakers/male-placeholder.jpg',
+          imageSrc: '/placeholder-male.jpg',
           bio1: updatedBio.bio1 || '',
           bio2: updatedBio.bio2 || '',
           topic: sessionInfo.topics ? sessionInfo.topics.join(' / ') : '',
