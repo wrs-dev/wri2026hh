@@ -60,10 +60,15 @@ const SpeakerCard = ({ name, company, imageSrc, topic, bioLink }) => {
   );
 };
 
-const generateSlug = fullName => {
+const generateSlug = (fullName, tbaIndex = null) => {
   if (typeof fullName !== 'string' || fullName.trim().length === 0) {
     console.warn('generateSlug was called without a valid name');
     return '';
+  }
+
+  // Handle "To be announced" speakers with sequential numbering
+  if (fullName.toLowerCase() === 'to be announced' && tbaIndex !== null) {
+    return `tba-${tbaIndex}`;
   }
 
   // Split the name into parts and then take the first letter of the first name
@@ -89,15 +94,23 @@ const SpeakersPC = () => {
       <div className="container">
         <div className="container p-4 mx-auto">
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3">
-            {speakers.map(speaker => (
-              <SpeakerCard
-                key={speaker.name}
-                {...speaker}
-                bioLink={`/principles-course-bios-abstracts#bio-${generateSlug(
-                  speaker.name,
-                )}`}
-              />
-            ))}
+            {(() => {
+              let tbaCounter = 0;
+              return speakers.map(speaker => {
+                const isTba = speaker.name.toLowerCase() === 'to be announced';
+                if (isTba) tbaCounter++;
+                return (
+                  <SpeakerCard
+                    key={isTba ? `tba-${tbaCounter}` : speaker.name}
+                    {...speaker}
+                    bioLink={`/principles-course-bios-abstracts#bio-${generateSlug(
+                      speaker.name,
+                      isTba ? tbaCounter : null,
+                    )}`}
+                  />
+                );
+              });
+            })()}
           </div>
         </div>
       </div>

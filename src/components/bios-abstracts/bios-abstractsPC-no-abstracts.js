@@ -1,10 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { biosAbstractsPC2026 } from '@/data/bios-abstracts-pc-2026';
 
-const generateSlug = (fullName) => {
+const generateSlug = (fullName, tbaIndex = null) => {
   if (typeof fullName !== 'string' || fullName.trim().length === 0) {
     console.warn('generateSlug was called without a valid name');
     return '';
+  }
+
+  // Handle "To be announced" speakers with sequential numbering
+  if (fullName.toLowerCase() === 'to be announced' && tbaIndex !== null) {
+    return `tba-${tbaIndex}`;
   }
 
   const parts = fullName.trim().split(/\s+/);
@@ -16,8 +21,8 @@ const generateSlug = (fullName) => {
 };
 
 // Speaker card component (removed the 'title' prop and references to keep only picture, name/company, and bio)
-const SpeakerCard = ({ name, company, imageSrc, title, bio1, bio2 }) => {
-  const slug = generateSlug(name);
+const SpeakerCard = ({ name, company, imageSrc, title, bio1, bio2, tbaIndex }) => {
+  const slug = generateSlug(name, tbaIndex);
 
   return (
     <div
@@ -59,7 +64,7 @@ const TopicLayout = ({ speakers }) => {
   return (
     <div className="mb-8 overflow-hidden bg-white rounded-lg shadow-md">
       {speakers.map((speaker) => (
-        <SpeakerCard key={generateSlug(speaker.name)} {...speaker} />
+        <SpeakerCard key={generateSlug(speaker.name, speaker.tbaIndex)} {...speaker} />
       ))}
     </div>
   );
@@ -74,7 +79,11 @@ const BiosAbstractsPC = () => {
       try {
         // Process static data to group by shared topics
         let topicsByTitle = {};
+        let tbaCounter = 0;
         biosAbstractsPC2026.forEach((item) => {
+          const isTba = item.name.toLowerCase() === 'to be announced';
+          if (isTba) tbaCounter++;
+
           let speakerData = {
             name: item.name,
             company: item.company,
@@ -82,6 +91,7 @@ const BiosAbstractsPC = () => {
             title: item.title,
             bio1: item.bio1,
             bio2: item.bio2,
+            tbaIndex: isTba ? tbaCounter : null,
           };
 
           // Group speakers by topic
