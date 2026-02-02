@@ -21,10 +21,10 @@ export const speakersPC2026 = [
     "role": ""
   },
   {
-    "name": "To be announced",
-    "company": "",
-    "title": "",
-    "imageSrc": "/placeholder-male.jpg",
+    "name": "Darrell Krueger",
+    "company": "BNSF",
+    "title": "Director, Technical Research and Development",
+    "imageSrc": "/darrell-krueger.jpg",
     "topic": "Vehicle Types, Suspensions and Components",
     "session": "SESSION 3",
     "role": ""

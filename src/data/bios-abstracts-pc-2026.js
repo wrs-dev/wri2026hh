@@ -28,12 +28,12 @@ export const biosAbstractsPC2026 = [
     ]
   },
   {
-    "name": "To be announced",
-    "company": "",
-    "title": "",
-    "imageSrc": "/placeholder-male.jpg",
-    "bio1": "",
-    "bio2": "",
+    "name": "Darrell Krueger",
+    "company": "BNSF",
+    "title": "Director, Technical Research and Development",
+    "imageSrc": "/darrell-krueger.jpg",
+    "bio1": "Darrell Krueger is Director of BNSF's Technical Research and Development department. He has been in the industry for 19 years, with the past 14 years with TR&D at BNSF. Darrell and his team investigate derailments, perform testing and evaluation of locomotives, cars, track components, and the tools to work on them. Darrell has also been a key figure in technology development for BNSF. He was a major contributor to the BNSF LNG fuel program, and designed the hardware and optics for the ODIN track geometry system and the THOR machine vision system.",
+    "bio2": "Prior to BNSF, Darrell was at Rail Sciences performing similar work for Class 1's, short lines, and transit agencies. Darrell holds bachelor's and master's degrees in mechanical engineering from Auburn University. He holds several railroad-related patents and is a registered professional engineer in the state of Kansas. Darrell is also a lifetime member of the Society of Automotive Engineers and has volunteered for the last 18 years as a technical inspector and rules manager in the Baja SAE collegiate motorsports competition.",
     "topic": "Vehicle Types, Suspensions and Components",
     "sessions": [
       "SESSION 3"
