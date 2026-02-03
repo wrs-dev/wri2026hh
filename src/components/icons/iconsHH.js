@@ -14,14 +14,14 @@ const IconLinksHH = () => {
   const pcHasLink = !onPrinciplesSection;
   const hhHasLink = !onHeavyHaulSection;
 
-  // Colors: on other seminar = grayed, on own page = colored no hover, elsewhere = colored with hover
+  // Colors: on other seminar = grayed (no hover), on own page = colored no hover, elsewhere = colored with hover
   const pcBgColor = onHeavyHaulSection
-    ? 'bg-wri-neutral hover:border-wri-yellow'
+    ? 'bg-wri-neutral'
     : pcHasLink
       ? 'bg-wri-green hover:border-wri-yellow'
       : 'bg-wri-green';
   const hhBgColor = onPrinciplesSection
-    ? 'bg-wri-neutral hover:border-wri-blue'
+    ? 'bg-wri-neutral'
     : hhHasLink
       ? 'bg-wri-red hover:border-wri-blue'
       : 'bg-wri-red';
