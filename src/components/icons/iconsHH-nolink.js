@@ -30,24 +30,26 @@ const IconLinksHH = () => {
             </li>
           </Link>
 
-          {/* Heavy Haul - Inactive (no link, red but not clickable) */}
-          <li className="border-2 border-white shadow-lg bg-wri-red">
-            <figure>
-              <Image
-                src="/heavy-haul-icon.svg"
-                width={180}
-                height={100}
-                alt="heavy haul seminar"
-                className="w-full"
-              />
-            </figure>
-            <div className="text">
-              <h4 className="text-2xl font-bold text-white">
-                Heavy Haul Seminar
-              </h4>
-              <p className="text-2xl font-normal text-white">April 23-24, 2026</p>
-            </div>
-          </li>
+          {/* Heavy Haul - Active with link */}
+          <Link href="/heavy-haul-seminar">
+            <li className="border-2 border-white shadow-lg bg-wri-red hover:border-wri-blue">
+              <figure>
+                <Image
+                  src="/heavy-haul-icon.svg"
+                  width={180}
+                  height={100}
+                  alt="heavy haul seminar"
+                  className="w-full"
+                />
+              </figure>
+              <div className="text">
+                <h4 className="text-2xl font-bold text-white">
+                  Heavy Haul Seminar
+                </h4>
+                <p className="text-2xl font-normal text-white">April 23-24, 2026</p>
+              </div>
+            </li>
+          </Link>
         </ul>
       </div>
     </div>

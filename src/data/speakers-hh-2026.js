@@ -1,145 +1,125 @@
 // Auto-generated for WRI 2026
-// Generated on: 2026-01-27T21:08:28.077Z
+// Generated on: 2026-02-03
 
 export const speakersHH2026 = [
   {
-    "name": "Robert Stevens",
-    "company": "First Analytics",
-    "topic": "Statistical Analysis of Locomotive Wheel Flange Lubrication",
-    "imageSrc": "/robert-stevens.jpg",
-    "pdfFileName": "WRI2025-HH-kennedy-stevens-stat-analysis-flange-lube.pdf"
+    "name": "Shri Praveen Kumar",
+    "company": "Dedicated Freight Corridor Corp. of India Ltd.",
+    "title": "Railway Service Engineer",
+    "imageSrc": "/shri-praveen-kumar.jpg",
+    "topic": "Data-Driven Assessment of Rail Grinding Frequency for Sustainable Track Integrity in India's Dedicated Freight Corridor",
+    "session": "HH-A"
   },
   {
-    "name": "Wayne Kennedy",
-    "company": "Kennedy Consulting",
-    "topic": "Statistical Analysis of Locomotive Wheel Flange Lubrication",
-    "imageSrc": "/wayne-kennedy.jpg",
-    "pdfFileName": "WRI2025-HH-kennedy-stevens-stat-analysis-flange-lube.pdf"
+    "name": "Cameron Lonsdale",
+    "company": "Amsted Rail",
+    "title": "Vice President of Government Affairs",
+    "imageSrc": "/placeholder-male.jpg",
+    "topic": "Current North American Railroad Wheel Service Issues – The Rise of Broken Flanges and the Importance of Wheel Handling to Prevent Plate Failures",
+    "session": "HH-B"
   },
   {
-    "name": "Ali Farhangfar",
-    "company": "CPKC",
-    "topic": "Risk Management in Train Marshalling Through Real Data Analysis",
-    "imageSrc": "/ali-farhangfar.jpg",
-    "pdfFileName": "WRI2025-HH-ali-farhangfar-intro.pdf"
+    "name": "Jonathan Sunde",
+    "company": "Strato, Inc.",
+    "title": "Vice President of Operations and Engineering",
+    "imageSrc": "/jonathan-sunde.jpg",
+    "topic": "Influence of Braking Systems on Rail Wear and Derailment Potential",
+    "session": "HH-C"
   },
   {
-    "name": "C. Tyler Dick",
-    "company": "University of Texas at Austin",
-    "topic": "Future of Heavy Haul Railways at the Nexus of Train Control, Energy and Automation",
-    "imageSrc": "/tyler-dick.jpg",
-    "pdfFileName": "WRI2025-HH-tyler-dick-future-heavy-haul.pdf"
-  },
-  {
-    "name": "Doug Bailey",
-    "company": "Canadian National",
-    "topic": "Train Marshalling Model to Improve Operational Reliability of Manifest Trains at Canadian National Railways",
-    "imageSrc": "/doug-bailey.jpg",
-    "pdfFileName": "WRI2025-HH-bailey-do-train-marchalling-model.pdf"
-  },
-  {
-    "name": "Ngoan Do",
-    "company": "Canadian National",
-    "topic": "Train Marshalling Model to Improve Operational Reliability of Manifest Trains at Canadian National Railways",
-    "imageSrc": "/ngoan-do.jpg",
-    "pdfFileName": "WRI2025-HH-bailey-do-train-marchalling-model.pdf"
-  },
-  {
-    "name": "Rafael K. Maldonado",
-    "company": "ENSCO",
-    "topic": "Data-Driven Track Management Program: Integrating Autonomous and Advanced Inspection Technologies",
-    "imageSrc": "/ralph-maldonado.jpg",
-    "pdfFileName": "WRI2025-HH-kerr-maldonado-data-driven-track-mgmnt-program.pdf"
-  },
-  {
-    "name": "Tyler J. Kerr",
-    "company": "CPKC",
-    "topic": "Data-Driven Track Management Program: Integrating Autonomous and Advanced Inspection Technologies",
-    "imageSrc": "/tyler-kerr.jpg",
-    "pdfFileName": "WRI2025-HH-kerr-maldonado-data-driven-track-mgmnt-program.pdf"
-  },
-  {
-    "name": "Kristopher J. Koski",
-    "company": "ONE | Rail Group",
-    "topic": "Utilizing Machined Rail Inserts to Facilitate Maintenance in CWR",
-    "imageSrc": "/kristopher-koski.jpg",
-    "pdfFileName": "WRI2025-HH-koski-lorren-machined-rail-inserts.pdf"
-  },
-  {
-    "name": "Christopher Lorren",
-    "company": "Norfolk Southern",
-    "topic": "Utilizing Machined Rail Inserts to Facilitate Maintenance in CWR",
-    "imageSrc": "/christopher-lorren.jpg",
-    "pdfFileName": "WRI2025-HH-koski-lorren-machined-rail-inserts.pdf"
-  },
-  {
-    "name": "Antonio Merheb",
-    "company": "International Heavy Haul Association (IHHA)",
-    "topic": "Extending Rail Life in Heavy Haul Railroads: The Role of Elastic Components in Track Performance",
-    "imageSrc": "/antonio-merhab.jpg",
-    "pdfFileName": "WRI2025-HH-antonio-merhab-extending-rail-life.pdf"
-  },
-  {
-    "name": "Ulrich Spangenberg",
-    "company": "MxV Rail",
-    "topic": "Mitigating Derailment Risk at Switch Points & Guard Rails",
-    "imageSrc": "/ulrich-spangenberg.jpg",
-    "pdfFileName": "WRI2025-HH-dombrow-pasta-spangenbert-mitigating-derailment-risks.pdf"
-  },
-  {
-    "name": "Zach Dombrow",
+    "name": "Matt Keller",
     "company": "BNSF Railway",
-    "topic": "Mitigating Derailment Risk at Switch Points & Guard Rails",
-    "imageSrc": "/zach-dombrow.jpg",
-    "pdfFileName": "WRI2025-HH-dombrow-pasta-spangenbert-mitigating-derailment-risks.pdf"
+    "title": "General Director Rail",
+    "imageSrc": "/placeholder-male.jpg",
+    "topic": "Understanding the relationship between and combined effects of wheel impact loads, train speed, and ambient temperature on rail integrity",
+    "session": "HH-D"
   },
   {
-    "name": "Corey Pasta",
-    "company": "MxV Rail",
-    "topic": "Mitigating Derailment Risk at Switch Points & Guard Rails",
-    "imageSrc": "/corey-pasta.jpg",
-    "pdfFileName": "WRI2025-HH-dombrow-pasta-spangenbert-mitigating-derailment-risks.pdf"
+    "name": "Huseyin Guzel",
+    "company": "BNSF Railway",
+    "title": "Senior Engineer II",
+    "imageSrc": "/huseyin-guzel.jpg",
+    "topic": "Examining wheels failures due to fatigue cracks initiating at the back rim surface",
+    "session": "HH-E"
   },
   {
-    "name": "Michael Roney",
-    "company": "Iron Moustache Consulting",
-    "topic": "Wheel/Rail Interaction: 30 Years of Tears and Cheer",
-    "imageSrc": "/michael-roney.jpg",
-    "pdfFileName": "WRI2025-HH-roney-30-years-of-tears-and-cheer.pdf"
+    "name": "Alicia Lollar",
+    "company": "BNSF Railway",
+    "title": "Senior Engineer II",
+    "imageSrc": "/alicia-lollar.jpg",
+    "topic": "Examining wheels failures due to fatigue cracks initiating at the back rim surface",
+    "session": "HH-E"
+  },
+  {
+    "name": "Dan Hampton",
+    "company": "CSX Transportation",
+    "title": "Director Contract Services",
+    "imageSrc": "/dan-hampton.jpg",
+    "topic": "Refining the Rail Grinding Strategy to Improve Surface Conditions and Reduce Defects on CSX",
+    "session": "HH-F"
+  },
+  {
+    "name": "Dan Leeb",
+    "company": "Canadian National",
+    "title": "Senior Manager of Advanced Technologies",
+    "imageSrc": "/placeholder-male.jpg",
+    "topic": "Autonomous Track Inspection Program (ATIP) Strategy – Canadian National's approach to ATGMS Operations and Development",
+    "session": "HH-G"
+  },
+  {
+    "name": "Yan Liu",
+    "company": "National Research Council of Canada",
+    "title": "TBD",
+    "imageSrc": "/placeholder-male.jpg",
+    "topic": "Integrating ATGMS and IWS in a Rail Tech Platform Data-Driven Approach to Detecting High-Risk and High Deterioration Track Locations",
+    "session": "HH-H"
+  },
+  {
+    "name": "Richard Stock",
+    "company": "Plasser American / Plasser & Theurer",
+    "title": "Global Head of Rail Solutions",
+    "imageSrc": "/richard-stock.jpg",
+    "topic": "Turnout maintenance in heavy haul environments and beyond",
+    "session": "HH-I"
+  },
+  {
+    "name": "Ash Athukoralalage",
+    "company": "Speno Rail Maintenance Australia Pty Ltd",
+    "title": "TBD",
+    "imageSrc": "/placeholder-male.jpg",
+    "topic": "Turnout maintenance in heavy haul environments and beyond",
+    "session": "HH-I"
+  },
+  {
+    "name": "B. P. Awasthi",
+    "company": "Dedicated Freight Corridor Corp. of India Ltd.",
+    "title": "Head & COO of Nacala Logistics - Mozambique",
+    "imageSrc": "/b-p-awasthi.jpg",
+    "topic": "Wheel–Rail Interaction Challenges and Grinding-Based Rehabilitation on Africa's Cape Gauge Heavy Haul Network: The NACALA Experience",
+    "session": "HH-J"
   },
   {
     "name": "Marco Santoro",
     "company": "LB Foster",
-    "topic": "Examining the effect of Total Friction Management on Rail Wear on CPKC’s Thompson Subdivision",
+    "title": "Global Friction Management Applications Manager",
     "imageSrc": "/marco-santoro.jpg",
-    "pdfFileName": "WRI2025-HH-harrington-santoro-effect-of-friction-mgmnt.pdf"
+    "topic": "Validating Top of Rail Friction Modifier Performance using Novel Under-Rail Ultrasonic Stress Measurement",
+    "session": "HH-K"
   },
   {
-    "name": "Greg Harrington",
-    "company": "CPKC",
-    "topic": "Examining the effect of Total Friction Management on Rail Wear on CPKC’s Thompson Subdivision",
-    "imageSrc": "/greg-harrington.jpg",
-    "pdfFileName": "WRI2025-HH-harrington-santoro-effect-of-friction-mgmnt.pdf"
+    "name": "Zach Garner",
+    "company": "Visiostack",
+    "title": "TBD",
+    "imageSrc": "/placeholder-male.jpg",
+    "topic": "Natural Language Reporting: How AI breaks down barriers to providing analytics for Rail Planning and other Maintenance Activities",
+    "session": "HH-L"
   },
   {
-    "name": "Solange de Blois",
-    "company": "CPKC",
-    "topic": "Enhancing Railway Safety through Technology-Driven Train Inspections",
-    "imageSrc": "/solange-de-blois.jpg",
-    "pdfFileName": "WRI2025-HH-solange-de-blois-enhancing-railway-safety.pdf"
-  },
-  {
-    "name": "Stephen Wilk",
-    "company": "MxV Rail",
-    "topic": "L/V ratios: what do they mean?",
-    "imageSrc": "/stephen-wilk.jpg",
-    "pdfFileName": "WRI2025-HH-wang-wilk-lv-ratios.pdf"
-  },
-  {
-    "name": "Yi Wang",
-    "company": "MxV Rail",
-    "topic": "L/V ratios: what do they mean?",
-    "imageSrc": "/yi-wang.jpg",
-    "pdfFileName": "WRI2025-HH-wang-wilk-lv-ratios.pdf"
+    "name": "Scott Lovelace",
+    "company": "International Heavy Haul Association",
+    "title": "CEO",
+    "imageSrc": "/placeholder-male.jpg",
+    "topic": "Taking the long-view perspective on the significant issues in Heavy Haul",
+    "session": "HH-M"
   }
 ];
