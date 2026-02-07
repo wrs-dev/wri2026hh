@@ -14,7 +14,7 @@ export const speakersHH2026 = [
     "name": "Cameron Lonsdale",
     "company": "Amsted Rail",
     "title": "Vice President of Government Affairs",
-    "imageSrc": "/placeholder-male.jpg",
+    "imageSrc": "/cameron-lonsdale.jpg",
     "topic": "Current North American Railroad Wheel Service Issues – The Rise of Broken Flanges and the Importance of Wheel Handling to Prevent Plate Failures",
     "session": "HH-B"
   },
@@ -25,14 +25,6 @@ export const speakersHH2026 = [
     "imageSrc": "/jonathan-sunde.jpg",
     "topic": "Influence of Braking Systems on Rail Wear and Derailment Potential",
     "session": "HH-C"
-  },
-  {
-    "name": "Matt Keller",
-    "company": "BNSF Railway",
-    "title": "General Director Rail",
-    "imageSrc": "/placeholder-male.jpg",
-    "topic": "Understanding the relationship between and combined effects of wheel impact loads, train speed, and ambient temperature on rail integrity",
-    "session": "HH-D"
   },
   {
     "name": "Huseyin Guzel",
@@ -62,15 +54,23 @@ export const speakersHH2026 = [
     "name": "Dan Leeb",
     "company": "Canadian National",
     "title": "Senior Manager of Advanced Technologies",
-    "imageSrc": "/placeholder-male.jpg",
+    "imageSrc": "/dan-leeb.png",
     "topic": "Autonomous Track Inspection Program (ATIP) Strategy – Canadian National's approach to ATGMS Operations and Development",
     "session": "HH-G"
   },
   {
+    "name": "Albert Wahba",
+    "company": "National Research Council of Canada",
+    "title": "Program Leader, Resilient Ground Transportation",
+    "imageSrc": "/albert-wahba.jpg",
+    "topic": "Integrating ATGMS and IWS in a Rail Tech Platform Data-Driven Approach to Detecting High-Risk and High Deterioration Track Locations",
+    "session": "HH-H"
+  },
+  {
     "name": "Yan Liu",
     "company": "National Research Council of Canada",
-    "title": "TBD",
-    "imageSrc": "/placeholder-male.jpg",
+    "title": "Principal Researcher",
+    "imageSrc": "/yan-liu.jpg",
     "topic": "Integrating ATGMS and IWS in a Rail Tech Platform Data-Driven Approach to Detecting High-Risk and High Deterioration Track Locations",
     "session": "HH-H"
   },
@@ -110,16 +110,8 @@ export const speakersHH2026 = [
     "name": "Zach Garner",
     "company": "Visiostack",
     "title": "TBD",
-    "imageSrc": "/placeholder-male.jpg",
+    "imageSrc": "/zach-garner.jpg",
     "topic": "Natural Language Reporting: How AI breaks down barriers to providing analytics for Rail Planning and other Maintenance Activities",
     "session": "HH-L"
-  },
-  {
-    "name": "Scott Lovelace",
-    "company": "International Heavy Haul Association",
-    "title": "CEO",
-    "imageSrc": "/placeholder-male.jpg",
-    "topic": "Taking the long-view perspective on the significant issues in Heavy Haul",
-    "session": "HH-M"
   }
 ];

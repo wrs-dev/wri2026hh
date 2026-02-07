@@ -18,7 +18,7 @@ export const biosAbstractsHH2026 = [
     "name": "Cameron Lonsdale",
     "company": "Amsted Rail",
     "title": "Vice President of Government Affairs",
-    "imageSrc": "/placeholder-male.jpg",
+    "imageSrc": "/cameron-lonsdale.jpg",
     "bio1": "Cameron Lonsdale, VP of Government Affairs for Amsted Rail, is a 37-year veteran of the North American railroad industry. He started as night Trainmaster for Conrail on the Lake Erie coal and iron ore docks at Ashtabula Harbor, OH. He also worked for Conrail at Cleveland and Mingo Junction, OH, and the system locomotive shop at Altoona, PA, in various capacities. He has worked in the railroad supply industry since 1998 — first at Standard Steel (forged wheel and axle manufacturer), where he led the Technical and Sales Departments, and at Amsted Rail as VP Research and Development.",
     "bio2": "Cameron holds a BS degree in Metallurgical Engineering from the University of Texas at El Paso, a MS degree in Materials Science and Engineering from Case Western Reserve University (Cleveland, OH), and an MBA from Saint Francis University (Loretto, PA). He has authored or co-authored more than 130 technical papers and presentations on railroad-related subjects including wheels, axles and rail welds. Cameron received the American Society of Mechanical Engineers Fellow Award for railroad research and development in 2018.",
     "abstract1": "This presentation will review and discuss current wheel service issues in North American freight service and will describe wheel failure modes that have been shifting in recent years. Shattered rims have decreasing due to tightened AAR ultrasonic inspection standards, improved cast wheel risering, argon stirring, and other clean steel initiatives made by wheel manufacturers. Vertical Split Rims (VSRs) are under investigation by a group sponsored by the US Federal Railroad Administration and significant Finite Element Analysis (FEA) work has been completed. However, there has been a noticeable increase in Association of American Railroads (AAR) Why Made Code (WMC) 66, cracked or broken flange over the last decade. WMC 66 is now the most frequent wheel failure cause. AAR Car Repair Billing and MD115 wheel failure data will be presented and discussed.",
@@ -37,18 +37,6 @@ export const biosAbstractsHH2026 = [
     "abstract2": "These failure modes will tie together with car design and coupler selection to understand a derailment case study involving the brake system on a descending grade.",
     "topic": "Influence of Braking Systems on Rail Wear and Derailment Potential",
     "session": "HH-C"
-  },
-  {
-    "name": "Matt Keller",
-    "company": "BNSF Railway",
-    "title": "General Director Rail",
-    "imageSrc": "/placeholder-male.jpg",
-    "bio1": "",
-    "bio2": "",
-    "abstract1": "Railway infrastructure faces significant challenges under extreme operating conditions, particularly in cold climates where rail breaks are more prevalent. This study investigates the relationship between wheel impact loads, train speed, and ambient temperature, focusing on their combined effect on rail integrity. Wheel impact loads, often caused by out-of-round wheels or surface defects, generate localized stress concentrations that accelerate fatigue and crack propagation. Increased train speeds amplify dynamic forces, while low temperatures reduce rail steel toughness, making rails more susceptible to brittle fracture.",
-    "abstract2": "Using field data and simulation models, this research quantifies the interaction between these variables and identifies critical thresholds for rail failure risk. The findings aim to inform predictive maintenance strategies and operational guidelines to enhance safety and reliability in cold-weather rail networks.",
-    "topic": "Understanding the relationship between and combined effects of wheel impact loads, train speed, and ambient temperature on rail integrity",
-    "session": "HH-D"
   },
   {
     "name": "Huseyin Guzel",
@@ -90,7 +78,7 @@ export const biosAbstractsHH2026 = [
     "name": "Dan Leeb",
     "company": "Canadian National",
     "title": "Senior Manager of Advanced Technologies",
-    "imageSrc": "/placeholder-male.jpg",
+    "imageSrc": "/dan-leeb.png",
     "bio1": "",
     "bio2": "",
     "abstract1": "Since its inception in 2019, Canadian National's (CN) Autonomous Track Inspection Program (ATIP) was launched with the intent to expand CN's visibility into the health of its Network by supplementing its Track Geometry Measurement System's (TGMS) Fleet with Autonomous Systems (ATGMS). Currently, CN's ATIP Fleet is one of the most expansive in the industry in terms of both platforms operated and technologies implemented. With the fleet capacity and mobility, CN has drastically increased its inspection frequencies across its Network to levels unattainable prior to the ATIP Program. The dramatic increase in inspection frequency, paired with the application and scaling of Engineering historical best practices into tangible outputs have unlocked reporting capabilities that provide methods to visualize the health of CN's Network with unprecedented accuracy.",
@@ -99,11 +87,23 @@ export const biosAbstractsHH2026 = [
     "session": "HH-G"
   },
   {
+    "name": "Albert Wahba",
+    "company": "National Research Council of Canada",
+    "title": "Program Leader, Resilient Ground Transportation",
+    "imageSrc": "/albert-wahba.jpg",
+    "bio1": "Mr. Wahba is the Program Leader for the Resilient Ground Transportation Program at the National Research Council of Canada (NRC). He leads research, development, testing, and evaluation initiatives that enhance the safety, efficiency, and resilience of Canada's road, off-road and rail transportation systems. Since joining the NRC in 2006, Mr. Wahba has held several technical and leadership roles, including leading full-scale projects to improve railcar design and assess track performance.",
+    "bio2": "He holds a Bachelor of Engineering from Benha University (Egypt) and a Master of Applied Science from Carleton University (Canada). A licensed Professional Engineer (P.Eng.) in Ontario and certified Project Management Professional (PMP), Mr. Wahba has co-authored more than 40 scientific publications and presented at numerous national and international conferences.",
+    "abstract1": "Many online inspection technologies have been developed and implemented to support rail operations and track maintenance. The National Research Council of Canada (NRC) has partnered with Transport Canada and several Canadian railways to develop a platform car for assessing the effectiveness of these technologies. In its first phase, several widely used technologies—including ATGMS, IWS, instrumented couplers, body motion sensors, and a weather station—have been integrated into the platform. While this platform provides valuable insights into the use of technologies under Canada's real and often harsh operational conditions, it also generates large volumes of data from various sources. Integrating these datasets, which originate from different and independent systems, has been a significant challenge. However, successful integration has produced well-synchronized data that is highly valuable for identifying risk track locations and mapping the railway system. This mapping can reflect both current conditions and underlying causes, such as wheel–rail forces, in-train forces, lack of friction management and high wheel impacts. To promote and support data-driven decision-making in Canada's shoreline railways, the National Research Council of Canada (NRC) has developed and provided rail operators with the Rail Data Integration and Analytics System. This system enables railways to integrate data from multiple sources, helping identify track locations that are prone to safety risks and accelerated deterioration — issues that may go unnoticed when systems operate independently. By synchronizing diverse datasets, RDIAS allows for in-depth analysis of relationships between track geometry, dynamic wheel-rail forces, rail friction conditions, and environmental factors. This comprehensive approach helps railways pinpoint the root causes of wear, gauge deterioration, and derailment risks. In addition, the integrated dataset supports academic research by facilitating advanced rail data analytics using machine learning and artificial intelligence.",
+    "abstract2": "A dashboard and database developed from RDIAS have been deployed for multiple shortline railways. The dashboard has helped uncover several track locations requiring attention. For one railway preparing to start a new passenger service, a few locations with moderately high wheel-climb risk were identified—one of which aligns precisely with a planned maintenance site. Multiple high lateral forces caused by track alignment issues were revealed at a tangent segment already known for surface problems; these alignment irregularities were previously unrecognized and are now under review. Using combined data on high vertical forces and rail surface waveforms, the dashboard also helped identify a surface condition issue at a location unknown to the railway. Joint field operations between NRC and another shortline railway teams have further validated these insights. For one turnout identified by high lateral-to-vertical (L/V) ratios, wheel flange back contact was observed, indicating a potential low-speed derailment risk. NRC recommended applying guard rail lubrication to mitigate this risk. At a bridge location, both alignment and lateral forces were found to be elevated; manual inspection during train passage revealed structural deflection beneath the bridge, an issue previously unknown to the railway. The bridge is now under monitoring. In another case, high vertical forces linked to moderate surface variation were detected; subsequent manual inspection revealed multiple false ties and loose fasteners. Field operations across five railways, combined with real-time access to RDIAS dashboards, have demonstrated the platform system's capability to transform rail data into actionable insights—enabling proactive maintenance, improved safety, and more efficient asset management across Canada's shortline rail network.",
+    "topic": "Integrating ATGMS and IWS in a Rail Tech Platform Data-Driven Approach to Detecting High-Risk and High Deterioration Track Locations",
+    "session": "HH-H"
+  },
+  {
     "name": "Yan Liu",
     "company": "National Research Council of Canada",
-    "title": "TBD",
-    "imageSrc": "/placeholder-male.jpg",
-    "bio1": "",
+    "title": "Principal Researcher",
+    "imageSrc": "/yan-liu.jpg",
+    "bio1": "Dr. Yan Liu is a Principal Researcher at the National Research Council of Canada with over 25 years of experience in railway research. His work includes railcar structural analysis, vehicle dynamics, testing, and rail technology evaluation. He is currently leading the development of data management, risk mapping and analytics tools for railway applications.",
     "bio2": "",
     "abstract1": "Many online inspection technologies have been developed and implemented to support rail operations and track maintenance. The National Research Council of Canada (NRC) has partnered with Transport Canada and several Canadian railways to develop a platform car for assessing the effectiveness of these technologies. In its first phase, several widely used technologies—including ATGMS, IWS, instrumented couplers, body motion sensors, and a weather station—have been integrated into the platform. While this platform provides valuable insights into the use of technologies under Canada's real and often harsh operational conditions, it also generates large volumes of data from various sources. Integrating these datasets, which originate from different and independent systems, has been a significant challenge. However, successful integration has produced well-synchronized data that is highly valuable for identifying risk track locations and mapping the railway system. This mapping can reflect both current conditions and underlying causes, such as wheel–rail forces, in-train forces, lack of friction management and high wheel impacts. To promote and support data-driven decision-making in Canada's shoreline railways, the National Research Council of Canada (NRC) has developed and provided rail operators with the Rail Data Integration and Analytics System. This system enables railways to integrate data from multiple sources, helping identify track locations that are prone to safety risks and accelerated deterioration — issues that may go unnoticed when systems operate independently. By synchronizing diverse datasets, RDIAS allows for in-depth analysis of relationships between track geometry, dynamic wheel-rail forces, rail friction conditions, and environmental factors. This comprehensive approach helps railways pinpoint the root causes of wear, gauge deterioration, and derailment risks. In addition, the integrated dataset supports academic research by facilitating advanced rail data analytics using machine learning and artificial intelligence.",
     "abstract2": "A dashboard and database developed from RDIAS have been deployed for multiple shortline railways. The dashboard has helped uncover several track locations requiring attention. For one railway preparing to start a new passenger service, a few locations with moderately high wheel-climb risk were identified—one of which aligns precisely with a planned maintenance site. Multiple high lateral forces caused by track alignment issues were revealed at a tangent segment already known for surface problems; these alignment irregularities were previously unrecognized and are now under review. Using combined data on high vertical forces and rail surface waveforms, the dashboard also helped identify a surface condition issue at a location unknown to the railway. Joint field operations between NRC and another shortline railway teams have further validated these insights. For one turnout identified by high lateral-to-vertical (L/V) ratios, wheel flange back contact was observed, indicating a potential low-speed derailment risk. NRC recommended applying guard rail lubrication to mitigate this risk. At a bridge location, both alignment and lateral forces were found to be elevated; manual inspection during train passage revealed structural deflection beneath the bridge, an issue previously unknown to the railway. The bridge is now under monitoring. In another case, high vertical forces linked to moderate surface variation were detected; subsequent manual inspection revealed multiple false ties and loose fasteners. Field operations across five railways, combined with real-time access to RDIAS dashboards, have demonstrated the platform system's capability to transform rail data into actionable insights—enabling proactive maintenance, improved safety, and more efficient asset management across Canada's shortline rail network.",
@@ -162,24 +162,12 @@ export const biosAbstractsHH2026 = [
     "name": "Zach Garner",
     "company": "Visiostack",
     "title": "TBD",
-    "imageSrc": "/placeholder-male.jpg",
+    "imageSrc": "/zach-garner.jpg",
     "bio1": "",
     "bio2": "",
     "abstract1": "",
     "abstract2": "",
     "topic": "Natural Language Reporting: How AI breaks down barriers to providing analytics for Rail Planning and other Maintenance Activities",
     "session": "HH-L"
-  },
-  {
-    "name": "Scott Lovelace",
-    "company": "International Heavy Haul Association",
-    "title": "CEO",
-    "imageSrc": "/placeholder-male.jpg",
-    "bio1": "",
-    "bio2": "",
-    "abstract1": "",
-    "abstract2": "",
-    "topic": "Taking the long-view perspective on the significant issues in Heavy Haul",
-    "session": "HH-M"
   }
 ];
