@@ -83,14 +83,6 @@ export const speakersHH2026 = [
     "session": "HH-I"
   },
   {
-    "name": "Ash Athukoralalage",
-    "company": "Speno Rail Maintenance Australia Pty Ltd",
-    "title": "TBD",
-    "imageSrc": "/placeholder-male.jpg",
-    "topic": "Turnout maintenance in heavy haul environments and beyond",
-    "session": "HH-I"
-  },
-  {
     "name": "B. P. Awasthi",
     "company": "Dedicated Freight Corridor Corp. of India Ltd.",
     "title": "Head & COO of Nacala Logistics - Mozambique",
