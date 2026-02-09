@@ -31,7 +31,7 @@ export const speakersHH2026 = [
     "company": "BNSF Railway",
     "title": "Senior Engineer II",
     "imageSrc": "/huseyin-guzel.jpg",
-    "topic": "Examining wheels failures due to fatigue cracks initiating at the back rim surface",
+    "topic": "Examining Wheels Failures Due to Fatigue Cracks Initiating at the Back Rim Surface",
     "session": "HH-E"
   },
   {
@@ -39,7 +39,7 @@ export const speakersHH2026 = [
     "company": "BNSF Railway",
     "title": "Senior Engineer II",
     "imageSrc": "/alicia-lollar.jpg",
-    "topic": "Examining wheels failures due to fatigue cracks initiating at the back rim surface",
+    "topic": "Examining Wheels Failures Due to Fatigue Cracks Initiating at the Back Rim Surface",
     "session": "HH-E"
   },
   {
