@@ -97,13 +97,5 @@ export const speakersHH2026 = [
     "imageSrc": "/marco-santoro.jpg",
     "topic": "Validating Top of Rail Friction Modifier Performance using Novel Under-Rail Ultrasonic Stress Measurement",
     "session": "HH-K"
-  },
-  {
-    "name": "Zach Garner",
-    "company": "Visiostack",
-    "title": "TBD",
-    "imageSrc": "/zach-garner.jpg",
-    "topic": "Natural Language Reporting: How AI Breaks Down Barriers to Providing Analytics for Rail Planning and Other Maintenance Activities",
-    "session": "HH-L"
   }
 ];

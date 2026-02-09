@@ -145,17 +145,5 @@ export const biosAbstractsHH2026 = [
     "abstract2": "The presentation will focus on the deployment of this novel clamp, which utilizes active ultrasonic reflectometry to measure dynamic stresses in the rail without the need for drilling or permanent bonding. Field data collected from the site compares Lateral/Vertical (L/V) force ratios under two distinct conditions: dry rail and rail treated with top-of-rail friction modifier. The analysis will highlight the direct correlation between the application of friction modifier and the reduction of L/V ratios on curves. By reviewing these comparative results, this session will demonstrate both the effectiveness of the friction management program and the viability of this new, non-invasive measurement technology as a tool for rapid performance validation.",
     "topic": "Validating Top of Rail Friction Modifier Performance using Novel Under-Rail Ultrasonic Stress Measurement",
     "session": "HH-K"
-  },
-  {
-    "name": "Zach Garner",
-    "company": "Visiostack",
-    "title": "TBD",
-    "imageSrc": "/zach-garner.jpg",
-    "bio1": "",
-    "bio2": "",
-    "abstract1": "",
-    "abstract2": "",
-    "topic": "Natural Language Reporting: How AI Breaks Down Barriers to Providing Analytics for Rail Planning and Other Maintenance Activities",
-    "session": "HH-L"
   }
 ];
