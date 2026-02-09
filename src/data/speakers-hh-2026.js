@@ -55,7 +55,7 @@ export const speakersHH2026 = [
     "company": "Canadian National",
     "title": "Senior Manager of Advanced Technologies",
     "imageSrc": "/dan-leeb.png",
-    "topic": "Autonomous Track Inspection Program (ATIP) Strategy – Canadian National's approach to ATGMS Operations and Development",
+    "topic": "Autonomous Track Inspection Program (ATIP) Strategy – Canadian National's Approach to ATGMS Operations and Development",
     "session": "HH-G"
   },
   {
@@ -79,7 +79,7 @@ export const speakersHH2026 = [
     "company": "Plasser American / Plasser & Theurer",
     "title": "Global Head of Rail Solutions",
     "imageSrc": "/richard-stock.jpg",
-    "topic": "Turnout maintenance in heavy haul environments and beyond",
+    "topic": "Turnout Maintenance in Heavy Haul Environments and Beyond",
     "session": "HH-I"
   },
   {
