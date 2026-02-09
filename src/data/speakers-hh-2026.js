@@ -103,7 +103,7 @@ export const speakersHH2026 = [
     "company": "Visiostack",
     "title": "TBD",
     "imageSrc": "/zach-garner.jpg",
-    "topic": "Natural Language Reporting: How AI breaks down barriers to providing analytics for Rail Planning and other Maintenance Activities",
+    "topic": "Natural Language Reporting: How AI Breaks Down Barriers to Providing Analytics for Rail Planning and Other Maintenance Activities",
     "session": "HH-L"
   }
 ];
