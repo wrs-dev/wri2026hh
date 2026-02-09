@@ -8,7 +8,7 @@ const IconLinksHH = () => {
 
   // Determine which seminar section we're on
   const onPrinciplesSection = router.pathname.startsWith('/principles-course');
-  const onHeavyHaulSection = router.pathname.startsWith('/heavy-haul-seminar');
+  const onHeavyHaulSection = router.pathname === '/heavy-haul-seminar';
 
   // On own section = no link (colored), on other section = link (grayed), elsewhere = link (colored)
   const pcHasLink = !onPrinciplesSection;
