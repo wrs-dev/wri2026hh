@@ -84,7 +84,7 @@ export const speakersHH2026 = [
   },
   {
     "name": "B. P. Awasthi",
-    "company": "Dedicated Freight Corridor Corp. of India Ltd.",
+    "company": "Nacala Logistics, Mozambique",
     "title": "Head & COO of Nacala Logistics - Mozambique",
     "imageSrc": "/b-p-awasthi.jpg",
     "topic": "Wheel–Rail Interaction Challenges and Grinding-Based Rehabilitation on Africa's Cape Gauge Heavy Haul Network: The NACALA Experience",
@@ -101,9 +101,9 @@ export const speakersHH2026 = [
   {
     "name": "Zach Garner",
     "company": "Visiostack",
-    "title": "TBD",
+    "title": "CEO",
     "imageSrc": "/zach-garner.jpg",
-    "topic": "Natural Language Reporting: How AI Breaks Down Barriers to Providing Analytics for Rail Planning and Other Maintenance Activities",
+    "topic": "Remaining Useful Life of Rail: Large-Scale Prediction of Curve Patch Replacement Using High-Frequency Data and Condition Matching",
     "session": "HH-L"
   }
 ];

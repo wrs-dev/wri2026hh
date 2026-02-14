@@ -124,7 +124,7 @@ export const biosAbstractsHH2026 = [
   },
   {
     "name": "B. P. Awasthi",
-    "company": "Dedicated Freight Corridor Corp. of India Ltd.",
+    "company": "Nacala Logistics, Mozambique",
     "title": "Head & COO of Nacala Logistics - Mozambique",
     "imageSrc": "/b-p-awasthi.jpg",
     "bio1": "B. P. Awasthi, Head & COO of Nacala Logistics in Mozambique is a long-time India Railway Officer. He has vast experience of more than 36 years in railway operation, new rail line construction and development of IT Systems for rail asset management. Mr. Awasthi obtained his B.Tech Degree from Indian Institute of Technology (IIT), Delhi and thereafter Masters's Degree in Management. He is also Law Graduate from University of Delhi. He has been trained in technical as well as strategic management aspects in India and abroad including INSEAD, Singapore, NRC, Vancouver, Canada, USA, England, Switzerland, etc.",
@@ -149,13 +149,13 @@ export const biosAbstractsHH2026 = [
   {
     "name": "Zach Garner",
     "company": "Visiostack",
-    "title": "TBD",
+    "title": "CEO",
     "imageSrc": "/zach-garner.jpg",
     "bio1": "",
     "bio2": "",
-    "abstract1": "",
-    "abstract2": "",
-    "topic": "Natural Language Reporting: How AI Breaks Down Barriers to Providing Analytics for Rail Planning and Other Maintenance Activities",
+    "abstract1": "Over the past decades, railways around the world have invested heavily in their inspection systems, moving from required regulatory inspection to high frequency autonomous inspection with various measurement technologies (e.g., geometry, imagery, ultrasound, etc.). This transformation has produced an unprecedented volume of data, creating both challenges and opportunities for decision-makers.",
+    "abstract2": "Rail planning has significantly benefited from the growth in available data. A decade ago, many curves were represented by only a handful of data points within a rail cycle. Today, we collect dozens of measurements per cycle, providing unprecedented visibility into rail performance across the network. Despite this progress, substantial challenges remain. Large-scale rail planning continues to be affected by inaccurate asset inventory, difficulty identifying outliers, inconsistencies in production reporting, and ongoing measurement system maintenance and calibration issues. This presentation shows how solving core data challenges allows us to use past and current rail cycle data to predict curve patch needs further into the future, with better underlying data directly translating into longer planning horizons.",
+    "topic": "Remaining Useful Life of Rail: Large-Scale Prediction of Curve Patch Replacement Using High-Frequency Data and Condition Matching",
     "session": "HH-L"
   }
 ];
