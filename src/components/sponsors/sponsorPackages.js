@@ -265,6 +265,63 @@ export default function SponsorPackages() {
           </div>
         </section>
 
+        {/* Heavy Haul InfoZone Sponsorship — SOLD OUT */}
+        <section className="mb-16">
+          <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 lg:gap-8">
+            <div>
+              <h3 className="text-2xl font-bold leading-tight text-wri-blue sm:text-3xl">
+                Heavy Haul
+                <br />
+                InfoZone Sponsorship
+              </h3>
+              <p className="mt-2 text-xl font-semibold text-wri-dark-blue">$7,000.00 Early Bird</p>
+            </div>
+            <div className="col-span-2">
+              <p className="mb-4">
+                The InfoZone is an interactive learning environment that is
+                designed to augment the information presented at the annual WRI
+                Conference.
+              </p>
+              <p className="mb-4">
+                Our InfoZone partners offer high-quality technical information
+                on the aspects of wheel/rail interaction that they know best.
+                These sessions, which are built into the Heavy Haul & Rail
+                Transit Seminar program, are designed to provide small groups of
+                approximately 30-40 delegates insight into the product or
+                service that is the specialty of the presenting company. The
+                goal is to promote a better understanding of the dynamic
+                interaction between vehicles and track. This innovative concept
+                has consistently received great reviews from participants and
+                InfoZone Partners alike.
+              </p>
+              <p className="mt-4 text-xl font-bold text-red-600">SOLD OUT</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Double InfoZone Sponsorship — SOLD OUT */}
+        <section className="mb-16">
+          <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 lg:gap-8">
+            <div>
+              <h3 className="text-2xl font-bold leading-tight text-wri-blue sm:text-3xl">
+                Double
+                <br />
+                InfoZone Sponsorship *
+              </h3>
+              <p className="mt-2 text-xl font-semibold text-wri-dark-blue">$13,000.00</p>
+            </div>
+            <div className="col-span-2">
+              <ul className="ml-6 list-disc">
+                <li>
+                  Includes InfoZone Sponsorship for both conferences (Rail Transit &amp; Heavy
+                  Haul)
+                </li>
+              </ul>
+              <p className="mt-4 text-xl font-bold text-red-600">SOLD OUT</p>
+            </div>
+          </div>
+        </section>
+
         {/* InfoZone Partner
         <section className="mb-16">
           <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 lg:gap-8">

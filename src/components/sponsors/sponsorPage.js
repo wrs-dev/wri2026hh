@@ -36,6 +36,12 @@ const silverSponsors = [
     imagePath: '/getzner-logo.png',
     url: 'https://www.getzner.com/en',
   },
+  {
+    name: 'Interface Journal',
+    description: '',
+    imagePath: '/ij-logo.png',
+    url: 'https://interfacejournal.com/',
+  },
 ];
 
 const bronzeSponsors = [
