@@ -114,7 +114,7 @@ export default function SponsorPage() {
                           src={sponsor.imagePath}
                           alt={sponsor.name}
                           className={`img-fill-contain ${
-                            sponsor.name === 'Interface Journal' ? 'w-[310px]' :
+                            sponsor.name === 'Interface Journal' ? 'w-[280px]' :
                             'max-h-14'
                           }`}
                         />
