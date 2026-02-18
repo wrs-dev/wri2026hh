@@ -52,12 +52,12 @@ export const biosAbstractsPC2026 = [
     ]
   },
   {
-    "name": "To be announced",
-    "company": "",
-    "title": "",
-    "imageSrc": "/placeholder-male.jpg",
-    "bio1": "",
-    "bio2": "",
+    "name": "Corey Pasta",
+    "company": "MxV Rail",
+    "title": "Scientist - Research & Innovation Department",
+    "imageSrc": "/corey-pasta.webp",
+    "bio1": "Corey Pasta is a Scientist in the Research & Innovation department at MxV Rail. He has been involved in railway research for the past 28 years. He spent 18 years at BNSF, most recently as a Director in the Technical Research & Development department. During his time there, he developed deep expertise in train dynamics, vehicle dynamics, and practical causefinding methods for derailment investigation and prevention.",
+    "bio2": "Now at MxV Rail, Corey works alongside a team of engineers and scientists to design and execute experiments on behalf of the AAR Research Committee to advance industry knowledge and support improvements in railway safety and efficiency. He holds a bachelor's degree in mechanical engineering from Colorado State University.",
     "topic": "Vehicle-Track Interaction & Dynamics",
     "sessions": [
       "SESSION 5"

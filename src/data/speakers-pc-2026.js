@@ -39,10 +39,10 @@ export const speakersPC2026 = [
     "role": ""
   },
   {
-    "name": "To be announced",
-    "company": "",
-    "title": "",
-    "imageSrc": "/placeholder-male.jpg",
+    "name": "Corey Pasta",
+    "company": "MxV Rail",
+    "title": "Scientist - Research & Innovation Department",
+    "imageSrc": "/corey-pasta.webp",
     "topic": "Vehicle-Track Interaction & Dynamics",
     "session": "SESSION 5",
     "role": ""
