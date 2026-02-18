@@ -25,7 +25,7 @@ const infoZoneSponsors = [
   {
     name: 'Athena',
     imagePath: '/silver-athena.png',
-    url: 'https://www.integratedathena.com/',
+    url: 'https://www.athenaindustrialservices.com',
   },
 ];
 
@@ -100,7 +100,7 @@ export default function InfoZonePageSponsorship() {
 
           {/* Row 3 — Athena */}
           <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-8">
-            <a href="https://www.integratedathena.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
+            <a href="https://www.athenaindustrialservices.com" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
               <img src="/silver-athena.png" alt="Athena logo" className="object-contain h-16" />
             </a>
           </div>
