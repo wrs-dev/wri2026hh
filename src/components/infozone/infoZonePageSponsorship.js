@@ -1,7 +1,33 @@
 import Image from 'next/image';
 import InfoZonePhotos from '@/components/infozone/infoZonePhotos';
-import SponsorRegisterButtonInfoZone from '@/components/buttons/sponsor-register-button-infozone';
-import SponsorRegisterButtonDoubleInfoZone from '@/components/buttons/sponsor-register-button-double-infozone';
+
+const infoZoneSponsors = [
+  {
+    name: 'Hexagon',
+    imagePath: '/hexagon.png',
+    url: 'https://hexagon.com/',
+  },
+  {
+    name: 'Linsinger',
+    imagePath: '/silver-linsinger.png',
+    url: 'https://www.linsinger.com/',
+  },
+  {
+    name: 'Loram',
+    imagePath: '/platinum-loram.png',
+    url: 'https://loram.com/',
+  },
+  {
+    name: 'Plasser American',
+    imagePath: '/platinum-plasser-american.svg',
+    url: 'https://www.plasseramerican.com/en/home/start',
+  },
+  {
+    name: 'Athena',
+    imagePath: '/silver-athena.png',
+    url: 'https://www.integratedathena.com/',
+  },
+];
 
 export default function InfoZonePageSponsorship() {
   return (
@@ -40,73 +66,44 @@ export default function InfoZonePageSponsorship() {
         </div>
       </section>
 
-      {/* InfoZone Partnership Opportunities Section */}
-      <div className="seminar-about-text" id="infozone-sponsorship">
+      {/* Meet Your InfoZone Partners */}
+      <div className="seminar-about-text" id="sponsor">
         <div className="px-12 mx-auto">
           <h2 className="mb-16 text-6xl font-normal leading-normal text-center pt-11">
-            InfoZone Partnership Opportunities
+            Meet Your InfoZone Partners
           </h2>
         </div>
       </div>
 
-      {/* Sponsorship Packages Section */}
-      <section className="pb-24 bg-white">
-        <div className="px-6 mx-auto max-w-7xl lg:px-8">
-          {/* Heavy Haul InfoZone Sponsorship */}
-          <section className="mb-16">
-            <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 lg:gap-8">
-              <div>
-                <h3 className="text-2xl font-bold leading-tight text-wri-blue sm:text-3xl">
-                  Heavy Haul
-                  <br />
-                  InfoZone Sponsorship
-                </h3>
-                <p className="mt-2 text-xl font-semibold text-wri-dark-blue">$7,000.00 Early Bird</p>
-              </div>
-              <div className="col-span-2">
-                <p className="mb-4">
-                  The InfoZone is an interactive learning environment that is
-                  designed to augment the information presented at the annual WRI
-                  Conference. Our InfoZone partners offer high-quality technical information
-                  on aspects of wheel/rail interaction that they know best, providing small groups of
-                  approximately 30-40 delegates insight into the product or
-                  service that is the specialty of the presenting company. The
-                  goal is to promote a better understanding of the dynamic
-                  interaction between vehicles and track. This innovative concept
-                  has consistently received great reviews from participants and
-                  InfoZone Partners alike.
-                </p>
-                <div className="mt-4">
-                  <SponsorRegisterButtonInfoZone />
-                </div>
-              </div>
-            </div>
-          </section>
+      {/* Sponsors Section */}
+      <section>
+        <div className="px-6 mx-auto mb-48 space-y-12 max-w-7xl lg:px-8">
+          {/* Row 1 — Hexagon, Loram */}
+          <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-8">
+            <a href="https://hexagon.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
+              <img src="/hexagon.png" alt="Hexagon logo" className="object-contain h-20" />
+            </a>
+            <a href="https://loram.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
+              <img src="/platinum-loram.png" alt="Loram logo" className="object-contain h-16" />
+            </a>
+          </div>
 
-          {/* Double InfoZone Sponsorship */}
-          <section className="mb-16">
-            <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 lg:gap-8">
-              <div>
-                <h3 className="text-2xl font-bold leading-tight text-wri-blue sm:text-3xl">
-                  Double
-                  <br />
-                  InfoZone Sponsorship *
-                </h3>
-                <p className="mt-2 text-xl font-semibold text-wri-dark-blue">$13,000.00</p>
-              </div>
-              <div className="col-span-2">
-                <ul className="ml-6 list-disc">
-                  <li>
-                    Includes InfoZone Sponsorship for both conferences (Rail Transit &amp; Heavy
-                    Haul)
-                  </li>
-                </ul>
-                <div className="mt-4">
-                  <SponsorRegisterButtonDoubleInfoZone />
-                </div>
-              </div>
-            </div>
-          </section>
+          {/* Row 2 — Linsinger, Plasser American */}
+          <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-8">
+            <a href="https://www.linsinger.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
+              <img src="/silver-linsinger.png" alt="Linsinger logo" className="object-contain h-24" />
+            </a>
+            <a href="https://www.plasseramerican.com/en/home/start" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
+              <img src="/platinum-plasser-american.svg" alt="Plasser American logo" className="object-contain h-14" />
+            </a>
+          </div>
+
+          {/* Row 3 — Athena */}
+          <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-8">
+            <a href="https://www.integratedathena.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
+              <img src="/silver-athena.png" alt="Athena logo" className="object-contain h-16" />
+            </a>
+          </div>
         </div>
       </section>
 

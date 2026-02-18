@@ -230,14 +230,14 @@ export default function Navigation() {
           >
             Pricing
           </a>
-          {/* <a
+          <a
             href="/sponsors#icons"
             className={`text-sm leading-6 nav-link lg:text-xl ${
               isActive('/sponsors') ? 'text-wri-red' : 'text-wri-blue'
             }`}
           >
             Sponsors
-          </a> */}
+          </a>
           <a
             href="/infozone#icons"
             className={`text-sm leading-6 nav-link lg:text-xl ${
@@ -319,12 +319,12 @@ export default function Navigation() {
                   >
                     Pricing
                   </a> */}
-                  {/* <a
+                  <a
                     href="/sponsors#sponsor"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Sponsors
-                  </a> */}
+                  </a>
                   <a
                     href="/infozone#icons"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"

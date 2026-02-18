@@ -6,8 +6,6 @@ import SponsorRegisterButtonGold from '@/components/buttons/sponsor-register-but
 import SponsorRegisterButtonDoubleGold from '@/components/buttons/sponsor-register-button-double-gold';
 import SponsorRegisterButtonPlatinum from '@/components/buttons/sponsor-register-button-platinum';
 import SponsorRegisterButtonDoublePlatinum from '@/components/buttons/sponsor-register-button-double-platinum';
-import SponsorRegisterButtonInfoZone from '@/components/buttons/sponsor-register-button-infozone';
-import SponsorRegisterButtonDoubleInfoZone from '@/components/buttons/sponsor-register-button-double-infozone';
 import SponsorCtaPdf from '@/components/sponsors/sponsor-cta-pdf';
 
 export default function SponsorPackages() {
@@ -262,67 +260,6 @@ export default function SponsorPackages() {
               </ul>
               <div className="mt-4">
                 <SponsorRegisterButtonDoublePlatinum />
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* InfoZone Sponsorship */}
-        <section className="mb-16">
-          <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 lg:gap-8">
-            <div>
-              <h3 className="text-2xl font-bold leading-tight text-wri-blue sm:text-3xl">
-                Heavy Haul
-                <br />
-                InfoZone Sponsorship
-              </h3>
-              <p className="mt-2 text-xl font-semibold text-wri-dark-blue">$7,000.00 Early Bird</p>
-            </div>
-            <div className="col-span-2">
-              <p className="mb-4">
-                The InfoZone is an interactive learning environment that is
-                designed to augment the information presented at the annual WRI
-                Conference.
-              </p>
-              <p className="mb-4">
-                Our InfoZone partners offer high-quality technical information
-                on the aspects of wheel/rail interaction that they know best.
-                These sessions, which are built into the Heavy Haul & Rail
-                Transit Seminar program, are designed to provide small groups of
-                approximately 30-40 delegates insight into the product or
-                service that is the specialty of the presenting company. The
-                goal is to promote a better understanding of the dynamic
-                interaction between vehicles and track. This innovative concept
-                has consistently received great reviews from participants and
-                InfoZone Partners alike.
-              </p>
-              <div className="mt-4">
-                <SponsorRegisterButtonInfoZone />
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* * Double InfoZone Sponsorship */}
-        <section className="mb-16">
-          <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 lg:gap-8">
-            <div>
-              <h3 className="text-2xl font-bold leading-tight text-wri-blue sm:text-3xl">
-                Double
-                <br />
-                InfoZone Sponsorship *
-              </h3>
-              <p className="mt-2 text-xl font-semibold text-wri-dark-blue">$13,000.00</p>
-            </div>
-            <div className="col-span-2">
-              <ul className="ml-6 list-disc">
-                <li>
-                  Includes InfoZone Sponsorship for both conferences (Rail Transit &amp; Heavy
-                  Haul)
-                </li>
-              </ul>
-              <div className="mt-4">
-                <SponsorRegisterButtonDoubleInfoZone />
               </div>
             </div>
           </div>
