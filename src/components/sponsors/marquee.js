@@ -98,6 +98,13 @@ const LogoRow = () => {
             width={200}
             height={50}
           />
+          <Image
+            src="/ij-logo.png"
+            alt="Silver Sponsor Interface Journal"
+            className="h-[60px] w-auto max-w-none"
+            width={200}
+            height={50}
+          />
         </>
         <>
           <img
@@ -163,6 +170,11 @@ const LogoRow = () => {
           <img
             src="/silver-athena.png"
             alt="InfoZone Partner Athena"
+            className="h-[60px] w-auto max-w-none"
+          />
+          <img
+            src="/ij-logo.png"
+            alt="Silver Sponsor Interface Journal"
             className="h-[60px] w-auto max-w-none"
           />
         </>

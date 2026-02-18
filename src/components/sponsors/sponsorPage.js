@@ -113,7 +113,10 @@ export default function SponsorPage() {
                         <img
                           src={sponsor.imagePath}
                           alt={sponsor.name}
-                          className="img-fill-contain max-h-14"
+                          className={`img-fill-contain ${
+                            sponsor.name === 'Interface Journal' ? 'w-[310px]' :
+                            'max-h-14'
+                          }`}
                         />
                       </div>
                     </dt>
