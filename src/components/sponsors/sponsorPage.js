@@ -6,7 +6,7 @@ const goldSponsors = [
     name: 'ESI',
     description: '',
     imagePath: '/esi-logo.png',
-    url: 'https://www.esiglobal.com/',
+    url: 'https://www.engsys.com/industries/transportation/rail/',
   },
   {
     name: 'ENSCO',
