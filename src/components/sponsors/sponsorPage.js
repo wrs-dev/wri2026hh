@@ -51,6 +51,12 @@ const bronzeSponsors = [
     imagePath: '/bronze-steel-dynamics.png',
     url: 'https://www.steeldynamics.com/',
   },
+  {
+    name: 'Fuchs',
+    description: '',
+    imagePath: '/bronze-fuchs.png',
+    url: 'https://www.fuchs.com/us/en/',
+  },
 ];
 
 export default function SponsorPage() {

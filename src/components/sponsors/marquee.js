@@ -64,6 +64,13 @@ const LogoRow = () => {
             height={50}
           />
           <Image
+            src="/bronze-fuchs.png"
+            alt="Bronze Sponsor Fuchs"
+            className="h-[60px] w-auto max-w-none"
+            width={200}
+            height={50}
+          />
+          <Image
             src="/hexagon.png"
             alt="InfoZone Partner Hexagon"
             className="h-[60px] w-auto max-w-none"
@@ -145,6 +152,11 @@ const LogoRow = () => {
           <img
             src="/bronze-steel-dynamics.png"
             alt="Bronze Sponsor Steel Dynamics, Inc. (SDI)"
+            className="h-[60px] w-auto max-w-none"
+          />
+          <img
+            src="/bronze-fuchs.png"
+            alt="Bronze Sponsor Fuchs"
             className="h-[60px] w-auto max-w-none"
           />
           <img
