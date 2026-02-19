@@ -99,7 +99,7 @@ export default function SponsorPage() {
         <div className="px-6 mx-auto mb-24 max-w-7xl lg:px-8">
           <div className="grid max-w-2xl grid-cols-1 mx-auto gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
-              <span className="text-slate-700">PLATINUM</span> sponsors
+              <span className="text-zinc-500">PLATINUM</span> sponsors
             </h2>
             <div className="col-span-2 space-y-16">
               {platinumSponsors.map((sponsor) => (
