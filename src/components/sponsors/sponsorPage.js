@@ -1,6 +1,37 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+const platinumSponsors = [
+  {
+    name: 'Plasser American',
+    description:
+      'Plasser American provides track maintenance solutions and machines, leading innovation in the railway construction and maintenance sector.',
+    imagePath: '/platinum-plasser-american.svg',
+    url: 'https://www.plasseramerican.com/en/home/start',
+  },
+  {
+    name: 'Loram',
+    description:
+      'For more than 70 years, Loram has been providing railroad maintenance equipment and services to freight, passenger and transit railroads. Loram\u2019s reputation rests on our performance as a contractor offering a wide range of track maintenance services:',
+    bulletPoints: [
+      'Production and specialty rail grinding',
+      'Ditch cleaning',
+      'Shoulder ballast cleaning',
+      'Undercutting',
+      'Spot undercutting utilizing our LRV',
+      'Rail handling',
+      'Full service friction management',
+      'Track lifting',
+      'Geotechnical substructure management',
+      'Track Inspection',
+      'Material Handling',
+      'Structural monitoring and data services',
+    ],
+    imagePath: '/platinum-loram.svg',
+    url: 'https://loram.com/',
+  },
+];
+
 const goldSponsors = [
   {
     name: 'ESI',
@@ -62,6 +93,52 @@ const bronzeSponsors = [
 export default function SponsorPage() {
   return (
     <div className="pt-12 pb-24 bg-white sm:py-32">
+
+      {/* Platinum Sponsor Section */}
+      <section>
+        <div className="px-6 mx-auto mb-24 max-w-7xl lg:px-8">
+          <div className="grid max-w-2xl grid-cols-1 mx-auto gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
+              <span className="text-slate-700">PLATINUM</span> sponsors
+            </h2>
+            <div className="col-span-2 space-y-16">
+              {platinumSponsors.map((sponsor) => (
+                <div key={sponsor.name}>
+                  <div className="flex items-center h-22 mb-2">
+                    <img
+                      src={sponsor.imagePath}
+                      alt={sponsor.name}
+                      className={`img-fill-contain ${
+                        sponsor.name === 'Plasser American' ? 'max-h-14' : 'max-h-20'
+                      }`}
+                    />
+                  </div>
+                  <div className="text-base leading-7">
+                    <a
+                      href={sponsor.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
+                      Visit the {sponsor.name} website
+                    </a>
+                    {sponsor.description && (
+                      <p className="mt-2">{sponsor.description}</p>
+                    )}
+                    {sponsor.bulletPoints && (
+                      <ul className="mt-2 ml-4 list-disc">
+                        {sponsor.bulletPoints.map((point) => (
+                          <li key={point}>{point}</li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Gold Sponsor Section */}
       <section>
