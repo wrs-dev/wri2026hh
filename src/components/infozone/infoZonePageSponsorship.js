@@ -78,13 +78,13 @@ export default function InfoZonePageSponsorship() {
       {/* Sponsors Section */}
       <section>
         <div className="px-6 mx-auto mb-48 space-y-12 max-w-7xl lg:px-8">
-          {/* Row 1 — Hexagon, Loram */}
+          {/* Row 1 — Loram, Hexagon */}
           <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-8">
-            <a href="https://hexagon.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
-              <img src="/hexagon-2026.png" alt="Hexagon logo" className="object-contain h-20" />
-            </a>
             <a href="https://loram.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
               <img src="/platinum-loram.png" alt="Loram logo" className="object-contain h-16" />
+            </a>
+            <a href="https://hexagon.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
+              <img src="/hexagon-2026.png" alt="Hexagon logo" className="object-contain h-20" />
             </a>
           </div>
 
