@@ -53,7 +53,7 @@ export default function InfoZonePage() {
           {/* Row 1 — Hexagon, Loram */}
           <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-8">
             <a href="https://hexagon.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
-              <img src="/hexagon.png" alt="Hexagon logo" className="object-contain h-20" />
+              <img src="/hexagon-2026.png" alt="Hexagon logo" className="object-contain h-20" />
             </a>
             <a href="https://loram.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
               <img src="/platinum-loram.png" alt="Loram logo" className="object-contain h-16" />
