@@ -71,7 +71,7 @@ const LogoRow = () => {
             height={50}
           />
           <Image
-            src="/hexagon.png"
+            src="/hexagon-2026.png"
             alt="InfoZone Partner Hexagon"
             className="h-[60px] w-auto max-w-none"
             width={200}
@@ -160,7 +160,7 @@ const LogoRow = () => {
             className="h-[60px] w-auto max-w-none"
           />
           <img
-            src="/hexagon.png"
+            src="/hexagon-2026.png"
             alt="InfoZone Partner Hexagon"
             className="h-[60px] w-auto max-w-none"
           />
