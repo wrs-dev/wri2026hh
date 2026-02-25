@@ -1,4 +1,5 @@
 import { useState, Fragment } from 'react';
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { Dialog, Popover, Transition } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
@@ -105,8 +106,9 @@ export default function Navigation() {
                 <div className="p-4">
                   {/* Seminar Links */}
                   {links.map((item) => (
-                    <div
+                    <Link
                       key={item.name}
+                      href={item.href}
                       className="relative flex items-center p-4 text-sm rounded-lg group gap-x-6 hover:bg-sky-100"
                     >
                       <div
@@ -124,7 +126,7 @@ export default function Navigation() {
                         </p>
                         <p className="text-wri-blue">{item.date}</p>
                       </div>
-                    </div>
+                    </Link>
                   ))}
 
                   <div className="flex flex-col">
