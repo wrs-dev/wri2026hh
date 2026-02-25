@@ -27,6 +27,7 @@ export default function Navigation() {
       icon: 'principles-icon.svg',
       background: 'bg-wri-green',
       isExternal: false,
+      date: 'April 22, 2026',
     },
     {
       name: 'Heavy Haul Seminar',
@@ -35,6 +36,7 @@ export default function Navigation() {
       icon: 'heavy-haul-icon.svg',
       background: 'bg-wri-red',
       isExternal: false,
+      date: 'April 23-24, 2026',
     },
   ];
 
@@ -120,7 +122,7 @@ export default function Navigation() {
                         <p className="block text-sm lg:text-xl text-wri-blue">
                           {item.name}
                         </p>
-                        <p className="text-wri-blue">To be announced</p>
+                        <p className="text-wri-blue">{item.date}</p>
                       </div>
                     </div>
                   ))}
