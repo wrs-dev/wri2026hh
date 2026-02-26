@@ -27,6 +27,14 @@ export const speakersHH2026 = [
     "session": "HH-C"
   },
   {
+    "name": "Gary Wolf",
+    "company": "Wolf Railway Consulting, LLC",
+    "title": "President",
+    "imageSrc": "/gary-wolf.jpg",
+    "topic": "Fireside Chat with Industry and WRI Veteran Gary Wolf",
+    "session": "HH-M"
+  },
+  {
     "name": "Huseyin Guzel",
     "company": "BNSF Railway",
     "title": "Senior Engineer II",
@@ -105,13 +113,5 @@ export const speakersHH2026 = [
     "imageSrc": "/zach-garner.jpg",
     "topic": "Remaining Useful Life of Rail: Large-Scale Prediction of Curve Patch Replacement Using High-Frequency Data and Condition Matching",
     "session": "HH-L"
-  },
-  {
-    "name": "Gary Wolf",
-    "company": "Wolf Railway Consulting, LLC",
-    "title": "President",
-    "imageSrc": "/gary-wolf.jpg",
-    "topic": "Fireside Chat with Industry and WRI Veteran Gary Wolf",
-    "session": "HH-M"
   }
 ];
