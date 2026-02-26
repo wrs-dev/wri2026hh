@@ -39,6 +39,18 @@ export const biosAbstractsHH2026 = [
     "session": "HH-C"
   },
   {
+    "name": "Gary Wolf",
+    "company": "Wolf Railway Consulting, LLC",
+    "title": "President",
+    "imageSrc": "/gary-wolf.jpg",
+    "bio1": "Gary Wolf has 46-years of experience in the rail industry, including 17 years at Southern/Norfolk Southern Railway, 26 years as consultant and owner of Rail Sciences, and the last 3 years in Private Practice. Since 1975, Gary has focused on the analysis and prevention of derailments, and matters involving the wheel/rail interface. He has investigated over 4000 derailments worldwide and trained over 5000 railway professionals in the techniques of derailment investigation, track inspection, and vehicle inspection. In addition, Gary also practices in the areas of train operations and train dynamics, vehicle dynamics, and track maintenance and assessment. Gary is one of the principal authors for the International Heavy Haul Association's Handbook for managing wheel/rail interaction in the heavy haul environment. In addition, he has presented over 100 technical papers dealing with vehicle dynamics, wheel rail interaction, and derailment investigation. He is also the author of The Complete Field Guide to Modern Derailment Investigation, a master class on finding, analyzing, and understanding the marks on the wheels and rails and broken bits of vehicle and track components that tell the story of what happens when a derailment occurs.",
+    "bio2": "Gary has been a frequent contributor to the WRI annual seminar for the past 22 years. He was the recipient of the 2023 Worth Award, named for Art Worth, who was Manager of Standards and retired as Senior Manager – Advanced Technology at Canadian National, and awarded annually by Wheel/Rail Seminars. Gary holds a BS degree in Electrical Engineering from Ohio University and a Master of Science from Georgia Tech in Industrial Management.",
+    "abstract1": "Gary Wolf has 55 years' experience in the rail industry and has been an ardent supporter of, and frequent presenter at, the WRI seminar. Bob Tuzik, editor of Interface Journal and WRI moderator, will sit down with Gary in an unfiltered conversation to discuss his views on many salient Wheel/Rail interface topics. Gary will not hold back on his observations as to how the Wheel/Rail interface is being managed in the railroad industry. Topics such as rail grinding, rail lubrication, wheel management, curve elevation, wayside/on board detection, and derailment causation will be discussed. Differences between practices at Class 1 vs. short line railroads will be explained.",
+    "abstract2": "Gary will also give his take on some of the current regulatory issues influencing the productivity and safety of the rail industry. Also, economic impediments to improving the wheel/rail interface will be fair game. This will be a provocative, yet fact based, assessment of where we are and where we need to go into the future.",
+    "topic": "Fireside Chat with Industry and WRI Veteran Gary Wolf",
+    "session": "HH-M"
+  },
+  {
     "name": "Huseyin Guzel",
     "company": "BNSF Railway",
     "title": "Senior Engineer II",
@@ -157,17 +169,5 @@ export const biosAbstractsHH2026 = [
     "abstract2": "Rail planning has significantly benefited from the growth in available data. A decade ago, many curves were represented by only a handful of data points within a rail cycle. Today, we collect dozens of measurements per cycle, providing unprecedented visibility into rail performance across the network. Despite this progress, substantial challenges remain. Large-scale rail planning continues to be affected by inaccurate asset inventory, difficulty identifying outliers, inconsistencies in production reporting, and ongoing measurement system maintenance and calibration issues. This presentation shows how solving core data challenges allows us to use past and current rail cycle data to predict curve patch needs further into the future, with better underlying data directly translating into longer planning horizons.",
     "topic": "Remaining Useful Life of Rail: Large-Scale Prediction of Curve Patch Replacement Using High-Frequency Data and Condition Matching",
     "session": "HH-L"
-  },
-  {
-    "name": "Gary Wolf",
-    "company": "Wolf Railway Consulting, LLC",
-    "title": "President",
-    "imageSrc": "/gary-wolf.jpg",
-    "bio1": "Gary Wolf has 46-years of experience in the rail industry, including 17 years at Southern/Norfolk Southern Railway, 26 years as consultant and owner of Rail Sciences, and the last 3 years in Private Practice. Since 1975, Gary has focused on the analysis and prevention of derailments, and matters involving the wheel/rail interface. He has investigated over 4000 derailments worldwide and trained over 5000 railway professionals in the techniques of derailment investigation, track inspection, and vehicle inspection. In addition, Gary also practices in the areas of train operations and train dynamics, vehicle dynamics, and track maintenance and assessment. Gary is one of the principal authors for the International Heavy Haul Association's Handbook for managing wheel/rail interaction in the heavy haul environment. In addition, he has presented over 100 technical papers dealing with vehicle dynamics, wheel rail interaction, and derailment investigation. He is also the author of The Complete Field Guide to Modern Derailment Investigation, a master class on finding, analyzing, and understanding the marks on the wheels and rails and broken bits of vehicle and track components that tell the story of what happens when a derailment occurs.",
-    "bio2": "Gary has been a frequent contributor to the WRI annual seminar for the past 22 years. He was the recipient of the 2023 Worth Award, named for Art Worth, who was Manager of Standards and retired as Senior Manager – Advanced Technology at Canadian National, and awarded annually by Wheel/Rail Seminars. Gary holds a BS degree in Electrical Engineering from Ohio University and a Master of Science from Georgia Tech in Industrial Management.",
-    "abstract1": "Gary Wolf has 55 years' experience in the rail industry and has been an ardent supporter of, and frequent presenter at, the WRI seminar. Bob Tuzik, editor of Interface Journal and WRI moderator, will sit down with Gary in an unfiltered conversation to discuss his views on many salient Wheel/Rail interface topics. Gary will not hold back on his observations as to how the Wheel/Rail interface is being managed in the railroad industry. Topics such as rail grinding, rail lubrication, wheel management, curve elevation, wayside/on board detection, and derailment causation will be discussed. Differences between practices at Class 1 vs. short line railroads will be explained.",
-    "abstract2": "Gary will also give his take on some of the current regulatory issues influencing the productivity and safety of the rail industry. Also, economic impediments to improving the wheel/rail interface will be fair game. This will be a provocative, yet fact based, assessment of where we are and where we need to go into the future.",
-    "topic": "Fireside Chat with Industry and WRI Veteran Gary Wolf",
-    "session": "HH-M"
   }
 ];
