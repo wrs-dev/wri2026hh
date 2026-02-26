@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 import Link from 'next/link';
 import Navigation from '@/components/navigation';
-import InfoZonePageSponsorship from '@/components/infozone/infoZonePageSponsorship';
+import InfoZonePage from '@/components/infozone/infoZonePage';
 import Banner26HH from '@/components/banner/wri26HH';
 import IconsHH from '@/components/icons/iconsHH-nolink';
 
@@ -30,7 +30,7 @@ const infozone = () => {
           </h2>
         </div>
       </div>
-      <InfoZonePageSponsorship />
+      <InfoZonePage />
     </main>
   );
 };

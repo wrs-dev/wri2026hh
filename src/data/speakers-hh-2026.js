@@ -27,6 +27,14 @@ export const speakersHH2026 = [
     "session": "HH-C"
   },
   {
+    "name": "Gary Wolf",
+    "company": "Wolf Railway Consulting, LLC",
+    "title": "President",
+    "imageSrc": "/gary-wolf.jpg",
+    "topic": "Fireside Chat with Industry and WRI Veteran Gary Wolf",
+    "session": "HH-M"
+  },
+  {
     "name": "Huseyin Guzel",
     "company": "BNSF Railway",
     "title": "Senior Engineer II",
