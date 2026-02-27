@@ -58,7 +58,7 @@ export default function Home({ title, description, socialImage }) {
         </p>
       </div>
       <Intro />
-      <CallForPapers />
+      {/* <CallForPapers /> */}
       <Registration />
       <InfoZoneSection />
       <SponsorCTA2 />
