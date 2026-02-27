@@ -58,6 +58,12 @@ const goldSponsors = [
     imagePath: '/scout-robotics.png',
     url: 'https://www.scoutrobotics.com/',
   },
+  {
+    name: 'Amsted Rail',
+    description: '',
+    imagePath: '/gold-amstead-rail.png',
+    url: 'https://www.amstedrail.com/',
+  },
 ];
 
 const silverSponsors = [

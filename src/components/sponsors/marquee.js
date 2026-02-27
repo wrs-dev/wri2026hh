@@ -50,6 +50,13 @@ const LogoRow = () => {
             height={50}
           />
           <Image
+            src="/gold-amstead-rail.png"
+            alt="Gold Sponsor Amsted Rail"
+            className="h-[60px] w-auto max-w-none"
+            width={200}
+            height={50}
+          />
+          <Image
             src="/getzner-logo.png"
             alt="Silver Sponsor Getzner"
             className="h-[60px] w-auto max-w-none"
@@ -142,6 +149,11 @@ const LogoRow = () => {
           <img
             src="/scout-robotics.png"
             alt="Gold Sponsor Scout Robotics"
+            className="h-[60px] w-auto max-w-none"
+          />
+          <img
+            src="/gold-amstead-rail.png"
+            alt="Gold Sponsor Amsted Rail"
             className="h-[60px] w-auto max-w-none"
           />
           <img
