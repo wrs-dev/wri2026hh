@@ -1,7 +1,7 @@
 import Navigation from '@/components/navigation';
 import Banner26HH from '@/components/banner/wri26HH';
 import IconsHH from '@/components/icons/iconsHH-nolink';
-// import AgendaButton from '@/components/buttons/agenda-download-button';
+import AgendaButton from '@/components/buttons/agenda-download-button';
 import SponsorCTAButton from '@/components/buttons/sponsor-cta-button';
 import Intro from '@/components/intro';
 import CallForPapers from '@/components/call-for-papers';
@@ -35,7 +35,8 @@ export default function Home({ title, description, socialImage }) {
         Principles Course speakers now available! Click below.
         </h3>
       <IconsHH />
-      <div className="flex justify-center mb-12">
+      <div className="flex flex-wrap justify-center gap-4 mb-12">
+        <AgendaButton />
         <SponsorCTAButton />
       </div>
       <div className="pb-40 about-container font-wri" id="about">
