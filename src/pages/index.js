@@ -35,7 +35,7 @@ export default function Home({ title, description, socialImage }) {
         Principles Course speakers now available! Click below.
         </h3>
       <IconsHH />
-      <div className="flex flex-wrap justify-center gap-4 mb-12">
+      <div className="flex flex-wrap justify-center gap-8 mb-12">
         <AgendaButton />
         <SponsorCTAButton />
       </div>
