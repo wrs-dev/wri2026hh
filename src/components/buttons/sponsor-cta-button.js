@@ -14,7 +14,7 @@ const SponsorCTAButton = () => {
         initial="rest" // Initial state (non-hovered)
         whileHover="hover" // State when hovered
       >
-        <span className="z-10">Become a Sponsor</span>
+        <span className="z-10">Become a WRI Sponsor</span>
         <div className="z-10 w-8 pl-2">
           <ArrowTopRightOnSquareIcon />
         </div>
