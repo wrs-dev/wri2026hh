@@ -78,6 +78,13 @@ const LogoRow = () => {
             height={50}
           />
           <Image
+            src="/bronze-lbfoster.png"
+            alt="Bronze Sponsor LB Foster"
+            className="h-[48px] w-auto max-w-none"
+            width={200}
+            height={50}
+          />
+          <Image
             src="/hexagon-2026.png"
             alt="InfoZone Partner Hexagon"
             className="h-[60px] w-auto max-w-none"
@@ -170,6 +177,11 @@ const LogoRow = () => {
             src="/bronze-fuchs.png"
             alt="Bronze Sponsor Fuchs"
             className="h-[60px] w-auto max-w-none"
+          />
+          <img
+            src="/bronze-lbfoster.png"
+            alt="Bronze Sponsor LB Foster"
+            className="h-[48px] w-auto max-w-none"
           />
           <img
             src="/hexagon-2026.png"
