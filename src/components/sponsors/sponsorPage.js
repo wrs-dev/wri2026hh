@@ -94,6 +94,13 @@ const bronzeSponsors = [
     imagePath: '/bronze-fuchs.png',
     url: 'https://www.fuchs.com/us/en/',
   },
+  {
+    name: 'LB Foster',
+    description: '',
+    imagePath: '/bronze-lbfoster.png',
+    url: 'https://www.lbfoster.com/',
+    extraClass: 'max-h-14',
+  },
 ];
 
 export default function SponsorPage() {
@@ -242,7 +249,7 @@ export default function SponsorPage() {
                       <img
                         src={sponsor.imagePath}
                         alt={sponsor.name}
-                        className="img-fill-contain max-h-20"
+                        className={`img-fill-contain ${sponsor.extraClass || 'max-h-20'}`}
                       />
                     </div>
                   </dt>
