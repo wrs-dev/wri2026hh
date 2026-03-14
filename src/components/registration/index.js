@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import PricingEmployeeIndividual from '@/components/pricing-employee-individual';
 import PricingEmployeeMulti from '@/components/pricing-employee-multi';
 import PricingProfessionalIndividual from '@/components/pricing-professional-individual';
@@ -10,7 +10,43 @@ import PricingStudentMulti from '@/components/pricing-student-multi';
 import RegisterButton from '@/components/buttons/register-button';
 import StudentRegisterButton from '@/components/buttons/student-register-button';
 
+const useCountdown = targetDate => {
+  const countDownDate = new Date(targetDate).getTime();
+
+  // Initialize with null values to match server render
+  const [countDown, setCountDown] = useState({
+    days: null,
+    hours: null,
+    minutes: null,
+    seconds: null,
+  });
+
+  useEffect(() => {
+    // Update the countdown immediately on mount and then set interval
+    const updateCountdown = () => {
+      const now = new Date().getTime();
+      const distance = countDownDate - now;
+
+      // Update state with calculated time values
+      setCountDown({
+        days: Math.floor(distance / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((distance / (1000 * 60 * 60)) % 24),
+        minutes: Math.floor((distance / 1000 / 60) % 60),
+        seconds: Math.floor((distance / 1000) % 60),
+      });
+    };
+
+    updateCountdown(); // Initial update
+    const interval = setInterval(updateCountdown, 1000);
+
+    return () => clearInterval(interval);
+  }, [countDownDate]);
+
+  return countDown;
+};
+
 const RegistrationComp = () => {
+  const { days, hours, minutes, seconds } = useCountdown('2026-04-22T00:00:00');
 
   return (
     <section className="py-12 register-now">
@@ -19,6 +55,24 @@ const RegistrationComp = () => {
       </h2>
       <div className="row">
         <div className="container" id="register">
+          <ul className="flex flex-wrap justify-center pb-16">
+            <li>
+              <h3>{days}</h3>
+              <span>Days</span>
+            </li>
+            <li>
+              <h3>{hours}</h3>
+              <span>Hours</span>
+            </li>
+            <li>
+              <h3>{minutes}</h3>
+              <span>Minutes</span>
+            </li>
+            <li>
+              <h3>{seconds}</h3>
+              <span>Seconds</span>
+            </li>
+          </ul>
           <div className="grid grid-cols-1 gap-4 md:grid-cols-1 xl:grid-cols-2">
             {/* Employee Column */}
             <div className="flex flex-col px-4 mb-4">
