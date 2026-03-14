@@ -3,13 +3,20 @@ import Image from 'next/image';
 const LogoRow = () => {
   return (
     <div className="flex space-x-10 overflow-hidden">
-      <div className="flex space-x-20 animate-loop-scroll will-change-transform w-max" style={{ transform: 'translateZ(0)' }}>
+      <div className="flex space-x-20 animate-loop-scroll-half will-change-transform w-max" style={{ transform: 'translateZ(0)' }}>
         <>
           <Image
             src="/NuRail_Presenting_Sponsor_2025.png"
             alt="Presenting Sponsor NuRail"
             className="h-[60px] w-auto max-w-none"
             priority
+            width={200}
+            height={50}
+          />
+          <Image
+            src="/ij-logo.png"
+            alt="Silver Sponsor Interface Journal"
+            className="h-[60px] w-auto max-w-none"
             width={200}
             height={50}
           />
@@ -119,18 +126,16 @@ const LogoRow = () => {
             width={200}
             height={50}
           />
-          <Image
-            src="/ij-logo.png"
-            alt="Silver Sponsor Interface Journal"
-            className="h-[60px] w-auto max-w-none"
-            width={200}
-            height={50}
-          />
         </>
         <>
           <img
             src="/NuRail_Presenting_Sponsor_2025.png"
             alt="Presenting Sponsor NuRail"
+            className="h-[60px] w-auto max-w-none"
+          />
+          <img
+            src="/ij-logo.png"
+            alt="Silver Sponsor Interface Journal"
             className="h-[60px] w-auto max-w-none"
           />
           <img
@@ -206,11 +211,6 @@ const LogoRow = () => {
           <img
             src="/silver-athena.png"
             alt="InfoZone Partner Athena"
-            className="h-[60px] w-auto max-w-none"
-          />
-          <img
-            src="/ij-logo.png"
-            alt="Silver Sponsor Interface Journal"
             className="h-[60px] w-auto max-w-none"
           />
         </>

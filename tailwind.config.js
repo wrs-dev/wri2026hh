@@ -36,6 +36,7 @@ module.exports = {
         'fade-in': 'fade-in 0.5s linear forwards',
         marquee: 'marquee var(--marquee-duration) linear infinite',
         'loop-scroll': 'loop-scroll 100s linear infinite',
+        'loop-scroll-half': 'loop-scroll-half 100s linear infinite',
       },
       keyframes: {
         'fade-in': {
@@ -48,6 +49,10 @@ module.exports = {
         'loop-scroll': {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-100%)' },
+        },
+        'loop-scroll-half': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-50%)' },
         },
       },
       aspectRatio: {
