@@ -108,14 +108,14 @@ const LogoRow = () => {
           <Image
             src="/platinum-loram.png"
             alt="InfoZone Partner Loram"
-            className="h-[60px] w-auto max-w-none"
+            className="h-[48px] w-auto max-w-none"
             width={279}
             height={50}
           />
           <Image
             src="/platinum-plasser-american.svg"
             alt="InfoZone Partner Plasser American"
-            className="h-[60px] w-auto max-w-none"
+            className="h-[48px] w-auto max-w-none"
             width={353}
             height={50}
           />
@@ -201,12 +201,12 @@ const LogoRow = () => {
           <img
             src="/platinum-loram.png"
             alt="InfoZone Partner Loram"
-            className="h-[60px] w-auto max-w-none"
+            className="h-[48px] w-auto max-w-none"
           />
           <img
             src="/platinum-plasser-american.svg"
             alt="InfoZone Partner Plasser American"
-            className="h-[60px] w-auto max-w-none"
+            className="h-[48px] w-auto max-w-none"
           />
           <img
             src="/silver-athena.png"

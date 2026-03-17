@@ -126,10 +126,10 @@ const RegistrationComp = () => {
             <RegisterButton />
           </div>
 
-          {/* Student Column - Centered */}
-          <div className="grid grid-cols-1 gap-4 mt-20 md:grid-cols-1 xl:grid-cols-1">
-            {/* Virtual Column - Temporarily Hidden */}
-            {/* <div className="flex flex-col justify-between h-full px-4 mb-4">
+          {/* Virtual & Student Columns */}
+          <div className="grid grid-cols-1 gap-4 mt-20 md:grid-cols-1 xl:grid-cols-2">
+            {/* Virtual Column */}
+            <div className="flex flex-col px-4 mb-4">
               <div className="px-0 lg:px-12">
                 <h3 className="mb-8 text-4xl font-bold text-center text-white">
                   Virtual Option
@@ -141,16 +141,19 @@ const RegistrationComp = () => {
                   Attendees registering for more than one event will receive special Multi-Event Discounts.
                 </p>
               </div>
-              <div>
+              <div className="mt-auto">
                 <div className="mb-4">
                   <PricingVirtualIndividual />
                 </div>
                 <PricingVirtualMulti />
               </div>
-            </div> */}
+              <div className="mt-12 text-center">
+                <RegisterButton />
+              </div>
+            </div>
 
             {/* Student Column */}
-            <div className="flex flex-col justify-between h-full px-4 mb-4 xl:w-1/2 xl:mx-auto">
+            <div className="flex flex-col px-4 mb-4">
               <div className="px-0 lg:px-12">
                 <h3 className="mb-8 text-4xl font-bold text-center text-white">
                   Student Registration
@@ -159,18 +162,16 @@ const RegistrationComp = () => {
                   Student Pricing is available exclusively through the Student Registration button below.
                 </p>
               </div>
-              <div>
+              <div className="mt-auto">
                 <div className="mb-4">
                   <PricingStudentIndividual />
                 </div>
                 <PricingStudentMulti />
               </div>
+              <div className="mt-12 text-center">
+                <StudentRegisterButton />
+              </div>
             </div>
-          </div>
-
-          {/* Student Registration Button only */}
-          <div className="mt-12 mb-12 text-center">
-            <StudentRegisterButton />
           </div>
         </div>
       </div>
