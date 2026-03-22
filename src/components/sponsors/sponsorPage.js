@@ -56,7 +56,7 @@ const goldSponsors = [
     name: 'Scout Robotics',
     description: '',
     imagePath: '/scout-robotics.png',
-    url: 'https://www.scoutrobotics.com/',
+    url: 'http://scoutrobo.com/',
   },
   {
     name: 'Amsted Rail',
