@@ -13,7 +13,7 @@ const iconVariants = {
 
 const AgendaDownloadButton = () => {
   return (
-    <Link href="/WRI-26-Heavy-Haul-Conference-Agenda.pdf" target="_blank" rel="noopener noreferrer">
+    <Link href="/WRI2026-HH-Agendas-Dallas-v2.pdf" target="_blank" rel="noopener noreferrer">
       {/* Apply initial and whileHover to MotionBox */}
       <motion.div
         className="relative inline-flex items-center justify-center whitespace-nowrap min-w-[300px] p-5 px-6 py-4 overflow-hidden font-bold text-lg text-white transition duration-300 ease-out border-2 border-white shadow-xl rounded-xl bg-wri-blue hover:bg-wri-green hover:text-white"
