@@ -24,7 +24,7 @@ const infoZoneSponsors = [
   {
     name: 'Loram',
     description: '',
-    imagePath: '/platinum-loram.svg',
+    imagePath: '/platinum-loram.png',
     url: 'https://loram.com/',
   },
   {

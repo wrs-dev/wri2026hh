@@ -27,7 +27,7 @@ const platinumSponsors = [
       'Material Handling',
       'Structural monitoring and data services',
     ],
-    imagePath: '/platinum-loram.svg',
+    imagePath: '/platinum-loram.png',
     url: 'https://loram.com/',
   },
 ];
