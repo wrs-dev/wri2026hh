@@ -22,7 +22,7 @@ const infoZoneSponsors = [
     name: 'Loram',
     description:
       'The LORAM Maintenance of Way InfoZone will share a case study for Class 1 railroads working to improve turnout grinding standards. Many railroads treat turnouts like tangent rail, but the case study shows significant cost savings and life extension could be achieved on the turnouts from more frequent grinding cycles and improved rail profiles. Digital twin technology, economic data, turnout inspection data, and traffic data were used to simulate different grinding strategies to help quantify the benefits and recommend improved strategy. The attendees will learn how they can use their data to help compare the business case of different strategies and present this to their finance and executive leadership. We look forward to seeing you in the LORAM InfoZone!',
-    imagePath: '/platinum-loram.svg',
+    imagePath: '/platinum-loram.png',
     url: 'https://loram.com/',
     bullets: [
       // ... add bullets if needed
