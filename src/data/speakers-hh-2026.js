@@ -45,7 +45,7 @@ export const speakersHH2026 = [
   {
     "name": "Alicia Lollar",
     "company": "BNSF Railway",
-    "title": "Director of the Technical Research and Development",
+    "title": "Director of Technical Research and Development",
     "imageSrc": "/alicia-lollar.jpg",
     "topic": "Examining Wheel Failures Due to Fatigue Cracks Initiating at the Back Rim Surface",
     "session": "HH-E"
