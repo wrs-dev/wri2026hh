@@ -47,7 +47,7 @@ export const biosAbstractsHH2026 = [
     "bio2": "Gary has been a frequent contributor to the WRI annual seminar for the past 22 years. He was the recipient of the 2023 Worth Award, named for Art Worth, who was Manager of Standards and retired as Senior Manager – Advanced Technology at Canadian National, and awarded annually by Wheel/Rail Seminars. Gary holds a BS degree in Electrical Engineering from Ohio University and a Master of Science from Georgia Tech in Industrial Management.",
     "abstract1": "Gary Wolf has 55 years' experience in the rail industry and has been an ardent supporter of, and frequent presenter at, the WRI seminar. Bob Tuzik, editor of Interface Journal and WRI moderator, will sit down with Gary in an unfiltered conversation to discuss his views on many salient Wheel/Rail interface topics. Gary will not hold back on his observations as to how the Wheel/Rail interface is being managed in the railroad industry. Topics such as rail grinding, rail lubrication, wheel management, curve elevation, wayside/on board detection, and derailment causation will be discussed. Differences between practices at Class 1 vs. short line railroads will be explained.",
     "abstract2": "Gary will also give his take on some of the current regulatory issues influencing the productivity and safety of the rail industry. Also, economic impediments to improving the wheel/rail interface will be fair game. This will be a provocative, yet fact based, assessment of where we are and where we need to go into the future.",
-    "topic": "Fireside Chat with Industry and WRI Veteran Gary Wolf",
+    "topic": "Fireside Chat with Industry Veteran and previous Worth Award Winner, Gary Wolf",
     "session": "HH-M"
   },
   {

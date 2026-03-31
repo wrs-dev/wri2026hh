@@ -31,7 +31,7 @@ export const speakersHH2026 = [
     "company": "Wolf Railway Consulting, LLC",
     "title": "President",
     "imageSrc": "/gary-wolf.jpg",
-    "topic": "Fireside Chat with Industry and WRI Veteran Gary Wolf",
+    "topic": "Fireside Chat with Industry Veteran and previous Worth Award Winner, Gary Wolf",
     "session": "HH-M"
   },
   {
