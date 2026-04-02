@@ -64,6 +64,12 @@ const goldSponsors = [
     imagePath: '/gold-amstead-rail.png',
     url: 'https://www.amstedrail.com/',
   },
+  {
+    name: 'Vossloh',
+    description: '',
+    imagePath: '/gold-vossloh.jpg',
+    url: 'https://www.vossloh.com/',
+  },
 ];
 
 const silverSponsors = [
