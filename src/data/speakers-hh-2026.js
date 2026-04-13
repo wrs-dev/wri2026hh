@@ -59,6 +59,14 @@ export const speakersHH2026 = [
     "session": "HH-F"
   },
   {
+    "name": "Wesley Thomas",
+    "company": "Loram Maintenance of Way",
+    "title": "Director Digital Service Delivery",
+    "imageSrc": "/wesley-thomas.png",
+    "topic": "Refining the Rail Grinding Strategy to Improve Surface Conditions and Reduce Defects on CSX",
+    "session": "HH-F"
+  },
+  {
     "name": "Dan Leeb",
     "company": "Canadian National",
     "title": "Senior Manager of Advanced Technologies",

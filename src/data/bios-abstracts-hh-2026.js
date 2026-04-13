@@ -87,6 +87,18 @@ export const biosAbstractsHH2026 = [
     "session": "HH-F"
   },
   {
+    "name": "Wesley Thomas",
+    "company": "Loram Maintenance of Way",
+    "title": "Director Digital Service Delivery",
+    "imageSrc": "/wesley-thomas.png",
+    "bio1": "Wesley Thomas is the Director of Digital Service Delivery for Loram Maintenance of Way. Wesley leads the new global Digital Service Delivery team including all digital services for rail life management and grind planning, tie/sleeper inspection and capital planning, and ballast inspection and remediation planning. In addition, he is responsible for global strategy, go to market, product management, and delivery of all nine Loram digital products.",
+    "bio2": "Wesley received an Honours in Business Administration degree from Western University's Richard Ivey School of Business in London, Ontario.",
+    "abstract1": "Surface condition related defects like transverse defects (TDDs), vertical split head shears (VSH), and shelling, spalling, and corrugation (SSCs) can lead to additional inspection and maintenance costs, rail breaks, service failures, and even derailments if not treated in time. CSX has reduced TDDs by 70% and SSC areas by 99% since 2015, and has made changes to target profiles to target vertical split head shears in 2025. This presentation will share the results of the program where CSX has combined defect and inspection data, software technologies, and coordinated switch grinding to find, plan for, and treat smaller areas of rail surface conditions earlier – rather than missing these areas of higher damage.",
+    "abstract2": "The presentation will also share the work done between Loram and CSX to understand appropriate grind cycles throughout the network, the tools used to help planning and adherence to those targets, and the commitment from the CSX to maintain those cycles. The presentation will also cover new technologies and developments from this last year and builds on the grinding strategy and series of innovations that Dan Hampton has presented at IHHA and previous WRI heavy haul conferences.",
+    "topic": "Refining the Rail Grinding Strategy to Improve Surface Conditions and Reduce Defects on CSX",
+    "session": "HH-F"
+  },
+  {
     "name": "Dan Leeb",
     "company": "Canadian National",
     "title": "Senior Manager of Advanced Technologies",
