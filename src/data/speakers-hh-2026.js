@@ -11,6 +11,14 @@ export const speakersHH2026 = [
     "session": "HH-A"
   },
   {
+    "name": "Yash Sehgal",
+    "company": "Vandhana International Pvt. Ltd.",
+    "title": "Technical Director",
+    "imageSrc": "/yash-sehgal.png",
+    "topic": "Data-Driven Assessment of Rail Grinding Frequency for Sustainable Track Integrity in India's Dedicated Freight Corridor",
+    "session": "HH-A"
+  },
+  {
     "name": "Cameron Lonsdale",
     "company": "Amsted Rail",
     "title": "Vice President of Government Affairs",
@@ -99,10 +107,10 @@ export const speakersHH2026 = [
     "session": "HH-I"
   },
   {
-    "name": "B. P. Awasthi",
-    "company": "Nacala Logistics, Mozambique",
-    "title": "Head & COO of Nacala Logistics - Mozambique",
-    "imageSrc": "/b-p-awasthi.jpg",
+    "name": "Yash Sehgal",
+    "company": "Vandhana International Pvt. Ltd.",
+    "title": "Technical Director",
+    "imageSrc": "/yash-sehgal.png",
     "topic": "Wheel–Rail Interaction Challenges and Grinding-Based Rehabilitation on Africa's Cape Gauge Heavy Haul Network: The NACALA Experience",
     "session": "HH-J"
   },
