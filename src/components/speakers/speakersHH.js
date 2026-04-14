@@ -50,21 +50,20 @@ const SpeakerCard = ({ name, company, imageSrc, topic, bioLink }) => {
   );
 };
 
-const generateSlug = fullName => {
+const generateSlug = (fullName, session) => {
   if (typeof fullName !== 'string' || fullName.trim().length === 0) {
     console.warn('generateSlug was called without a valid name');
     return '';
   }
 
-  // Split the name into parts and then take the first letter of the first name
-  const parts = fullName.trim().split(/\s+/); // Split on any whitespace
-  const firstNameInitial = parts[0][0]; // Get the first character of the first name
-  const lastName = parts.length > 1 ? parts[parts.length - 1] : ''; // Safely get the last name
+  const parts = fullName.trim().split(/\s+/);
+  const firstNameInitial = parts[0][0];
+  const lastName = parts.length > 1 ? parts[parts.length - 1] : '';
 
-  // Combine the first name initial with the last name, both in lowercase
-  const slug = `${firstNameInitial.toLowerCase()}-${lastName.toLowerCase()}`;
+  const nameSlug = `${firstNameInitial.toLowerCase()}-${lastName.toLowerCase()}`;
+  const sessionSlug = session ? `-${session.toLowerCase()}` : '';
 
-  return slug;
+  return `${nameSlug}${sessionSlug}`;
 };
 
 const SpeakersHH = () => {
@@ -82,10 +81,11 @@ const SpeakersHH = () => {
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {speakers.map(speaker => (
               <SpeakerCard
-                key={speaker.name}
+                key={`${speaker.name}-${speaker.session}`}
                 {...speaker}
                 bioLink={`/heavy-haul-seminar-bios-abstracts#bio-${generateSlug(
                   speaker.name,
+                  speaker.session,
                 )}`}
               />
             ))}

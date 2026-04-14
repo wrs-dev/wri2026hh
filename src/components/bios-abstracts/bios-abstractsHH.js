@@ -2,27 +2,25 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { biosAbstractsHH2026 } from '@/data/bios-abstracts-hh-2026';
 
-const generateSlug = fullName => {
+const generateSlug = (fullName, session) => {
   if (typeof fullName !== 'string' || fullName.trim().length === 0) {
     console.warn('generateSlug was called without a valid name');
     return '';
   }
 
-  // Split the name into parts and then take the first letter of the first name
-  const parts = fullName.trim().split(/\s+/); // Split on any whitespace
-  const firstNameInitial = parts[0][0]; // Get the first character of the first name
-  const lastName = parts.length > 1 ? parts[parts.length - 1] : ''; // Safely get the last name
+  const parts = fullName.trim().split(/\s+/);
+  const firstNameInitial = parts[0][0];
+  const lastName = parts.length > 1 ? parts[parts.length - 1] : '';
 
-  // Combine the first name initial with the last name, both in lowercase
-  const slug = `${firstNameInitial.toLowerCase()}-${lastName.toLowerCase()}`;
+  const nameSlug = `${firstNameInitial.toLowerCase()}-${lastName.toLowerCase()}`;
+  const sessionSlug = session ? `-${session.toLowerCase()}` : '';
 
-  return slug;
+  return `${nameSlug}${sessionSlug}`;
 };
 
 // Speaker card component
-const SpeakerCard = ({ name, company, imageSrc, title, bio1, bio2 }) => {
-  // Ensure that the slug is generated in the desired format: 'firstname-lastname'
-  const slug = generateSlug(name);
+const SpeakerCard = ({ name, company, imageSrc, title, bio1, bio2, session }) => {
+  const slug = generateSlug(name, session);
 
   return (
     <div
@@ -95,7 +93,10 @@ const TopicLayout = ({ speakers, topic, abstract1, abstract2 }) => {
   return (
     <div className="mb-8 overflow-hidden bg-white rounded-lg shadow-md">
       {speakers.map(speaker => (
-        <SpeakerCard key={generateSlug(speaker.name)} {...speaker} />
+        <SpeakerCard
+          key={generateSlug(speaker.name, speaker.session)}
+          {...speaker}
+        />
       ))}
       <AbstractSection
         topic={topic}
@@ -125,6 +126,7 @@ const BiosAbstractsHH = () => {
             title: item.title,
             bio1: item.bio1,
             bio2: item.bio2,
+            session: item.session,
           };
 
           // Group speakers by topic
