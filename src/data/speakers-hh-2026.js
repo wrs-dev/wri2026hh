@@ -107,6 +107,14 @@ export const speakersHH2026 = [
     "session": "HH-I"
   },
   {
+    "name": "B. P. Awasthi",
+    "company": "Nacala Logistics, Mozambique",
+    "title": "Head & COO of Nacala Logistics - Mozambique",
+    "imageSrc": "/b-p-awasthi.jpg",
+    "topic": "Wheel–Rail Interaction Challenges and Grinding-Based Rehabilitation on Africa's Cape Gauge Heavy Haul Network: The NACALA Experience",
+    "session": "HH-J"
+  },
+  {
     "name": "Yash Sehgal",
     "company": "Vandhana International Pvt. Ltd.",
     "title": "Technical Director",
