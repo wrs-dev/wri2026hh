@@ -40,11 +40,11 @@ const Footer = () => {
       <div className="px-6 pt-20 pb-8 mx-auto max-w-7xl sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="grid grid-cols-2 gap-8 xl:col-span-2">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
+            <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-8">
               <NavigationSection title="WRI Conference Home" items={navigation.solutions} />
               <NavigationSection title="WRI Conferences" items={navigation.support} />
             </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
+            <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-8">
               <NavigationSection title="Registration & More" items={navigation.company} />
               <div>
                 <NavigationSection title="Legal" items={navigation.legal} />
