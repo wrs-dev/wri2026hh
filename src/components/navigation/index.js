@@ -317,18 +317,18 @@ export default function Navigation() {
                     Home
                   </a>
 
-                  <p className="pt-4 pb-1 text-xs font-semibold tracking-wider uppercase text-gray-500">
+                  <div className="pt-2 pb-1 text-xs font-semibold tracking-wider text-gray-500 uppercase">
                     WRI Seminars
-                  </p>
+                  </div>
                   <Link
                     href="/principles-course#icons"
-                    className="block py-2 pl-3 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                    className="block py-2 pl-4 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Principles Course
                   </Link>
                   <Link
                     href="/heavy-haul-seminar#icons"
-                    className="block py-2 pl-3 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                    className="block py-2 pl-4 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Heavy Haul Seminar
                   </Link>
@@ -336,7 +336,7 @@ export default function Navigation() {
                     href="https://wri2026rt.wheel-rail-seminars.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block py-2 pl-3 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                    className="block py-2 pl-4 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     WRI2026 Rail Transit
                   </a>
@@ -344,7 +344,7 @@ export default function Navigation() {
                     href="https://wri2025rt.wheel-rail-seminars.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block py-2 pl-3 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                    className="block py-2 pl-4 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     WRI2025 Rail Transit
                   </a>
@@ -352,7 +352,7 @@ export default function Navigation() {
                     href="https://wri2025hh.wheel-rail-seminars.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block py-2 pl-3 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                    className="block py-2 pl-4 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     WRI2025 Heavy Haul
                   </a>
@@ -360,7 +360,7 @@ export default function Navigation() {
                     href="http://archive.wheel-rail-seminars.com/us/downloads.php"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block py-2 pl-3 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                    className="block py-2 pl-4 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     WRI Seminar Archives
                   </a>
