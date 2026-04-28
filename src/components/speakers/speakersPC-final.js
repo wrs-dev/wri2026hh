@@ -1,19 +1,27 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { ChevronDoubleRightIcon } from '@heroicons/react/16/solid';
-import StoryblokClient from 'storyblok-js-client';
 import { motion } from 'framer-motion';
-
-// Initialize Storyblok client
-const Storyblok = new StoryblokClient({
-  accessToken: process.env.NEXT_PUBLIC_STORYBLOK_PREVIEW_TOKEN,
-  region: 'us',
-});
+import { speakersPC2026 } from '@/data/speakers-pc-2026';
 
 const MotionBox = motion.div;
 
-const SpeakerCard = ({ name, company, imageSrc, topic, bioLink, pdfFileName }) => {
-  // Ensure imageUrl in Storyblok matches the name of the photo (firstname-lastname.jpg)
+const buildPdfHref = fileName =>
+  `/pdfs/2026/${fileName.split('/').map(encodeURIComponent).join('/')}`;
+
+const SpeakerCard = ({
+  name,
+  company,
+  imageSrc,
+  topic,
+  bioLink,
+  pdfFileName,
+  pdfFileName2,
+  pdfLabel,
+  pdfLabel2,
+}) => {
+  const hasTwoPdfs = Boolean(pdfFileName && pdfFileName2);
+  const singlePdfLabel = hasTwoPdfs ? pdfLabel : 'Presentation PDF';
 
   return (
     <div className="group">
@@ -55,17 +63,34 @@ const SpeakerCard = ({ name, company, imageSrc, topic, bioLink, pdfFileName }) =
           </div>
         </Link>
       </div>
-      <div className="flex justify-center gap-4 mx-6 mt-6 mb-10">
+      <div className="flex flex-wrap justify-center gap-4 mx-6 mt-6 mb-10">
         <Link href={bioLink}>
           <div className="px-8 py-4 text-lg font-semibold text-center text-white rounded-lg bg-wri-green hover:bg-green-700">
-            Bio & Abstract
+            Bio &amp; Abstract
           </div>
         </Link>
-        <Link href={`/pdfs/2025/${pdfFileName}`} target="_blank">
-          <div className="px-8 py-4 text-lg font-semibold text-center text-white rounded-lg bg-wri-green hover:bg-green-700">
-            Presentation PDF
-          </div>
-        </Link>
+        {pdfFileName && (
+          <a
+            href={buildPdfHref(pdfFileName)}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="px-8 py-4 text-lg font-semibold text-center text-white rounded-lg bg-wri-green hover:bg-green-700">
+              {singlePdfLabel}
+            </div>
+          </a>
+        )}
+        {hasTwoPdfs && (
+          <a
+            href={buildPdfHref(pdfFileName2)}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="px-8 py-4 text-lg font-semibold text-center text-white rounded-lg bg-wri-green hover:bg-green-700">
+              {pdfLabel2 || 'Presentation PDF'}
+            </div>
+          </a>
+        )}
       </div>
     </div>
   );
@@ -77,12 +102,10 @@ const generateSlug = fullName => {
     return '';
   }
 
-  // Split the name into parts and then take the first letter of the first name
-  const parts = fullName.trim().split(/\s+/); // Split on any whitespace
-  const firstNameInitial = parts[0][0]; // Get the first character of the first name
-  const lastName = parts.length > 1 ? parts[parts.length - 1] : ''; // Safely get the last name
+  const parts = fullName.trim().split(/\s+/);
+  const firstNameInitial = parts[0][0];
+  const lastName = parts.length > 1 ? parts[parts.length - 1] : '';
 
-  // Combine the first name initial with the last name, both in lowercase
   const slug = `${firstNameInitial.toLowerCase()}-${lastName.toLowerCase()}`;
 
   return slug;
@@ -92,21 +115,7 @@ const SpeakersPC = () => {
   const [speakers, setSpeakers] = useState([]);
 
   useEffect(() => {
-    const fetchSpeakerCards = async () => {
-      try {
-        const version = process.env.NEXT_PUBLIC_CONTENT_VERSION || 'published'; // Fallback to 'published' if the variable is not set
-        const response = await Storyblok.get('cdn/stories', {
-          starts_with: 'wri-conferences/speaker-cards-pc/',
-          version: version,
-        });
-
-        setSpeakers(response.data.stories.map(story => story.content));
-      } catch (error) {
-        console.error('Error fetching speaker cards:', error);
-      }
-    };
-
-    fetchSpeakerCards();
+    setSpeakers(speakersPC2026);
   }, []);
 
   return (
@@ -121,7 +130,6 @@ const SpeakersPC = () => {
                 bioLink={`/principles-course-bios-abstracts#bio-${generateSlug(
                   speaker.name,
                 )}`}
-                pdfFileName={speaker.pdfFileName}
               />
             ))}
           </div>
