@@ -9,7 +9,11 @@ export const speakersPC2026 = [
     "imageSrc": "/david-casaceli.jpg",
     "topic": "Case Study Introduction and Principles Course Overview",
     "session": "SESSION 1",
-    "role": "Moderator"
+    "role": "Moderator",
+    "pdfFileName": "WRI2026HH-PC-Casaceli_Intro_Slides.pdf",
+    "pdfFileName2": "WRI2026HH-PC-Session7-Casaceli.pdf",
+    "pdfLabel": "Intro Slides",
+    "pdfLabel2": "Wrap-Up Slides"
   },
   {
     "name": "J. Riley Edwards",
@@ -18,7 +22,8 @@ export const speakersPC2026 = [
     "imageSrc": "/j-riley-edwards.jpg",
     "topic": "Track Structures and Components",
     "session": "SESSION 2",
-    "role": ""
+    "role": "",
+    "pdfFileName": "WRI2026HH-PC-Session1-Edwards.pdf"
   },
   {
     "name": "Darrell Krueger",
@@ -27,7 +32,8 @@ export const speakersPC2026 = [
     "imageSrc": "/darrell-krueger.jpg",
     "topic": "Vehicle Types, Suspensions and Components",
     "session": "SESSION 3",
-    "role": ""
+    "role": "",
+    "pdfFileName": "WRI2026HH-PC-Session2-Kruger.pdf"
   },
   {
     "name": "Kevin Oldknow",
@@ -36,7 +42,8 @@ export const speakersPC2026 = [
     "imageSrc": "/kevin-oldknow.jpg",
     "topic": "Wheel-Rail Contact: an Introduction",
     "session": "SESSION 4",
-    "role": ""
+    "role": "",
+    "pdfFileName": "WRI2026HH-PC-Session3-Oldknow.pdf"
   },
   {
     "name": "Corey Pasta",
@@ -45,7 +52,8 @@ export const speakersPC2026 = [
     "imageSrc": "/corey-pasta.webp",
     "topic": "Vehicle-Track Interaction & Dynamics",
     "session": "SESSION 5",
-    "role": ""
+    "role": "",
+    "pdfFileName": "WRI2026HH-PC- Session4-Pasta.pdf"
   },
   {
     "name": "Richard Stock",
@@ -54,7 +62,8 @@ export const speakersPC2026 = [
     "imageSrc": "/richard-stock.jpg",
     "topic": "Wheel-Rail Damage Mechanisms",
     "session": "SESSION 6",
-    "role": ""
+    "role": "",
+    "pdfFileName": "WRI2026HH-PC-Session5-Stock.pdf"
   },
   {
     "name": "Matthew Dick",
@@ -63,6 +72,7 @@ export const speakersPC2026 = [
     "imageSrc": "/matthew-dick.jpg",
     "topic": "Vehicle-Track Measurement Technologies",
     "session": "SESSION 7",
-    "role": ""
+    "role": "",
+    "pdfFileName": "WRI2026HH-PC-Session6-Dick.pdf"
   }
 ];
