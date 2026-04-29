@@ -43,7 +43,7 @@ export const speakersPC2026 = [
     "topic": "Wheel-Rail Contact: an Introduction",
     "session": "SESSION 4",
     "role": "",
-    "pdfFileName": null
+    "pdfFileName": "WRI2026HH-PC-Session3-Oldknow.pdf"
   },
   {
     "name": "Corey Pasta",
