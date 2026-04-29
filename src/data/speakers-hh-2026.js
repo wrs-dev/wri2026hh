@@ -153,6 +153,6 @@ export const speakersHH2026 = [
     "imageSrc": "/zach-garner.jpg",
     "topic": "Remaining Useful Life of Rail: Large-Scale Prediction of Curve Patch Replacement Using High-Frequency Data and Condition Matching",
     "session": "HH-L",
-    "pdfFileName": null
+    "pdfFileName": "WRI2026HH-HH-Session18-Garner.pdf"
   }
 ];
