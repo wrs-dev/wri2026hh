@@ -1,4 +1,6 @@
+import { useCallback, useEffect, useState } from 'react';
 import Image from 'next/image';
+import { XMarkIcon, ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
 import Navigation from '@/components/navigation';
 import SponsorPage from '@/components/sponsors/sponsorPage';
 
@@ -69,6 +71,38 @@ const galleryImages = Array.from({ length: 50 }, (_, i) => ({
 }));
 
 export default function Recap() {
+  const [lightboxIndex, setLightboxIndex] = useState(null);
+  const isOpen = lightboxIndex !== null;
+
+  const closeLightbox = useCallback(() => setLightboxIndex(null), []);
+  const showPrev = useCallback(
+    () =>
+      setLightboxIndex((i) =>
+        i === null ? i : (i - 1 + galleryImages.length) % galleryImages.length
+      ),
+    []
+  );
+  const showNext = useCallback(
+    () => setLightboxIndex((i) => (i === null ? i : (i + 1) % galleryImages.length)),
+    []
+  );
+
+  useEffect(() => {
+    if (!isOpen) return undefined;
+    const handleKey = (e) => {
+      if (e.key === 'Escape') closeLightbox();
+      else if (e.key === 'ArrowLeft') showPrev();
+      else if (e.key === 'ArrowRight') showNext();
+    };
+    document.addEventListener('keydown', handleKey);
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.removeEventListener('keydown', handleKey);
+      document.body.style.overflow = prevOverflow;
+    };
+  }, [isOpen, closeLightbox, showPrev, showNext]);
+
   return (
     <main className="bg-white">
       <Navigation />
@@ -162,21 +196,85 @@ export default function Recap() {
           A look back at WRI 2026 HH in Dallas.
         </p>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 sm:gap-4">
-          {galleryImages.map((image) => (
-            <div
+          {galleryImages.map((image, index) => (
+            <button
+              type="button"
               key={image.src}
-              className="relative overflow-hidden bg-gray-200 rounded-lg aspect-square"
+              onClick={() => setLightboxIndex(index)}
+              className="relative overflow-hidden bg-gray-200 rounded-lg cursor-pointer aspect-square group focus:outline-none focus:ring-2 focus:ring-wri-blue focus:ring-offset-2"
             >
               <img
                 src={image.src}
                 alt={image.alt}
                 loading="lazy"
-                className="object-cover w-full h-full transition-transform duration-300 hover:scale-105"
+                className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105"
               />
-            </div>
+            </button>
           ))}
         </div>
       </section>
+
+      {/* Lightbox */}
+      {isOpen && (
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-label="Photo viewer"
+          onClick={closeLightbox}
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90"
+        >
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              closeLightbox();
+            }}
+            aria-label="Close"
+            className="absolute z-10 p-2 text-white rounded-full top-4 right-4 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white"
+          >
+            <XMarkIcon className="w-8 h-8" aria-hidden="true" />
+          </button>
+
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              showPrev();
+            }}
+            aria-label="Previous image"
+            className="absolute z-10 p-2 text-white -translate-y-1/2 rounded-full left-2 sm:left-4 top-1/2 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white"
+          >
+            <ChevronLeftIcon className="w-10 h-10" aria-hidden="true" />
+          </button>
+
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              showNext();
+            }}
+            aria-label="Next image"
+            className="absolute z-10 p-2 text-white -translate-y-1/2 rounded-full right-2 sm:right-4 top-1/2 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white"
+          >
+            <ChevronRightIcon className="w-10 h-10" aria-hidden="true" />
+          </button>
+
+          <div
+            onClick={(e) => e.stopPropagation()}
+            className="flex items-center justify-center w-full h-full px-4 py-16 sm:px-16"
+          >
+            <img
+              src={galleryImages[lightboxIndex].src}
+              alt={galleryImages[lightboxIndex].alt}
+              className="object-contain max-w-full max-h-full select-none"
+            />
+          </div>
+
+          <p className="absolute text-sm text-white bottom-4 left-1/2 -translate-x-1/2 bg-black/40 px-3 py-1 rounded">
+            {lightboxIndex + 1} / {galleryImages.length}
+          </p>
+        </div>
+      )}
     </main>
   );
 }
