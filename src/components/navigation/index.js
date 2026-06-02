@@ -267,6 +267,14 @@ export default function Navigation() {
             FAQ
           </a>
           <a
+            href="/recap"
+            className={`text-sm leading-6 nav-link lg:text-xl ${
+              isActive('/recap') ? 'text-wri-red' : 'text-wri-blue'
+            }`}
+          >
+            26HH Recap
+          </a>
+          <a
             href="http://wheel-rail-seminars.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -402,6 +410,12 @@ export default function Navigation() {
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     FAQ
+                  </a>
+                  <a
+                    href="/recap"
+                    className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                  >
+                    26HH Recap
                   </a>
                   <a
                     href="http://wheel-rail-seminars.com/"
