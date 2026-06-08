@@ -62,11 +62,20 @@ export default function Navigation() {
         </div>
 
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          {/* Home Link */}
+          {/* Recap (landing) */}
           <a
             href="/"
             className={`text-sm leading-6 nav-link lg:text-xl ${
               isActive('/') ? 'text-wri-red' : 'text-wri-blue'
+            }`}
+          >
+            Recap
+          </a>
+          {/* Home (pre-conference page) */}
+          <a
+            href="/home"
+            className={`text-sm leading-6 nav-link lg:text-xl ${
+              isActive('/home') ? 'text-wri-red' : 'text-wri-blue'
             }`}
           >
             Home
@@ -316,6 +325,12 @@ export default function Navigation() {
                 <div className="py-6 space-y-2">
                   <a
                     href="/"
+                    className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                  >
+                    Recap
+                  </a>
+                  <a
+                    href="/home"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Home
