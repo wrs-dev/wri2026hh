@@ -227,9 +227,9 @@ export default function Navigation() {
 
           {/* Remaining Main Nav Links */}
           <a
-            href="/#register"
+            href="/home#register"
             className={`text-sm leading-6 nav-link lg:text-xl ${
-              isActive('/#register') ? 'text-wri-red' : 'text-wri-blue'
+              isActive('/home#register') ? 'text-wri-red' : 'text-wri-blue'
             }`}
           >
             Pricing
@@ -251,9 +251,9 @@ export default function Navigation() {
             InfoZone
           </a>
           <a
-            href="/#hotel"
+            href="/home#hotel"
             className={`text-sm leading-6 nav-link lg:text-xl ${
-              isActive('#hotel') ? 'text-wri-red' : 'text-wri-blue'
+              isActive('/home#hotel') ? 'text-wri-red' : 'text-wri-blue'
             }`}
           >
             Hotel
@@ -265,14 +265,6 @@ export default function Navigation() {
             }`}
           >
             FAQ
-          </a>
-          <a
-            href="/recap"
-            className={`text-sm leading-6 nav-link lg:text-xl ${
-              isActive('/recap') ? 'text-wri-red' : 'text-wri-blue'
-            }`}
-          >
-            26HH Recap
           </a>
           <a
             href="http://wheel-rail-seminars.com/"
@@ -382,7 +374,7 @@ export default function Navigation() {
                     Photo Gallery
                   </a>
                   <a
-                    href="/#register"
+                    href="/home#register"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Pricing
@@ -400,7 +392,7 @@ export default function Navigation() {
                     InfoZone
                   </a>
                   <a
-                    href="/#hotel"
+                    href="/home#hotel"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Hotel
@@ -410,12 +402,6 @@ export default function Navigation() {
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     FAQ
-                  </a>
-                  <a
-                    href="/recap"
-                    className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
-                  >
-                    26HH Recap
                   </a>
                   <a
                     href="http://wheel-rail-seminars.com/"
