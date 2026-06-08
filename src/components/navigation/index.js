@@ -226,6 +226,7 @@ export default function Navigation() {
           </a>
 
           {/* Remaining Main Nav Links */}
+          {/* Hidden post-event — restore for future clones
           <a
             href="/home#register"
             className={`text-sm leading-6 nav-link lg:text-xl ${
@@ -234,6 +235,7 @@ export default function Navigation() {
           >
             Pricing
           </a>
+          */}
           <a
             href="/sponsors#icons"
             className={`text-sm leading-6 nav-link lg:text-xl ${
@@ -250,6 +252,7 @@ export default function Navigation() {
           >
             InfoZone
           </a>
+          {/* Hidden post-event — restore for future clones
           <a
             href="/home#hotel"
             className={`text-sm leading-6 nav-link lg:text-xl ${
@@ -258,6 +261,7 @@ export default function Navigation() {
           >
             Hotel
           </a>
+          */}
           <a
             href="/faq#icons"
             className={`text-sm leading-6 nav-link lg:text-xl ${
@@ -373,12 +377,14 @@ export default function Navigation() {
                   >
                     Photo Gallery
                   </a>
+                  {/* Hidden post-event — restore for future clones
                   <a
                     href="/home#register"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Pricing
                   </a>
+                  */}
                   <a
                     href="/sponsors#icons"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
@@ -391,12 +397,14 @@ export default function Navigation() {
                   >
                     InfoZone
                   </a>
+                  {/* Hidden post-event — restore for future clones
                   <a
                     href="/home#hotel"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Hotel
                   </a>
+                  */}
                   <a
                     href="/faq#icons"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
