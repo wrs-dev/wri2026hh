@@ -70,8 +70,12 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 # Local Netlify folder
-<<<<<<< HEAD
 .netlify
-=======
-.netlify
->>>>>>> origin/main
+
+# Static export output
+out/
+
+# Large source video masters — too big for GitHub (100MB file limit).
+# Keep these in Drive/Notion, not the repo. Optimized web derivatives
+# (e.g. public/video/*-optimized.mp4) are fine to commit.
+*.mov
