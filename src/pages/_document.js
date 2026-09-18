@@ -4,7 +4,9 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        {/* Add any custom head tags here */}
+        {/* Ronnia via Adobe Fonts (licensed Typekit web project) */}
+        <link rel="preconnect" href="https://use.typekit.net" crossOrigin="anonymous" />
+        <link rel="stylesheet" href="https://use.typekit.net/rin2bam.css" />
       </Head>
       <body>
         <Main />
